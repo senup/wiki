@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e470f299123ce16b",
+        "id": "22612fe212bb5bdf",
         "type": "tabs",
         "children": [
           {
-            "id": "eadfd07f4c83286c",
+            "id": "bfaad3003878f62e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/wiki/操作系统-链接.md",
+                "file": "docs/advance/Github.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/wiki/操作系统-链接.md"
+                "file": "docs/advance/Github.md"
               }
             }
           },
@@ -93,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "b406ae98ecade2d0",
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/wiki/操作系统-链接.md",
+                "file": "docs/advance/Github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/wiki/操作系统-链接.md",
+                "file": "docs/advance/Github.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,54 +199,54 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "23e566189e642065",
+  "active": "bfaad3003878f62e",
   "lastOpenFiles": [
-    "docs/wiki/redis.md",
-    "node_modules/es-abstract/helpers/typedArrayContructors.js",
-    "node_modules/search-insights/lib/polyfills/objectKeys.ts",
-    "node_modules/search-insights/lib/polyfills/objectAssign.ts",
-    "node_modules/search-insights/lib/polyfills",
-    "node_modules/search-insights/dist/polyfills/objectKeys.d.ts",
-    "node_modules/search-insights/dist/polyfills/objectAssign.d.ts",
-    "node_modules/search-insights/dist/polyfills",
-    "node_modules/search-insights/CHANGELOG.md",
-    "node_modules/@vueuse/core/node_modules/vue-demi/lib/v3/index.d.ts",
-    "node_modules/@vueuse/core/node_modules/vue-demi/lib/v3/index.mjs",
-    "node_modules/@vueuse/core/node_modules/vue-demi/lib/v3/index.cjs",
-    "node_modules/@vueuse/core/node_modules/vue-demi/README.md",
-    "node_modules/@vueuse/shared/node_modules/vue-demi/README.md",
-    "node_modules/@vueuse/integrations/node_modules/vue-demi/README.md",
-    "docs/wiki/操作系统-进程管理.md",
-    "docs/wiki/操作系统.md",
-    "docs/home.md",
-    "developer.gif.md",
-    "docs/wiki/Apple TV.md",
-    "docs/index.md",
-    "docs/wiki/穿搭.md",
-    "docs/wiki/面试.md",
-    "docs/wiki/Github.md",
-    "docs/wiki/cron.md",
-    "docs/wiki/chatGPT.md",
-    "docs/wiki/Gradle.md",
-    "docs/wiki/IDEA.md",
-    "docs/wiki/iOS.md",
-    "docs/wiki/MySQL.md",
-    "docs/wiki/Obsidian.md",
-    "docs/wiki/PDF expert.md",
-    "docs/wiki/Quantumult X.md",
-    "docs/wiki/Raycast.md",
-    "docs/wiki/shellclash.md",
-    "docs/wiki/VS code.md",
-    "static/photos/2022-12-31 象山珠山顶.jpg",
-    "static/photos/2022-11-11 咸祥航空基地.jpg",
-    "static/photos/2022-10-12 城市草坪露营.jpg",
-    "static/photos/2022-10-10 笼里笼外.jpg",
-    "static/photos/2022-09-20 迷离中的卷帘.jpg",
-    "static/photos/2022-07-01 东钱湖消暑.jpg",
-    "static/photos/2021-12-01 自造快乐.jpg",
-    "static/photos/2021-11-01 钱湖霞光.jpg",
-    "static/photos/2021-10-01 天府之行.jpg",
-    "static/photos/2021-08-15 落樱缤纷.jpeg",
+    "docs/advance/Github.md",
+    "node_modules/string.prototype.trim/LICENSE",
+    "node_modules/string.prototype.trim/README.md",
+    "node_modules/string.prototype.trim/shim.js",
+    "node_modules/string.prototype.trim/polyfill.js",
+    "docs 2/blog/assets",
+    "docs 2/public/logo.png",
+    "docs 2/blog/QuantumultX配置.md",
+    "docs 2/public/favicon.ico",
+    "docs 2/blog/Mac.md",
+    "docs 2/public/logo.ico",
+    "docs 2/public/developer.gif",
+    "docs 2/wiki",
+    "docs 2/blog",
+    "docs 2/index.md",
+    "docs 2/public",
+    "docs 2",
+    "node_modules 2/gitalk/src/assets/icon/tip.svg",
+    "node_modules 2/gitalk/src/assets/icon/reply.svg",
+    "node_modules 2/gitalk/src/assets/icon/heart_on.svg",
+    "node_modules 2/gitalk/src/assets/icon/heart.svg",
+    "node_modules 2/gitalk/src/assets/icon/github.svg",
+    "node_modules 2/gitalk/src/assets/icon/arrow_down.svg",
+    "node_modules 2/gitalk/src/assets/icon/edit.svg",
+    "node_modules 2/gitalk/node_modules/react-flip-move/src/CODE_TOUR.md",
+    "node_modules 2/@vueuse/shared/node_modules/vue-demi/README.md",
+    "node_modules 2/@vueuse/core/node_modules/vue-demi/README.md",
+    "node_modules 2/@vueuse/integrations/node_modules/vue-demi/README.md",
+    "node_modules 2/gitalk/node_modules/react-flip-move/README.md",
+    "node_modules 2/gitalk/node_modules/react-flip-move/LICENSE.md",
+    "node_modules 2/gitalk/node_modules/react-dom/README.md",
+    "node_modules 2/gitalk/node_modules/react/README.md",
+    "node_modules 2/gitalk/node_modules/preact/README.md",
+    "node_modules 2/axios/lib/helpers/README.md",
+    "node_modules 2/axios/lib/core/README.md",
+    "node_modules 2/axios/lib/adapters/README.md",
+    "node_modules 2/vitepress/template/markdown-examples.md",
+    "node_modules 2/vitepress/template/index.md",
+    "node_modules 2/vitepress/template/api-examples.md",
+    "node_modules 2/date-fns/docs/webpack.md",
+    "node_modules 2/date-fns/docs/unicodeTokens.md",
+    "node_modules 2/date-fns/docs/upgradeGuide.md",
+    "node_modules 2/date-fns/docs/timeZones.md",
+    "node_modules 2/date-fns/docs/logotype.svg",
+    "node_modules 2/date-fns/docs/i18nContributionGuide.md",
+    "node_modules 2/date-fns/docs/i18n.md",
     "home.canvas"
   ]
 }
