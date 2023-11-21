@@ -37,9 +37,9 @@ export default defineConfig({
       {
         text: 'Wiki',
         items: [
-          { text: '主页', link: '/home' },
-          { text: 'Hello，MySQL', link: '/wiki/Hello，MySQL.md' },
-          { text: 'Hello，Spring', link: '/wiki/Hello，Spring.md' }
+          { text: 'home', link: '/home' },
+          { text: 'Hello，MySQL', link: '/wiki/MySQL.md' },
+          { text: 'Hello，Spring', link: '/wiki/Spring.md' }
         ]
       },{
         text: 'Other',
