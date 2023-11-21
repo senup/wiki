@@ -201,6 +201,7 @@
   },
   "active": "23e566189e642065",
   "lastOpenFiles": [
+    "docs/wiki/redis.md",
     "node_modules/es-abstract/helpers/typedArrayContructors.js",
     "node_modules/search-insights/lib/polyfills/objectKeys.ts",
     "node_modules/search-insights/lib/polyfills/objectAssign.ts",
@@ -212,7 +213,6 @@
     "node_modules/@vueuse/core/node_modules/vue-demi/lib/v3/index.d.ts",
     "node_modules/@vueuse/core/node_modules/vue-demi/lib/v3/index.mjs",
     "node_modules/@vueuse/core/node_modules/vue-demi/lib/v3/index.cjs",
-    "node_modules/@vueuse/core/node_modules/vue-demi/lib/v2.7/index.mjs",
     "node_modules/@vueuse/core/node_modules/vue-demi/README.md",
     "node_modules/@vueuse/shared/node_modules/vue-demi/README.md",
     "node_modules/@vueuse/integrations/node_modules/vue-demi/README.md",
