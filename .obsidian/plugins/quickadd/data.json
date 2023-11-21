@@ -1,0 +1,241 @@
+{
+  "choices": [
+    {
+      "id": "3f9c6cda-b151-4ae8-8541-3f93d54e5bfa",
+      "name": "闪念笔记📒",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "daily/{{DATE:YYYY}}/{{DATE:MM-MMMM}}/{{DATE:YYYY-MM-DD_ddd}}",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{DATE:HH:mm}}  {{VALUE}} \\n\\n ----"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Fleeting notes",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "bottom"
+      },
+      "prepend": false,
+      "task": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "horizontal",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "6b7a536c-19ad-43bf-b8db-e3ea6b562531",
+      "name": "生活 | 随笔 | 感想 🌅",
+      "type": "Template",
+      "command": true,
+      "templatePath": "static/template/tp-tech.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "content/posts/life"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "horizontal",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "c31ac969-0725-4b0c-849a-8b1f9a0c3637",
+      "name": "说说 | 日常 | 唠唠 🌇",
+      "type": "Template",
+      "command": true,
+      "templatePath": "static/template/tp-chat.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:YYYYMMDDHHmmss}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "content/posts/chat"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "horizontal",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "e3614a85-ea93-4819-9283-cb542ce9730a",
+      "name": "电影 | 影评 🎥",
+      "type": "Template",
+      "command": true,
+      "templatePath": "static/template/tp-movie.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "🎥《{{value}}》"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "content/posts/movie"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "horizontal",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "c66825fe-71de-400e-98ce-42fd05629213",
+      "name": "书 | 阅读 📖",
+      "type": "Template",
+      "command": true,
+      "templatePath": "static/template/tp-read.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "📖《{{value}}》"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "content/posts/read"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "62cf0055-7640-4889-9730-c890f6690961",
+      "name": "bug | 技术 | 折腾 ⌨️",
+      "type": "Template",
+      "command": true,
+      "templatePath": "static/template/tp-tech.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "",
+          "content/posts/tech"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "horizontal",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "c3fd9b54-8647-4921-813b-f9d1f2c22593",
+      "name": "吉他 | 音乐 🎸",
+      "type": "Template",
+      "command": true,
+      "templatePath": "static/template/tp-movie.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "🎸《{{value}}》"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "content/posts/guitar"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "horizontal",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    }
+  ],
+  "macros": [],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "static/template",
+  "announceUpdates": true,
+  "version": "1.3.0",
+  "disableOnlineFeatures": true,
+  "ai": {
+    "OpenAIApiKey": "",
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}

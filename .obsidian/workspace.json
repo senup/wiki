@@ -1,49 +1,65 @@
 {
   "main": {
-    "id": "041efde2fd1c35de",
+    "id": "dc99ae558d0d1abb",
     "type": "split",
     "children": [
       {
-        "id": "aa269618dfef722e",
+        "id": "6494ec5891cc3229",
         "type": "tabs",
+        "dimension": 78.27868852459017,
         "children": [
           {
-            "id": "8e158695fea4203f",
+            "id": "67a37d60d7253b54",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "e470f299123ce16b",
+        "type": "tabs",
+        "dimension": 21.721311475409834,
+        "children": [
+          {
+            "id": "37be1c47e4ffe988",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "eadfd07f4c83286c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/blog/Mac.md",
+                "file": "docs/blog/QuantumultX配置.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "90f8b1dec3e3f0f9",
+    "id": "a5b924c46527103c",
     "type": "split",
     "children": [
       {
-        "id": "7964c3a7c5139b7c",
+        "id": "46015ae92dbf23a5",
         "type": "tabs",
+        "dimension": 66.72212978369384,
         "children": [
           {
-            "id": "b8d393466044df00",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "c946031d90eb648f",
+            "id": "77d6edc82ddabe77",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,10 +74,62 @@
             }
           },
           {
-            "id": "aceca9116ca0291b",
+            "id": "0778701f3cebc650",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "23e566189e642065",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "27f0f2b5e95a8868",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "206dc7a6048fcea4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/blog/QuantumultX配置.md"
+              }
+            }
+          },
+          {
+            "id": "3eab4a20cacd4769",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "b406ae98ecade2d0",
+        "type": "tabs",
+        "dimension": 33.277870216306155,
+        "children": [
+          {
+            "id": "2c4c3257d5f41c18",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
               "state": {}
             }
           }
@@ -72,20 +140,46 @@
     "width": 300
   },
   "right": {
-    "id": "a2aef22f01e6e40a",
+    "id": "b9a65f27b182d6e5",
     "type": "split",
     "children": [
       {
-        "id": "e2530be1d1d5e46f",
+        "id": "758fed9daaee2c66",
         "type": "tabs",
         "children": [
           {
-            "id": "f5a54a4b1f809a70",
+            "id": "4376e134b1d61037",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8c352e004316ed0b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "5487b7e39b365947",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e0f641ad6efdb03",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/blog/Mac.md",
+                "file": "docs/blog/QuantumultX配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,35 +191,14 @@
             }
           },
           {
-            "id": "02450dd6d1c08b38",
+            "id": "214927c8278c5685",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/blog/Mac.md",
+                "file": "docs/blog/QuantumultX配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "1afd94004c9713da",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "b3342790954fc0af",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "docs/blog/Mac.md"
               }
             }
           }
@@ -133,23 +206,71 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
+      "surfing:surfing-bookmark-manager": false,
+      "dbfolder:创建一个新数据库表": true,
+      "templater-obsidian:Templater": true,
+      "switcher:打开快速切换": true,
       "graph:查看关系图谱": true,
       "canvas:新建白板": true,
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
-      "command-palette:打开命令面板": true
+      "command-palette:打开命令面板": true,
+      "obsidian42-brat:BRAT": true,
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "8e158695fea4203f",
+  "active": "0778701f3cebc650",
   "lastOpenFiles": [
-    "docs/blog/QuantumultX配置.md",
-    "docs/aboutme.md",
-    "docs/blog/Mac.md",
-    "README.md"
+    "content/posts/tech/Hello，Spring.md",
+    "temp/手把手带你吃透Spring框架核心源码.pdf",
+    "content/posts/chat/20231119195108.md",
+    "content/posts/tech/Hello，穿搭.md",
+    "content/posts/tech/Hello，Obsidian.md",
+    "content/posts/tech/Hello，MacOS.md",
+    "content/posts/tech/Hello，Gradle.md",
+    "content/posts/tech/Hello，PDF expert.md",
+    "content/about.md",
+    "static/template/tp-tech.md",
+    "content/posts/tech/面试现场.md",
+    "content/posts/tech/Hello，MySQL.md",
+    "themes/hello-friend/layouts/shortcodes/bio.html",
+    "static/photos/2023-09-30 自拍.heic",
+    "static/photos/2023-05-29 珠海长隆IMG_7735.heic",
+    "static/photos/2023-05-29 珠海长隆IMG_7720.heic",
+    "static/photos/2023-05-29 珠海长隆IMG_7700.heic",
+    "static/photos/2023-05-29 珠海长隆IMG_7698.heic",
+    "static/photos/2023-05-01 珠江.heic",
+    "static/photos/2023-04-23 白云山.heic",
+    "static/photos/2023-04-16 唯家.heic",
+    "static/photos/2022-12-31 象山珠山顶.jpg",
+    "static/photos/2022-11-11 咸祥航空基地.jpg",
+    "static/photos/2022-10-12 城市草坪露营.jpg",
+    "static/photos/2022-10-10 笼里笼外.jpg",
+    "static/photos/2022-09-20 迷离中的卷帘.jpg",
+    "static/photos/2022-07-01 东钱湖消暑.jpg",
+    "static/photos/2021-12-01 自造快乐.jpg",
+    "static/photos/2021-11-01 钱湖霞光.jpg",
+    "static/photos/2021-10-01 天府之行.jpg",
+    "static/photos/2021-08-15 落樱缤纷.jpeg",
+    "content/posts/read/📖《身份的焦虑》.md",
+    "content/posts/guitar/🎸 吉他打板第一步.md",
+    "content/posts/movie/🎥《驴得水》.md",
+    "content/posts/movie/🎥《摔跤吧！爸爸》.md",
+    "content/posts/movie/🎥《佩小姐的奇幻城堡》.md",
+    "content/posts/movie/🎥《美国恐怖故事集 第一季》.md",
+    "content/posts/movie/🎥《美国恐怖故事集 第三季》.md",
+    "content/posts/movie/🎥《进击的巨人 最终季 完结篇 后篇》.md",
+    "content/posts/movie/🎥《封神第一部》.md",
+    "content/posts/movie/🎥《暴食的巴萨卡》.md",
+    "content/posts/life/碳水循环个人实践.md",
+    "content/posts/life/奇怪的知识增加了.md",
+    "content/posts/chat/20231010162308.md",
+    "static/template/tp-guitar.md",
+    "home.canvas"
   ]
 }

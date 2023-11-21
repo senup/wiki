@@ -1,3 +1,24 @@
 [
-  "obsidian-git"
+  "obsidian-git",
+  "templater-obsidian",
+  "quickadd",
+  "calendar",
+  "obsidian-image-auto-upload-plugin",
+  "obsidian42-brat",
+  "obsidian-table-generator",
+  "ob-table-enhancer",
+  "obsidian-auto-link-title",
+  "cmdr",
+  "dataview",
+  "dbfolder",
+  "obsidian-minimal-settings",
+  "obsidian-style-settings",
+  "editing-toolbar",
+  "recent-files-obsidian",
+  "obsidian-pangu",
+  "easy-typing-obsidian",
+  "surfing",
+  "obsidian-linter",
+  "obsidian-tasks-plugin",
+  "obsidian-annotator"
 ]

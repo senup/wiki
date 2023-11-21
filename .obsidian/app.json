@@ -1,1 +1,16 @@
-{}
+{
+  "attachmentFolderPath": "./",
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "temp",
+  "readableLineLength": false,
+  "propertiesInDocument": "visible",
+  "showLineNumber": false,
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": false,
+  "userIgnoreFilters": [
+    "static/template/"
+  ],
+  "trashOption": "local",
+  "livePreview": true
+}

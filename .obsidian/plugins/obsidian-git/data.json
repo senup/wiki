@@ -1,9 +1,9 @@
 {
-  "commitMessage": "vault backup: {{date}}",
+  "commitMessage": "于 {{date}} 提交{{numFiles}}个文件",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 0,
-  "autoPushInterval": 0,
-  "autoPullInterval": 0,
+  "autoSaveInterval": 60,
+  "autoPushInterval": 30,
+  "autoPullInterval": 60,
   "autoPullOnBoot": false,
   "disablePush": false,
   "pullBeforePush": true,
@@ -51,5 +51,5 @@
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"
   },
-  "autoCommitMessage": "vault backup: {{date}}"
+  "autoCommitMessage": "于 {{date}} 提交{{numFiles}}个文件"
 }

@@ -1,0 +1,16 @@
+{
+  "pluginList": [
+    "Quorafind/Obsidian-Table-Generator",
+    "Stardusten/ob-table-enhancer"
+  ],
+  "pluginSubListFrozenVersion": [],
+  "themesList": [],
+  "updateAtStartup": false,
+  "updateThemesAtStartup": false,
+  "ribbonIconEnabled": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": true,
+  "notificationsEnabled": true
+}
