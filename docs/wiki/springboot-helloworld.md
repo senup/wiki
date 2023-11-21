@@ -39,21 +39,21 @@ ps：在做笔记的时候SpringBoot已经更新到2.1.5版本，SpringBoot 2.x�
 
 打开IDEA，选择`new Project`，选择`Spring Initializr`，如下：
 
-<div align="center"><img src="https://docsify-1258928558.cos.ap-guangzhou.myqcloud.com/springboot/springboot-01.png"/>
 
-</div>
+
+ 
 
 点击`Next`，然后如下图所示：
 
-<div align="center"><img src="https://docsify-1258928558.cos.ap-guangzhou.myqcloud.com/springboot/springboot-02.png">
 
-</div>
+
+ 
 
 然后继续Next，选中`Web`模块，并选择`SpringBoot`的版本为`1.5.21`。
 
-<div align="center"><img src="https://docsify-1258928558.cos.ap-guangzhou.myqcloud.com/springboot/springboot-03.png">
 
-</div>
+
+ 
 
 然后一路`Next`下去，第一个HelloWorld工程就创建好了。
 
@@ -63,9 +63,9 @@ ps：在做笔记的时候SpringBoot已经更新到2.1.5版本，SpringBoot 2.x�
 
 首先创建Maven项目：
 
-<div align="center"><img src="https://docsify-1258928558.cos.ap-guangzhou.myqcloud.com/springboot/springboot-04.png"/>
 
-</div>
+
+ 
 
 
 
@@ -135,9 +135,9 @@ public class HelloController {
 
 然后我们运行`SpringBootHelloWorldApplication.java`主类，我们可以看到在控制台打印了很多日志输出。
 
-<div align="center"><img src="https://docsify-1258928558.cos.ap-guangzhou.myqcloud.com/springboot/springboot-07.png">
 
-</div>
+
+ 
 
 可以看到在最后面提示Tomcat运行在8080端口，然后打开浏览器输出`localhost:8080/hello`，可以看到成功输出`Hello World`了！
 
@@ -185,9 +185,9 @@ public class HelloController {
 
 我们可以打开这个依赖包看一下：
 
-<div align="center"><img src="https://docsify-1258928558.cos.ap-guangzhou.myqcloud.com/springboot/springboot-09.png">
 
-</div>
+
+ 
 
 然后就发现了这个玩意的本质，原来在这个依赖包中，已经默认帮我们导入了Spring的web和webmvc模块，并且还有相关的jackson依赖以及日志包等等，甚至还有一个神奇的spring-boot-starter-tomcat启动器依赖，这就不难理解为什么上面我们只导入了一个依赖却能轻松的使用这么多组件。原来都是SpringBoot帮我们一站式解决了这些依赖。
 

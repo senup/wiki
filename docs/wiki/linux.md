@@ -1098,7 +1098,7 @@ dmtsai lines: 5 columns: 9
 | S | interruptible sleep (waiting for an event to complete) |
 | Z | zombie (terminated but not reaped by its parent) |
 | T | stopped (either by a job control signal or because it is being traced) |
-<br>
+
 
 
 ## SIGCHLD
