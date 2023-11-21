@@ -4,33 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "6494ec5891cc3229",
-        "type": "tabs",
-        "dimension": 78.27868852459017,
-        "children": [
-          {
-            "id": "67a37d60d7253b54",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "e470f299123ce16b",
         "type": "tabs",
-        "dimension": 21.721311475409834,
         "children": [
-          {
-            "id": "37be1c47e4ffe988",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
           {
             "id": "eadfd07f4c83286c",
             "type": "leaf",
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "b406ae98ecade2d0",
@@ -224,8 +199,9 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "0778701f3cebc650",
+  "active": "eadfd07f4c83286c",
   "lastOpenFiles": [
+    "docs/blog/QuantumultX配置.md",
     "content/posts/tech/Hello，Spring.md",
     "temp/手把手带你吃透Spring框架核心源码.pdf",
     "content/posts/chat/20231119195108.md",
