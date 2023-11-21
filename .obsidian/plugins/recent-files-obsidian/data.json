@@ -1,20 +1,88 @@
 {
   "recentFiles": [
     {
-      "basename": "Mac",
-      "path": "docs/blog/Mac.md"
+      "basename": "home",
+      "path": "docs/home.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "Apple TV",
+      "path": "docs/wiki/Apple TV.md"
     },
     {
       "basename": "index",
       "path": "docs/index.md"
     },
     {
-      "basename": "aboutme",
-      "path": "docs/aboutme.md"
+      "basename": "穿搭",
+      "path": "docs/wiki/穿搭.md"
+    },
+    {
+      "basename": "面试",
+      "path": "docs/wiki/面试.md"
+    },
+    {
+      "basename": "Github",
+      "path": "docs/wiki/Github.md"
+    },
+    {
+      "basename": "cron",
+      "path": "docs/wiki/cron.md"
+    },
+    {
+      "basename": "chatGPT",
+      "path": "docs/wiki/chatGPT.md"
+    },
+    {
+      "basename": "Gradle",
+      "path": "docs/wiki/Gradle.md"
+    },
+    {
+      "basename": "IDEA",
+      "path": "docs/wiki/IDEA.md"
+    },
+    {
+      "basename": "iOS",
+      "path": "docs/wiki/iOS.md"
+    },
+    {
+      "basename": "MySQL",
+      "path": "docs/wiki/MySQL.md"
+    },
+    {
+      "basename": "Obsidian",
+      "path": "docs/wiki/Obsidian.md"
+    },
+    {
+      "basename": "PDF expert",
+      "path": "docs/wiki/PDF expert.md"
+    },
+    {
+      "basename": "Quantumult X",
+      "path": "docs/wiki/Quantumult X.md"
+    },
+    {
+      "basename": "Raycast",
+      "path": "docs/wiki/Raycast.md"
+    },
+    {
+      "basename": "shellclash",
+      "path": "docs/wiki/shellclash.md"
+    },
+    {
+      "basename": "VS code",
+      "path": "docs/wiki/VS code.md"
+    },
+    {
+      "basename": "Spring",
+      "path": "docs/wiki/Spring.md"
+    },
+    {
+      "basename": "Mac",
+      "path": "docs/blog/Mac.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "QuantumultX配置",
@@ -127,54 +195,6 @@
     {
       "basename": "tp-movie",
       "path": "static/template/tp-movie.md"
-    },
-    {
-      "basename": "📖《放弃减肥，我瘦了60斤》",
-      "path": "content/posts/read/📖《放弃减肥，我瘦了60斤》.md"
-    },
-    {
-      "basename": "📖《更壮 更瘦 更强》",
-      "path": "content/posts/read/📖《更壮 更瘦 更强》.md"
-    },
-    {
-      "basename": "📖《煤气灯效应》",
-      "path": "content/posts/read/📖《煤气灯效应》.md"
-    },
-    {
-      "basename": "tp-read",
-      "path": "static/template/tp-read.md"
-    },
-    {
-      "basename": "album",
-      "path": "content/album.md"
-    },
-    {
-      "basename": "books",
-      "path": "content/books.md"
-    },
-    {
-      "basename": "friends",
-      "path": "content/friends.md"
-    },
-    {
-      "basename": "gallery",
-      "path": "content/gallery.md"
-    },
-    {
-      "basename": "movies",
-      "path": "content/movies.md"
-    },
-    {
-      "basename": "search",
-      "path": "content/search.md"
-    },
-    {
-      "basename": "tp-chat",
-      "path": "static/template/tp-chat.md"
-    },
-    {
-      "basename": "20231114153056",
-      "path": "content/posts/chat/20231114153056.md"
     }
   ],
   "omittedPaths": [],

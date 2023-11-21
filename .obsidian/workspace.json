@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/blog/Mac.md",
+                "file": "docs/home.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/blog/Mac.md"
+                "file": "docs/home.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/blog/Mac.md",
+                "file": "docs/home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/blog/Mac.md",
+                "file": "docs/home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,36 +201,36 @@
   },
   "active": "eadfd07f4c83286c",
   "lastOpenFiles": [
-    "docs/wiki/Hello，VS code.md",
-    "docs/wiki/Hello，Spring.md",
-    "docs/wiki/Hello，shellclash.md",
-    "docs/wiki/Hello，Raycast.md",
-    "docs/wiki/Hello，Quantumult X.md",
-    "docs/wiki/Hello，PDF expert.md",
-    "docs/wiki/Hello，Obsidian.md",
-    "docs/wiki/Hello，MySQL.md",
+    "developer.gif.md",
+    "docs/home.md",
+    "docs/wiki/Apple TV.md",
+    "docs/index.md",
+    "docs/wiki/穿搭.md",
+    "docs/wiki/面试.md",
+    "docs/wiki/Github.md",
+    "docs/wiki/cron.md",
+    "docs/wiki/chatGPT.md",
+    "docs/wiki/Gradle.md",
+    "docs/wiki/IDEA.md",
+    "docs/wiki/iOS.md",
+    "docs/wiki/MySQL.md",
+    "docs/wiki/Obsidian.md",
+    "docs/wiki/PDF expert.md",
+    "docs/wiki/Quantumult X.md",
+    "docs/wiki/Raycast.md",
+    "docs/wiki/shellclash.md",
+    "docs/wiki/VS code.md",
+    "docs/wiki/Spring.md",
+    "docs/blog/Mac.md",
     "docs/wiki/Hello，MacOS.md",
-    "docs/wiki/Hello，iOS.md",
-    "docs/wiki/Hello，IDEA.md",
-    "docs/wiki/Hello，Gradle.md",
-    "docs/wiki/Hello，Github.md",
-    "docs/wiki/Hello，cron.md",
-    "docs/wiki/Hello，chatGPT.md",
-    "docs/wiki/Hello，Apple TV.md",
-    "docs/wiki/Hello，穿搭.md",
-    "docs/wiki/面试现场.md",
     "docs/wiki",
     "docs/未命名文件夹",
     "README.md",
     "docs/public/favicon.ico",
-    "docs/index.md",
-    "docs/aboutme.md",
     "docs/blog/QuantumultX配置.md",
-    "docs/blog/Mac.md",
     "content/posts/tech/Hello，Spring.md",
     "temp/手把手带你吃透Spring框架核心源码.pdf",
     "content/posts/chat/20231119195108.md",
-    "content/posts/tech/Hello，穿搭.md",
     "themes/hello-friend/layouts/shortcodes/bio.html",
     "static/photos/2023-09-30 自拍.heic",
     "static/photos/2023-05-29 珠海长隆IMG_7735.heic",
