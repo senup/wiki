@@ -93,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "b406ae98ecade2d0",
@@ -199,8 +199,10 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "eadfd07f4c83286c",
+  "active": "23e566189e642065",
   "lastOpenFiles": [
+    "package-lock.json",
+    "package-lock.json_bak",
     "docs/wiki/操作系统-进程管理.md",
     "docs/wiki/操作系统.md",
     "docs/home.md",
@@ -229,14 +231,12 @@
     "docs/未命名文件夹",
     "README.md",
     "docs/public/favicon.ico",
-    "docs/blog/QuantumultX配置.md",
     "temp/手把手带你吃透Spring框架核心源码.pdf",
     "themes/hello-friend/layouts/shortcodes/bio.html",
     "static/photos/2023-09-30 自拍.heic",
     "static/photos/2023-05-29 珠海长隆IMG_7735.heic",
     "static/photos/2023-05-29 珠海长隆IMG_7720.heic",
     "static/photos/2023-05-29 珠海长隆IMG_7700.heic",
-    "static/photos/2023-05-29 珠海长隆IMG_7698.heic",
     "static/photos/2022-12-31 象山珠山顶.jpg",
     "static/photos/2022-11-11 咸祥航空基地.jpg",
     "static/photos/2022-10-12 城市草坪露营.jpg",
