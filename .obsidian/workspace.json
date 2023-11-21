@@ -11,8 +11,12 @@
             "id": "eadfd07f4c83286c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "docs/wiki/操作系统-链接.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -75,7 +79,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/wiki/操作系统-链接.md"
+              }
             }
           },
           {
@@ -87,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "b406ae98ecade2d0",
@@ -148,6 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/wiki/操作系统-链接.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,6 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/wiki/操作系统-链接.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,6 +201,8 @@
   },
   "active": "eadfd07f4c83286c",
   "lastOpenFiles": [
+    "docs/wiki/操作系统-进程管理.md",
+    "docs/wiki/操作系统.md",
     "docs/home.md",
     "developer.gif.md",
     "docs/wiki/Apple TV.md",
@@ -220,9 +230,7 @@
     "README.md",
     "docs/public/favicon.ico",
     "docs/blog/QuantumultX配置.md",
-    "content/posts/tech/Hello，Spring.md",
     "temp/手把手带你吃透Spring框架核心源码.pdf",
-    "content/posts/chat/20231119195108.md",
     "themes/hello-friend/layouts/shortcodes/bio.html",
     "static/photos/2023-09-30 自拍.heic",
     "static/photos/2023-05-29 珠海长隆IMG_7735.heic",
