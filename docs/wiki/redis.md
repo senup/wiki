@@ -10,8 +10,8 @@ Redis 支持很多特性，例如将内存中的数据持久化到硬盘中，�
 
 | 数据类型 | 可以存储的值 | 操作 |
 | :--: | :--: | :--: |
-| STRING | 字符串、整数或者浮点数 | 对整个字符串或者字符串的其中一部分执行操作</br> 对整数和浮点数执行自增或者自减操作 |
-| LIST | 列表 | 从两端压入或者弹出元素 </br> 对单个或者多个元素</br> 进行修剪，只保留一个范围内的元素 |
+| STRING |字符串、整数或者浮点数|对整个字符串或者字符串的其中一部分执行操作</br> 对整数和浮点数执行自增或者自减操作 |
+| LIST | 列表 |从两端压入或者弹出元素 </br> 对单个或者多个元素</br> 进行修剪，只保留一个范围内的元素|
 | SET | 无序集合 | 添加、获取、移除单个元素</br> 检查一个元素是否存在于集合中</br> 计算交集、并集、差集</br> 从集合里面随机获取元素 |
 | HASH | 包含键值对的无序散列表 | 添加、获取、移除单个键值对</br> 获取所有键值对</br> 检查某个键是否存在|
 | ZSET | 有序集合 | 添加、获取、删除元素</br> 根据分值范围或者成员来获取元素</br> 计算一个键的排名 |
@@ -22,7 +22,7 @@ Redis 支持很多特性，例如将内存中的数据持久化到硬盘中，�
 
 
 
-```html
+```shell
 > set hello world
 OK
 > get hello
@@ -37,7 +37,7 @@ OK
 
 
 
-```html
+```shell
 > rpush list-key item
 (integer) 1
 > rpush list-key item2
@@ -65,7 +65,7 @@ OK
 
 
 
-```html
+```shell
 > sadd set-key item
 (integer) 1
 > sadd set-key item2
@@ -99,7 +99,7 @@ OK
 
 
 
-```html
+```shell
 > hset hash-key sub-key1 value1
 (integer) 1
 > hset hash-key sub-key2 value2
@@ -130,7 +130,7 @@ OK
 
 
 
-```html
+```shell
 > zadd zset-key 728 member1
 (integer) 1
 > zadd zset-key 982 member0
@@ -552,10 +552,10 @@ Redis 没有关系型数据库中的表这一概念来将同种类型的数据�
 # 参考资料
 
 - Carlson J L. Redis in Action[J]. Media.johnwiley.com.au, 2013.
-- [黄健宏. Redis 设计与实现 [M]. 机械工业出版社, 2014.](http://redisbook.com/index.html)
+- [黄健宏. Redis 设计与实现 [M]. 机械工业出版社, 2014.](http://redisbook.com/index.shell)
 - [REDIS IN ACTION](https://redislabs.com/ebook/foreword/)
 - [Skip Lists: Done Right](http://ticki.github.io/blog/skip-lists-done-right/)
-- [论述 Redis 和 Memcached 的差异](http://www.cnblogs.com/loveincode/p/7411911.html)
+- [论述 Redis 和 Memcached 的差异](http://www.cnblogs.com/loveincode/p/7411911.shell)
 - [Redis 3.0 中文版- 分片](http://wiki.jikexueyuan.com/project/redis-guide)
 - [Redis 应用场景](http://www.scienjus.com/redis-use-case/)
 - [Using Redis as an LRU cache](https://redis.io/topics/lru-cache)

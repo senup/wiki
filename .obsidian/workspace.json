@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/advance/Github.md",
+                "file": "docs/wiki/面向对象思想.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/advance/Github.md"
+                "file": "docs/wiki/面向对象思想.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/advance/Github.md",
+                "file": "docs/wiki/面向对象思想.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/advance/Github.md",
+                "file": "docs/wiki/面向对象思想.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,25 +199,46 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "bfaad3003878f62e",
+  "active": "0778701f3cebc650",
   "lastOpenFiles": [
+    "docs/wiki/git.md",
+    "docs/wiki/docker.md",
+    "docs/advance/穿搭.md",
+    "docs/advance/cron.md",
+    "docs/advance/shellclash.md",
+    "docs/advance/iOS.md",
+    "docs/advance/VS code.md",
+    "docs/advance/git.md",
+    "docs/advance/docker.md",
+    "docs/advance/chatGPT.md",
+    "docs/advance/Spring.md",
+    "docs/advance/Quantumult X.md",
+    "docs/advance/Raycast.md",
+    "docs/advance/PDF expert.md",
+    "docs/advance/Obsidian.md",
+    "docs/advance/IDEA.md",
+    "docs/advance/MySQL.md",
     "docs/advance/Github.md",
+    "docs/advance/Gradle.md",
+    "docs/advance",
+    "docs/wiki/advance/穿搭.md",
+    "docs/wiki/advance/shellclash.md",
+    "docs/wiki/advance/iOS.md",
+    "docs/wiki/advance/git.md",
+    "docs/wiki/advance/docker.md",
+    "docs/wiki/advance/cron.md",
+    "docs/wiki/advance/chatGPT.md",
+    "docs/wiki/advance",
     "node_modules/string.prototype.trim/LICENSE",
-    "node_modules/string.prototype.trim/README.md",
     "node_modules/string.prototype.trim/shim.js",
     "node_modules/string.prototype.trim/polyfill.js",
     "docs 2/blog/assets",
     "docs 2/public/logo.png",
-    "docs 2/blog/QuantumultX配置.md",
     "docs 2/public/favicon.ico",
-    "docs 2/blog/Mac.md",
     "docs 2/public/logo.ico",
     "docs 2/public/developer.gif",
     "docs 2/wiki",
     "docs 2/blog",
-    "docs 2/index.md",
-    "docs 2/public",
-    "docs 2",
     "node_modules 2/gitalk/src/assets/icon/tip.svg",
     "node_modules 2/gitalk/src/assets/icon/reply.svg",
     "node_modules 2/gitalk/src/assets/icon/heart_on.svg",
@@ -225,28 +246,7 @@
     "node_modules 2/gitalk/src/assets/icon/github.svg",
     "node_modules 2/gitalk/src/assets/icon/arrow_down.svg",
     "node_modules 2/gitalk/src/assets/icon/edit.svg",
-    "node_modules 2/gitalk/node_modules/react-flip-move/src/CODE_TOUR.md",
-    "node_modules 2/@vueuse/shared/node_modules/vue-demi/README.md",
-    "node_modules 2/@vueuse/core/node_modules/vue-demi/README.md",
-    "node_modules 2/@vueuse/integrations/node_modules/vue-demi/README.md",
-    "node_modules 2/gitalk/node_modules/react-flip-move/README.md",
-    "node_modules 2/gitalk/node_modules/react-flip-move/LICENSE.md",
-    "node_modules 2/gitalk/node_modules/react-dom/README.md",
-    "node_modules 2/gitalk/node_modules/react/README.md",
-    "node_modules 2/gitalk/node_modules/preact/README.md",
-    "node_modules 2/axios/lib/helpers/README.md",
-    "node_modules 2/axios/lib/core/README.md",
-    "node_modules 2/axios/lib/adapters/README.md",
-    "node_modules 2/vitepress/template/markdown-examples.md",
-    "node_modules 2/vitepress/template/index.md",
-    "node_modules 2/vitepress/template/api-examples.md",
-    "node_modules 2/date-fns/docs/webpack.md",
-    "node_modules 2/date-fns/docs/unicodeTokens.md",
-    "node_modules 2/date-fns/docs/upgradeGuide.md",
-    "node_modules 2/date-fns/docs/timeZones.md",
     "node_modules 2/date-fns/docs/logotype.svg",
-    "node_modules 2/date-fns/docs/i18nContributionGuide.md",
-    "node_modules 2/date-fns/docs/i18n.md",
     "home.canvas"
   ]
 }

@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Github",
-      "path": "docs/advance/Github.md"
+      "basename": "面向对象思想",
+      "path": "docs/wiki/面向对象思想.md"
+    },
+    {
+      "basename": "redis",
+      "path": "docs/wiki/redis.md"
+    },
+    {
+      "basename": "sql",
+      "path": "docs/wiki/sql.md"
+    },
+    {
+      "basename": "javaweb",
+      "path": "docs/wiki/javaweb.md"
+    },
+    {
+      "basename": "javase",
+      "path": "docs/wiki/javase.md"
+    },
+    {
+      "basename": "toc",
+      "path": "docs/wiki/toc.md"
+    },
+    {
+      "basename": "java多线程",
+      "path": "docs/wiki/java多线程.md"
     },
     {
       "basename": "操作系统-链接",
