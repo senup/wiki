@@ -9,7 +9,8 @@
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": false,
   "userIgnoreFilters": [
-    "static/template/"
+    "static/template/",
+    "node_modules/"
   ],
   "trashOption": "local",
   "livePreview": true

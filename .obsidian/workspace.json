@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "docs/blog/Mac.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "docs/blog/Mac.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "docs/blog/Mac.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "docs/blog/Mac.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +190,7 @@
       "dbfolder:创建一个新数据库表": true,
       "templater-obsidian:Templater": true,
       "switcher:打开快速切换": true,
-      "graph:查看关系图谱": true,
+      "graph:查看关系图谱": false,
       "canvas:新建白板": true,
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
@@ -201,6 +201,27 @@
   },
   "active": "eadfd07f4c83286c",
   "lastOpenFiles": [
+    "docs/wiki/Hello，VS code.md",
+    "docs/wiki/Hello，Spring.md",
+    "docs/wiki/Hello，shellclash.md",
+    "docs/wiki/Hello，Raycast.md",
+    "docs/wiki/Hello，Quantumult X.md",
+    "docs/wiki/Hello，PDF expert.md",
+    "docs/wiki/Hello，Obsidian.md",
+    "docs/wiki/Hello，MySQL.md",
+    "docs/wiki/Hello，MacOS.md",
+    "docs/wiki/Hello，iOS.md",
+    "docs/wiki/Hello，IDEA.md",
+    "docs/wiki/Hello，Gradle.md",
+    "docs/wiki/Hello，Github.md",
+    "docs/wiki/Hello，cron.md",
+    "docs/wiki/Hello，chatGPT.md",
+    "docs/wiki/Hello，Apple TV.md",
+    "docs/wiki/Hello，穿搭.md",
+    "docs/wiki/面试现场.md",
+    "docs/wiki",
+    "docs/未命名文件夹",
+    "README.md",
     "docs/public/favicon.ico",
     "docs/index.md",
     "docs/aboutme.md",
@@ -210,23 +231,12 @@
     "temp/手把手带你吃透Spring框架核心源码.pdf",
     "content/posts/chat/20231119195108.md",
     "content/posts/tech/Hello，穿搭.md",
-    "content/posts/tech/Hello，Obsidian.md",
-    "content/posts/tech/Hello，MacOS.md",
-    "content/posts/tech/Hello，Gradle.md",
-    "content/posts/tech/Hello，PDF expert.md",
-    "content/about.md",
-    "static/template/tp-tech.md",
-    "content/posts/tech/面试现场.md",
-    "content/posts/tech/Hello，MySQL.md",
     "themes/hello-friend/layouts/shortcodes/bio.html",
     "static/photos/2023-09-30 自拍.heic",
     "static/photos/2023-05-29 珠海长隆IMG_7735.heic",
     "static/photos/2023-05-29 珠海长隆IMG_7720.heic",
     "static/photos/2023-05-29 珠海长隆IMG_7700.heic",
     "static/photos/2023-05-29 珠海长隆IMG_7698.heic",
-    "static/photos/2023-05-01 珠江.heic",
-    "static/photos/2023-04-23 白云山.heic",
-    "static/photos/2023-04-16 唯家.heic",
     "static/photos/2022-12-31 象山珠山顶.jpg",
     "static/photos/2022-11-11 咸祥航空基地.jpg",
     "static/photos/2022-10-12 城市草坪露营.jpg",
@@ -237,16 +247,6 @@
     "static/photos/2021-11-01 钱湖霞光.jpg",
     "static/photos/2021-10-01 天府之行.jpg",
     "static/photos/2021-08-15 落樱缤纷.jpeg",
-    "content/posts/read/📖《身份的焦虑》.md",
-    "content/posts/guitar/🎸 吉他打板第一步.md",
-    "content/posts/movie/🎥《驴得水》.md",
-    "content/posts/movie/🎥《摔跤吧！爸爸》.md",
-    "content/posts/movie/🎥《佩小姐的奇幻城堡》.md",
-    "content/posts/movie/🎥《美国恐怖故事集 第一季》.md",
-    "content/posts/movie/🎥《美国恐怖故事集 第三季》.md",
-    "content/posts/movie/🎥《进击的巨人 最终季 完结篇 后篇》.md",
-    "content/posts/movie/🎥《封神第一部》.md",
-    "content/posts/movie/🎥《暴食的巴萨卡》.md",
     "home.canvas"
   ]
 }

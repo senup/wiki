@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   // 标题（浏览器后缀）
-  title: "wiki",
+  title: "Wiki｜高等游民",
   // 描述
   description: "高等游民の知识库",
   // 语言
@@ -20,7 +20,7 @@ export default defineConfig({
   // head设置
   head: [
     // 浏览器中图标
-    ["link", {rel: "icon", href: "/favicon.ico"}],
+    ["link", {rel: "icon", href: "/logo.ico"}],
   ],
   // 主题设置
   themeConfig: {
@@ -38,7 +38,8 @@ export default defineConfig({
         text: 'Wiki',
         items: [
           { text: '主页', link: '/aboutme' },
-          { text: 'QuantumultX配置', link: '/blog/QuantumultX配置' },
+          // { text: 'Hello，MySQL', link: '/wiki/Hello，MySQL.md' },
+          // { text: 'Hello，Spring', link: '/wiki/Hello，Spring.md' },
         ]
       },{
         text: 'Other',
