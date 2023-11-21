@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "index",
+      "path": "docs/index.md"
+    },
+    {
+      "basename": "aboutme",
+      "path": "docs/aboutme.md"
+    },
+    {
       "basename": "QuantumultX配置",
       "path": "docs/blog/QuantumultX配置.md"
+    },
+    {
+      "basename": "Mac",
+      "path": "docs/blog/Mac.md"
     },
     {
       "basename": "Hello，Spring",

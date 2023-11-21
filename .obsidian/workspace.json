@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/blog/QuantumultX配置.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/blog/QuantumultX配置.md"
+                "file": "README.md"
               }
             }
           },
@@ -93,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "b406ae98ecade2d0",
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/blog/QuantumultX配置.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/blog/QuantumultX配置.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +201,10 @@
   },
   "active": "eadfd07f4c83286c",
   "lastOpenFiles": [
+    "docs/index.md",
+    "docs/aboutme.md",
     "docs/blog/QuantumultX配置.md",
+    "docs/blog/Mac.md",
     "content/posts/tech/Hello，Spring.md",
     "temp/手把手带你吃透Spring框架核心源码.pdf",
     "content/posts/chat/20231119195108.md",
@@ -244,9 +247,6 @@
     "content/posts/movie/🎥《封神第一部》.md",
     "content/posts/movie/🎥《暴食的巴萨卡》.md",
     "content/posts/life/碳水循环个人实践.md",
-    "content/posts/life/奇怪的知识增加了.md",
-    "content/posts/chat/20231010162308.md",
-    "static/template/tp-guitar.md",
     "home.canvas"
   ]
 }
