@@ -2,13 +2,13 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   // 标题（浏览器后缀）
-  title: "Wiki｜高等游民",
+  title: "Wiki | 高等游民",
   // 描述
   description: "高等游民の知识库",
   // 语言
   lang: 'zh-CN',
   // 根目录，如果需要部署成htpps://github.com/blog/的形式，则设置/blog/
-  base: '/wiki/',
+  base: '/',
   // 文档最后更新时间展示
   lastUpdated: true,
   // 去除浏览器链接中的.html后缀(部署服务器时会导致页面重复问题，等待官方更新解决)
@@ -35,16 +35,15 @@ export default defineConfig({
     // 文章左侧导航栏
     sidebar: [
       {
-        text: 'Wiki',
+        text: '面试',
         items: [
-          { text: 'home', link: '/wiki/README' },
-          // { text: 'Hello，MySQL', link: '/wiki/MySQL.md' },
-          // { text: 'Hello，Spring', link: '/wiki/Spring.md' }
+          { text: '目录', link: '/wiki/toc' }
         ]
       },{
-        text: 'Other',
+        text: '系统学习',
         items: [
-          { text: 'Mac', link: '/blog/Mac' },
+          { text: 'MySQL', link: '/advance/MySQL.md' },
+          { text: 'Spring', link: '/advance/Spring.md' }
         ]
       }
     ],

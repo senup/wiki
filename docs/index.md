@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: home
 
 hero:
   name: "高等游民"
@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 随便看看
-      link: /wiki/README
+      link: /wiki/toc
 
 features:
   - title: Telegram

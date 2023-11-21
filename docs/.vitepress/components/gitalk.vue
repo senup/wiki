@@ -31,4 +31,4 @@ export default {
 .gt-container .gt-header-textarea {
   color: #000;
 }
-</style>
+</style> 
