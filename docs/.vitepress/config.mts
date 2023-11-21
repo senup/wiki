@@ -29,7 +29,7 @@ export default defineConfig({
     // 首页右上角导航栏
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Wiki', link: '/home' },
+      { text: 'Wiki', link: '/wiki/README' },
       { text: 'Blog', link: 'https://senup.github.io/' },
     ],
     // 文章左侧导航栏
@@ -37,7 +37,7 @@ export default defineConfig({
       {
         text: 'Wiki',
         items: [
-          { text: 'home', link: '/home' },
+          { text: 'home', link: '/wiki/README' },
           // { text: 'Hello，MySQL', link: '/wiki/MySQL.md' },
           // { text: 'Hello，Spring', link: '/wiki/Spring.md' }
         ]
