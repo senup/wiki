@@ -1,7 +1,7 @@
 {
   "commitMessage": "于 {{date}} 提交{{numFiles}}个文件",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 60,
+  "autoSaveInterval": 10,
   "autoPushInterval": 30,
   "autoPullInterval": 60,
   "autoPullOnBoot": false,

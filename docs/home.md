@@ -2,7 +2,7 @@
 
 <img src="/developer.gif" width='500px'/>
 
-![Logo](developer.gif)
+![Logo](/developer.gif)
 
 
 
