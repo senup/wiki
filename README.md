@@ -1,2 +1,2 @@
-# knowledge
+# Wiki
 知识库

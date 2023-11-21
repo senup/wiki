@@ -14,9 +14,9 @@ export default {
   },
   mounted() {
     const commentConfig = {
-      clientID: "66ef365895972f3184b9",
-      clientSecret: "b0aed6752e07ec29e89872bf5dc2e212677dcbd5",
-      repo: "senup.github.io",
+      clientID: "882a0d4881afe483768e",
+      clientSecret: "29d755e1e13bcdf3e62f3c39a23b4812d1e106f3",
+      repo: "wiki",
       owner: "senup",
       admin: ["senup"],
       id: md5(location.pathname),

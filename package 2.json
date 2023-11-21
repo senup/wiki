@@ -1,0 +1,11 @@
+{
+  "name": "wiki",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:senup/wiki.git",
+  "author": "butcher <senup@foxmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.29"
+  }
+}
