@@ -1,6 +1,6 @@
 
 
-![Logo](/developer.gif)
+
 
 
 

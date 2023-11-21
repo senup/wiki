@@ -38,8 +38,8 @@ export default defineConfig({
         text: 'Wiki',
         items: [
           { text: 'home', link: '/home' },
-          { text: 'Hello，MySQL', link: '/wiki/MySQL.md' },
-          { text: 'Hello，Spring', link: '/wiki/Spring.md' }
+          // { text: 'Hello，MySQL', link: '/wiki/MySQL.md' },
+          // { text: 'Hello，Spring', link: '/wiki/Spring.md' }
         ]
       },{
         text: 'Other',
