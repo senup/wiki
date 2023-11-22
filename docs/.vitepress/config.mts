@@ -30,9 +30,9 @@ export default defineConfig({
     logo: '/logo.png',
     // 首页右上角导航栏
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Wiki', link: '/interview/toc' },
-      { text: 'Blog', link: 'https://senup.github.io/' },
+      { text: '主页', link: '/' },
+      { text: '面试', link: '/interview/toc' },
+      { text: '生活', link: 'https://senup.github.io/' },
     ],
     // 文章左侧导航栏
     sidebar: [
