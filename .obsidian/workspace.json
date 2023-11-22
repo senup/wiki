@@ -11,17 +11,11 @@
             "id": "840e84d7ef34b4b8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "bcb1666d499d373d",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
+              "type": "markdown",
               "state": {
-                "url": "https://vitejs.cn/vitepress/guide/getting-started.html"
+                "file": "docs/advance/Github.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -45,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "javase.",
+                "query": "github.md",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +79,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/advance/Github.md"
+              }
             }
           },
           {
@@ -96,8 +92,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "b406ae98ecade2d0",
@@ -158,6 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/advance/Github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,6 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/advance/Github.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,11 +196,13 @@
       "command-palette:打开命令面板": true,
       "obsidian42-brat:BRAT": true,
       "workspaces:管理工作区布局": false,
-      "hidden-folder-obsidian:隐藏文件夹": false
+      "hidden-folder-obsidian:显示文件夹": false
     }
   },
   "active": "840e84d7ef34b4b8",
   "lastOpenFiles": [
+    "docs/advance/Github.md",
+    "docs/interview/git.md",
     "docs/interview/vitePress.md",
     "docs/interview/toc.md",
     "docs/interview/javase.md",
@@ -228,8 +227,6 @@
     "docs/interview/缓存.md",
     "docs/interview/线程池.md",
     "docs/interview/系统设计基础.md",
-    "docs/interview/短链接服务系统.md",
-    "docs/interview/消息队列.md",
     "docs/interview",
     "node_modules/@esbuild/win32-x64",
     "node_modules/@esbuild/win32-ia32",

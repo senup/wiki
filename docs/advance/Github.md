@@ -37,13 +37,4 @@ Connection closed by 20.205.243.160 port 443
 ```
 
 
-
-## ignore 文件删除已提交的
-
-配置 gitignore，把不想提交的内容写进去，然后执行下面这句。
-
-```
-git rm --cached -r && git add . && git commit -am "注释" && git push
-```
-
 <!--more-->

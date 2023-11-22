@@ -14,7 +14,7 @@
 <!-- GFM-TOC -->
 
 
-# 集中式与分布式
+## 集中式与分布式
 
 Git 属于分布式版本控制系统，而 SVN 属于集中式。
 
@@ -28,13 +28,13 @@ Git 属于分布式版本控制系统，而 SVN 属于集中式。
 
 分布式版本控制新建分支、合并分支操作速度非常快，而集中式版本控制新建一个分支相当于复制一份完整代码。
 
-# 中心服务器
+## 中心服务器
 
 中心服务器用来交换每个用户的修改，没有中心服务器也能工作，但是中心服务器能够 24 小时保持开机状态，这样就能更方便的交换修改。
 
 Github 就是一个中心服务器。
 
-# 工作流
+## 工作流
 
 新建一个仓库之后，当前目录就成为了工作区，工作区下有一个隐藏目录 .git，它属于 Git 的版本库。
 
@@ -56,7 +56,7 @@ Git 的版本库有一个称为 Stage 的暂存区以及最后的 History 版本
 
 
 
-# 分支实现
+## 分支实现
 
 使用指针将每个提交连接成一条时间线，HEAD 指针指向当前分支指针。
 
@@ -74,7 +74,7 @@ Git 的版本库有一个称为 Stage 的暂存区以及最后的 History 版本
 
 
 
-# 冲突
+## 冲突
 
 当两个分支都对同一个文件的同一行进行了修改，在分支合并时就会产生冲突。
 
@@ -90,7 +90,7 @@ Creating a new branch is quick AND simple.
 >>>>>>> feature1
 ```
 
-# Fast forward
+## Fast forward
 
 "快进式合并"（fast-farward merge），会直接将 master 分支指向合并的分支，这种模式下进行分支合并会丢失分支信息，也就不能在分支历史上看出分支信息。
 
@@ -102,7 +102,7 @@ $ git merge --no-ff -m "merge with no-ff" dev
 
 
 
-# 分支管理策略
+## 分支管理策略
 
 master 分支应该是非常稳定的，只用来发布新版本；
 
@@ -110,7 +110,16 @@ master 分支应该是非常稳定的，只用来发布新版本；
 
 
 
-# 储藏（Stashing）
+## Ignore 文件删除已提交的
+
+配置 gitignore，把不想提交的内容写进去，然后执行下面这句。
+
+```
+git rm --cached -r && git add . && git commit -am "注释" && git push
+```
+
+
+## 储藏（Stashing）
 
 在一个分支上操作之后，如果还没有将修改提交到分支上，此时进行切换分支，那么另一个分支上也能看到新的修改。这是因为所有分支都共用一个工作区的缘故。
 
@@ -124,7 +133,7 @@ HEAD is now at 049d078 added the index file (To restore them type "git stash app
 
 该功能可以用于 bug 分支的实现。如果当前正在 dev 分支上进行开发，但是此时 master 上有个 bug 需要修复，但是 dev 分支上的开发还未完成，不想立即提交。在新建 bug 分支并切换到 bug 分支之前就需要使用 git stash 将 dev 分支的未提交修改储藏起来。
 
-# SSH 传输设置
+## SSH 传输设置
 
 Git 仓库和 Github 中心仓库之间的传输是通过 SSH 加密。
 
@@ -136,7 +145,7 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 
 然后把公钥 id_rsa.pub 的内容复制到 Github "Account settings" 的 SSH Keys 中。
 
-# .gitignore 文件
+## .gitignore 文件
 
 忽略以下文件：
 
@@ -146,13 +155,13 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 
 不需要全部自己编写，可以到 [https://github.com/github/gitignore](https://github.com/github/gitignore) 中进行查询。
 
-# Git 命令一览
+## Git 命令一览
 
 
 
 比较详细的地址：http://www.cheat-sheets.org/saved-copy/git-cheat-sheet.pdf
 
-# 参考资料
+## 参考资料
 
 - [Git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
 - [图解 Git](http://marklodato.github.io/visual-git-guide/index-zh-cn.html)

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Github",
+      "path": "docs/advance/Github.md"
+    },
+    {
+      "basename": "git",
+      "path": "docs/interview/git.md"
+    },
+    {
       "basename": "vitePress",
       "path": "docs/interview/vitePress.md"
     },
