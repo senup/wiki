@@ -11,10 +11,11 @@
             "id": "840e84d7ef34b4b8",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "docs/advance/MacOS.md",
-                "staged": false
+                "file": "docs/interview/vitePress.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -38,10 +39,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "toc.md",
+                "query": "vitepress",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -78,7 +79,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/interview/vitePress.md"
+              }
             }
           },
           {
@@ -89,8 +92,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "b406ae98ecade2d0",
@@ -151,6 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/interview/vitePress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,6 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/interview/vitePress.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +198,7 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "840e84d7ef34b4b8",
+  "active": "77d6edc82ddabe77",
   "lastOpenFiles": [
     "docs/interview/vitePress.md",
     "docs/interview/toc.md",
