@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "22612fe212bb5bdf",
+        "id": "5ba0cef904f3e5fa",
         "type": "tabs",
         "children": [
           {
-            "id": "bfaad3003878f62e",
+            "id": "840e84d7ef34b4b8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "docs/blog/vitePress.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -75,7 +79,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/blog/vitePress.md"
+              }
             }
           },
           {
@@ -148,6 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/blog/vitePress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,6 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/blog/vitePress.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,16 +196,23 @@
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
       "obsidian42-brat:BRAT": true,
-      "workspaces:管理工作区布局": false
+      "workspaces:管理工作区布局": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "bfaad3003878f62e",
+  "active": "840e84d7ef34b4b8",
   "lastOpenFiles": [
+    "docs/blog/Mac.md",
+    "docs/blog/vitePress.md",
+    "docs/blog/QuantumultX配置.md",
+    "docs/interview/计算机网络.md",
+    "docs/interview/toc.md",
+    "docs/interview/剑指offer.md",
+    "docs/interview/操作系统-死锁.md",
     "docs/wiki/计算机网络-概述.md",
     "docs/interview/面试.md",
     "docs/interview/面向对象思想.md",
     "docs/interview/读写锁.md",
-    "docs/interview/计算机网络.md",
     "docs/interview/设计模式.md",
     "docs/interview/计算机网络-链路层.md",
     "docs/interview/计算机网络-网络层.md",
@@ -213,12 +228,6 @@
     "docs/interview/正则表达式.md",
     "docs/interview/数据库系统原理.md",
     "docs/interview/操作系统.md",
-    "docs/interview/操作系统-链接.md",
-    "docs/interview/操作系统-进程管理.md",
-    "docs/interview/操作系统-设备管理.md",
-    "docs/interview/操作系统-死锁.md",
-    "docs/interview/操作系统-概述.md",
-    "docs/interview/操作系统-内存管理.md",
     "docs/interview",
     "node_modules/@esbuild/win32-x64",
     "node_modules/@esbuild/win32-ia32",

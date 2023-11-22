@@ -1,128 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "index",
-      "path": "docs/index.md"
+      "basename": "vitePress",
+      "path": "docs/blog/vitePress.md"
     },
     {
       "basename": "Mac",
       "path": "docs/blog/Mac.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
       "basename": "QuantumultX配置",
       "path": "docs/blog/QuantumultX配置.md"
     },
     {
-      "basename": "Hello，Spring",
-      "path": "content/posts/tech/Hello，Spring.md"
+      "basename": "计算机网络",
+      "path": "docs/interview/计算机网络.md"
     },
     {
-      "basename": "手把手带你吃透Spring框架核心源码",
-      "path": "temp/手把手带你吃透Spring框架核心源码.pdf"
+      "basename": "toc",
+      "path": "docs/interview/toc.md"
     },
     {
-      "basename": "20231119195108",
-      "path": "content/posts/chat/20231119195108.md"
+      "basename": "剑指offer",
+      "path": "docs/interview/剑指offer.md"
     },
     {
-      "basename": "Hello，穿搭",
-      "path": "content/posts/tech/Hello，穿搭.md"
-    },
-    {
-      "basename": "Hello，Obsidian",
-      "path": "content/posts/tech/Hello，Obsidian.md"
-    },
-    {
-      "basename": "Hello，MacOS",
-      "path": "content/posts/tech/Hello，MacOS.md"
-    },
-    {
-      "basename": "Hello，Gradle",
-      "path": "content/posts/tech/Hello，Gradle.md"
-    },
-    {
-      "basename": "Hello，PDF expert",
-      "path": "content/posts/tech/Hello，PDF expert.md"
-    },
-    {
-      "basename": "about",
-      "path": "content/about.md"
-    },
-    {
-      "basename": "tp-tech",
-      "path": "static/template/tp-tech.md"
-    },
-    {
-      "basename": "面试现场",
-      "path": "content/posts/tech/面试现场.md"
-    },
-    {
-      "basename": "Hello，MySQL",
-      "path": "content/posts/tech/Hello，MySQL.md"
-    },
-    {
-      "basename": "📖《身份的焦虑》",
-      "path": "content/posts/read/📖《身份的焦虑》.md"
-    },
-    {
-      "basename": "🎸 吉他打板第一步",
-      "path": "content/posts/guitar/🎸 吉他打板第一步.md"
-    },
-    {
-      "basename": "🎥《驴得水》",
-      "path": "content/posts/movie/🎥《驴得水》.md"
-    },
-    {
-      "basename": "🎥《摔跤吧！爸爸》",
-      "path": "content/posts/movie/🎥《摔跤吧！爸爸》.md"
-    },
-    {
-      "basename": "🎥《佩小姐的奇幻城堡》",
-      "path": "content/posts/movie/🎥《佩小姐的奇幻城堡》.md"
-    },
-    {
-      "basename": "🎥《美国恐怖故事集 第一季》",
-      "path": "content/posts/movie/🎥《美国恐怖故事集 第一季》.md"
-    },
-    {
-      "basename": "🎥《美国恐怖故事集 第三季》",
-      "path": "content/posts/movie/🎥《美国恐怖故事集 第三季》.md"
-    },
-    {
-      "basename": "🎥《进击的巨人 最终季 完结篇 后篇》",
-      "path": "content/posts/movie/🎥《进击的巨人 最终季 完结篇 后篇》.md"
-    },
-    {
-      "basename": "🎥《封神第一部》",
-      "path": "content/posts/movie/🎥《封神第一部》.md"
-    },
-    {
-      "basename": "🎥《暴食的巴萨卡》",
-      "path": "content/posts/movie/🎥《暴食的巴萨卡》.md"
-    },
-    {
-      "basename": "碳水循环个人实践",
-      "path": "content/posts/life/碳水循环个人实践.md"
-    },
-    {
-      "basename": "奇怪的知识增加了",
-      "path": "content/posts/life/奇怪的知识增加了.md"
-    },
-    {
-      "basename": "20231010162308",
-      "path": "content/posts/chat/20231010162308.md"
-    },
-    {
-      "basename": "tp-guitar",
-      "path": "static/template/tp-guitar.md"
-    },
-    {
-      "basename": "tp-movie",
-      "path": "static/template/tp-movie.md"
+      "basename": "操作系统-死锁",
+      "path": "docs/interview/操作系统-死锁.md"
     }
   ],
   "omittedPaths": [],

@@ -10,6 +10,7 @@
   "showUnsupportedFiles": false,
   "userIgnoreFilters": [
     "static/template/",
+    "node_modules/",
     "node_modules/"
   ],
   "trashOption": "local",
