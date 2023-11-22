@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress';
 
-const linkParserPlugin = require('./components/markdown-link-resolver.js');
+
+import linkConverter from './components/linkConverter.js';
 
 export default defineConfig({
   // 标题（浏览器后缀）
@@ -21,11 +22,8 @@ export default defineConfig({
   markdown: {
     lineNumbers: true,
   },
-  // Use the plugin
-  plugins: [
-    linkParserPlugin
-    // Other plugins...
-  ],
+  enhanceApp: linkConverter,
+
   // head设置
   head: [
     // 浏览器中图标
