@@ -77,7 +77,7 @@ private boolean isBipartite(int curNode, int curColor, int[] colors, int[][] gra
 [207. Course Schedule (Medium)](https://leetcode.com/problems/course-schedule/description/)
 
 ```html
-2, [[1,0]]
+2, [1,0](1,0.md)
 return true
 ```
 

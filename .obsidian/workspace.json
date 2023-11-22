@@ -11,11 +11,10 @@
             "id": "840e84d7ef34b4b8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "docs/interview/toc.md",
-                "mode": "source",
-                "source": true
+                "file": "docs/advance/cron.md",
+                "staged": false
               }
             }
           }
@@ -79,9 +78,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docs/interview/toc.md"
-              }
+              "state": {}
             }
           },
           {
@@ -154,7 +151,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/interview/toc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +167,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/interview/toc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,8 +195,12 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "23e566189e642065",
+  "active": "840e84d7ef34b4b8",
   "lastOpenFiles": [
+    "docs/interview/读写锁.md",
+    "replace.js",
+    "docs/interview/缓存.md",
+    "docs/interview/toc.md",
     "docs/markdown-link-resolver/index.js",
     "docs/markdown-link-resolver",
     "node_modules/entities/lib/maps/xml.json",
@@ -211,8 +210,6 @@
     "node_modules/entities/lib/generated/decode-data-xml.js",
     "node_modules/entities/lib/generated/decode-data-html.js",
     "node_modules/entities/lib/generated/decode-data-xml.d.ts",
-    "node_modules/entities/lib/generated/decode-data-html.d.ts",
-    "node_modules/entities/lib/generated/decode-data-html.d.ts.map",
     "node_modules/entities/readme.md",
     "node_modules/uc.micro/README.md",
     "node_modules/uc.micro/CHANGELOG.md",
@@ -225,7 +222,6 @@
     "docs/advance/Github.md",
     "docs/interview/git.md",
     "docs/interview/vitePress.md",
-    "docs/interview/toc.md",
     "docs/interview/javase.md",
     "docs/blog/vitePress.md",
     "docs/interview/topk.md",
@@ -237,7 +233,6 @@
     "docs/wiki/计算机网络-概述.md",
     "docs/interview/面试.md",
     "docs/interview/面向对象思想.md",
-    "docs/interview/读写锁.md",
     "docs 2/public/logo.png",
     "docs 2/public/developer.gif",
     "node_modules 2/gitalk/src/assets/icon/tip.svg",

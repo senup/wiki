@@ -10,7 +10,7 @@ feature:
 isTop: false
 ---
 
-[[github action]]中可以配置[[schedule]]，而如果有定时或者重复构建的需求的话，就需要用到[[cron]]。
+[github action](github action.md)中可以配置[schedule](schedule.md)，而如果有定时或者重复构建的需求的话，就需要用到[cron](cron.md)。
 
 cron表达式总共有五位，从左到右分别代表 分钟、小时、日期、月份、星期几。
 
