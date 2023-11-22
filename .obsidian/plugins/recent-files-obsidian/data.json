@@ -2,7 +2,19 @@
   "recentFiles": [
     {
       "basename": "vitePress",
-      "path": "docs/blog/vitePress.md"
+      "path": "docs/interview/vitePress.md"
+    },
+    {
+      "basename": "toc",
+      "path": "docs/interview/toc.md"
+    },
+    {
+      "basename": "javase",
+      "path": "docs/interview/javase.md"
+    },
+    {
+      "basename": "topk",
+      "path": "docs/interview/topk.md"
     },
     {
       "basename": "Mac",
@@ -15,10 +27,6 @@
     {
       "basename": "计算机网络",
       "path": "docs/interview/计算机网络.md"
-    },
-    {
-      "basename": "toc",
-      "path": "docs/interview/toc.md"
     },
     {
       "basename": "剑指offer",

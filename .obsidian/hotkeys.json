@@ -32,54 +32,6 @@
   "workspace:goto-tab-6": [],
   "workspace:goto-tab-7": [],
   "workspace:goto-tab-8": [],
-  "editor:set-heading-1": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "1"
-    }
-  ],
-  "editor:set-heading-2": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "2"
-    }
-  ],
-  "editor:set-heading-3": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "3"
-    }
-  ],
-  "editor:set-heading-4": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "4"
-    }
-  ],
-  "editor:set-heading-5": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "5"
-    }
-  ],
-  "editor:set-heading-6": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "6"
-    }
-  ],
   "editor:insert-codeblock": [
     {
       "modifiers": [
@@ -105,6 +57,38 @@
         "Ctrl"
       ],
       "key": "ArrowRight"
+    }
+  ],
+  "editor:set-heading-1": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "2"
+    }
+  ],
+  "editor:set-heading-2": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "3"
+    }
+  ],
+  "editor:set-heading-3": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "4"
+    }
+  ],
+  "editor:set-heading-4": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "5"
     }
   ]
 }
