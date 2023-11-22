@@ -13,6 +13,8 @@ export default defineConfig({
   lastUpdated: true,
   // 去除浏览器链接中的.html后缀(部署服务器时会导致页面重复问题，等待官方更新解决)
   //cleanUrls: true,
+  //构建忽略死亡链接检测，就不会构建失败
+  ignoreDeadLinks: true,
   // markdown显示行数
   markdown: {
     lineNumbers: true,
