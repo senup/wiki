@@ -200,8 +200,10 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "840e84d7ef34b4b8",
+  "active": "23e566189e642065",
   "lastOpenFiles": [
+    "docs/markdown-link-resolver/index.js",
+    "docs/markdown-link-resolver",
     "node_modules/entities/lib/maps/xml.json",
     "node_modules/entities/lib/maps/legacy.json",
     "node_modules/entities/lib/maps/entities.json",
@@ -211,8 +213,6 @@
     "node_modules/entities/lib/generated/decode-data-xml.d.ts",
     "node_modules/entities/lib/generated/decode-data-html.d.ts",
     "node_modules/entities/lib/generated/decode-data-html.d.ts.map",
-    "node_modules/entities/lib/maps",
-    "node_modules/entities/lib/index.js",
     "node_modules/entities/readme.md",
     "node_modules/uc.micro/README.md",
     "node_modules/uc.micro/CHANGELOG.md",

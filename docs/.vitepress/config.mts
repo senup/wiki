@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress';
 
 
-import MarkdownLinkResolver from './components/markdown-link-resolver'; // 引入插件
+import markdownLinkResolver from '../markdown-link-resolver';
 
 
 export default defineConfig({
@@ -20,15 +20,14 @@ export default defineConfig({
   //构建忽略死亡链接检测，就不会构建失败
   ignoreDeadLinks: true,
   // markdown显示行数
+
   markdown: {
-    lineNumbers: true,
-  },
-  
-  // 注册插件
-  plugins: [
-    // 其他插件...
-    MarkdownLinkResolver,
-  ],
+    config: (md) => {
+      md.use(markdownLinkResolver());
+      // 这里可以继续使用其他 markdown-it 插件
+    }
+  }
+  ,
   // head设置
   head: [
     // 浏览器中图标
