@@ -1,5 +1,8 @@
 import { defineConfig } from 'vitepress'
 
+import markdownLinkResolver from './components/markdown-link-resolver'
+
+
 export default defineConfig({
   // 标题（浏览器后缀）
   title: "Wiki | 高等游民",
@@ -18,6 +21,9 @@ export default defineConfig({
   // markdown显示行数
   markdown: {
     lineNumbers: true,
+    config: (md) => {
+      md.use(markdownLinkResolver);
+    },
   },
   // head设置
   head: [
