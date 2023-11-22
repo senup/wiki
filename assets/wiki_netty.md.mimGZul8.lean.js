@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as a}from"./chunks/framework.7FlijoJG.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"wiki/netty.md","filePath":"wiki/netty.md","lastUpdated":1700574435000}'),n={name:"wiki/netty.md"};function r(o,s,i,c,d,p){return e(),a("div")}const f=t(n,[["render",r]]);export{m as __pageData,f as default};

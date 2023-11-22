@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as a}from"./chunks/framework.7FlijoJG.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"interview/netty.md","filePath":"interview/netty.md","lastUpdated":1700618398000}'),n={name:"interview/netty.md"};function r(o,s,i,c,d,p){return e(),a("div")}const f=t(n,[["render",r]]);export{m as __pageData,f as default};
