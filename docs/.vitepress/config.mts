@@ -31,7 +31,7 @@ export default defineConfig({
     // 首页右上角导航栏
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Wiki', link: '/wiki/README' },
+      { text: 'Wiki', link: '/interview/toc' },
       { text: 'Blog', link: 'https://senup.github.io/' },
     ],
     // 文章左侧导航栏
@@ -39,7 +39,7 @@ export default defineConfig({
       {
         text: '面试',
         items: [
-          { text: '目录', link: '/wiki/toc' }
+          { text: '目录', link: '/interview/toc' }
         ]
       },{
         text: '系统学习',
