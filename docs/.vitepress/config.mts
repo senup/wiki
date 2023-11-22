@@ -8,7 +8,7 @@ export default defineConfig({
   // 语言
   lang: 'zh-CN',
   // 根目录，如果需要部署成htpps://github.com/blog/的形式，则设置/blog/
-  base: '/',
+  base: '/wiki',
   // 文档最后更新时间展示
   lastUpdated: true,
   // 去除浏览器链接中的.html后缀(部署服务器时会导致页面重复问题，等待官方更新解决)
