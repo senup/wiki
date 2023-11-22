@@ -1,7 +1,8 @@
 import { defineConfig } from 'vitepress';
 
 
-import linkConverter from './components/linkConverter.js';
+import MarkdownLinkResolver from './components/markdown-link-resolver'; // 引入插件
+
 
 export default defineConfig({
   // 标题（浏览器后缀）
@@ -22,8 +23,12 @@ export default defineConfig({
   markdown: {
     lineNumbers: true,
   },
-  enhanceApp: linkConverter,
-
+  
+  // 注册插件
+  plugins: [
+    // 其他插件...
+    MarkdownLinkResolver,
+  ],
   // head设置
   head: [
     // 浏览器中图标
