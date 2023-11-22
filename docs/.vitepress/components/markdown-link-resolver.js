@@ -1,109 +1,20 @@
-// module.exports = (md) => {
-//     console.log('Plugin initialized! Word: Hello');
-
-//     md.core.ruler.push('double-links', (state) => {
-//       const regex = /\[\[([^\]]+)\]\]/g;
-//       state.src = state.src.replace(regex, (_, content) => {
-//         const linkText = content.trim();
-//         const linkPath = `${linkText}.md`;
-//         return `[${linkText}](${linkPath})`;
-//       });
-//     });
-//   };
+module.exports = {
+    name: 'link-parser',
+    extendMarkdown: md => {
+      md.core.ruler.push('custom_link_parser', state => {
+        // Log the original content
+        console.log('Original content:', state.src);
   
-
-// module.exports = (md) => {
-//     md.core.ruler.push('double-links', (state) => {
-//       const regex = /\[\[([^\]]+)\]\]/g;
-//       state.src = state.src.replace(regex, (_, content) => {
-//         const linkText = content.trim();
-//         const linkPath = `${linkText}.md`;
-//         const changedContent = `[${linkText}](${linkPath})`;
+        // Your logic for parsing double-bracket links and replacing them with HTML
+        // state.src contains the Markdown source content
+        // Modify the state.src accordingly
+        // For instance, use regular expressions to find and replace [[Hello]] with HTML
   
-//         // Log the changes
-//         console.log(`Changed "${_}" to "${changedContent}"`);
+        state.src = state.src.replace(/\[\[(.*?)\]\]/g, '<li><a href="./$1.html">$1</a></li>');
   
-//         return changedContent;
-//       });
-//     });
-//   };
-  
-
-
-
-// module.exports = (md) => {
-//     let insideCodeBlock = false;
-  
-//     md.core.ruler.push('double-links', (state) => {
-//       const regex = /\[\[([^\]]+)\]\]/g;
-  
-//       state.src = state.src.replace(regex, (_, content) => {
-//         if (!insideCodeBlock) {
-//           const linkText = content.trim();
-//           const linkPath = `${linkText}.md`;
-//           const changedContent = `[${linkText}](${linkPath})`;
-  
-//           // Log the changes
-//           console.log(`Changed "${_}" to "${changedContent}"`);
-  
-//           return changedContent;
-//         } else {
-//           return _; // Return the original content if inside a code block
-//         }
-//       });
-//     });
-  
-//     // Update the insideCodeBlock state when encountering code block markers
-//     md.core.ruler.push('track-code-blocks', (state) => {
-//       const codeBlockRules = state.md.block.ruler.getRules('fence');
-  
-//       for (const rule of codeBlockRules) {
-//         state.tokens.forEach((token) => {
-//           if (token.type === 'fence' && token.info === rule) {
-//             insideCodeBlock = !insideCodeBlock;
-//           }
-//         });
-//       }
-//     });
-//   };
-  
-
-  module.exports = (md) => {
-    let insideCodeBlock = false;
-  
-    md.core.ruler.push('double-links', (state) => {
-      const regex = /\[\[([^\]]+)\]\]/g;
-  
-      state.tokens.forEach((token) => {
-        if (token.type === 'fence' && token.info) {
-          // Check if it's a code block that needs exclusion
-          const excludedLanguages = ['java', 'html']; // Add more languages as needed
-          const language = token.info.trim().toLowerCase();
-  
-          if (excludedLanguages.includes(language)) {
-            insideCodeBlock = true;
-          } else {
-            insideCodeBlock = false;
-          }
-        }
-  
-        if (token.type !== 'inline') {
-          return;
-        }
-  
-        if (!insideCodeBlock) {
-          token.content = token.content.replace(regex, (_, content) => {
-            const linkText = content.trim();
-            const linkPath = `${linkText}.md`;
-            const changedContent = `[${linkText}](${linkPath})`;
-  
-            // Log the changes
-            console.log(`Changed "${_}" to "${changedContent}"`);
-  
-            return changedContent;
-          });
-        }
+        // Log the updated content
+        console.log('Updated content:', state.src);
       });
-    });
+    }
   };
   
