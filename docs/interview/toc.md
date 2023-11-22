@@ -63,6 +63,7 @@
 ### 🏠博客相关
 - [vitePress](vitePress)
 
+[[vitePress]]
 
 -----
 

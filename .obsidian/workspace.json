@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/advance/Github.md",
+                "file": "docs/interview/toc.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/advance/Github.md"
+                "file": "docs/interview/toc.md"
               }
             }
           },
@@ -92,7 +92,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "b406ae98ecade2d0",
@@ -153,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/advance/Github.md",
+                "file": "docs/interview/toc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/advance/Github.md",
+                "file": "docs/interview/toc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }

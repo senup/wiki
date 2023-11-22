@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "toc",
+      "path": "docs/interview/toc.md"
+    },
+    {
       "basename": "Github",
       "path": "docs/advance/Github.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "vitePress",
       "path": "docs/interview/vitePress.md"
-    },
-    {
-      "basename": "toc",
-      "path": "docs/interview/toc.md"
     },
     {
       "basename": "javase",
