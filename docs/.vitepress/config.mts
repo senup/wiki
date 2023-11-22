@@ -1,7 +1,8 @@
 import { defineConfig } from 'vitepress';
 
 
-import markdownLinkResolver from '../markdown-link-resolver';
+// import markdownLinkResolver from '../markdown-link-resolver';
+const markdownLinkResolver = require('../markdown-link-resolver');
 
 
 export default defineConfig({
@@ -22,12 +23,12 @@ export default defineConfig({
   // markdown显示行数
 
   markdown: {
+    lineNumbers: true,
     config: (md) => {
-      md.use(markdownLinkResolver());
-      // 这里可以继续使用其他 markdown-it 插件
-    }
-  }
-  ,
+      // 添加自定义的 Markdown 插件
+      md.use(markdownLinkResolver);
+    },
+  },
   // head设置
   head: [
     // 浏览器中图标
