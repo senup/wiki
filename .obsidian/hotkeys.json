@@ -64,7 +64,7 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "2"
+      "key": "1"
     }
   ],
   "editor:set-heading-2": [
@@ -72,7 +72,7 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "3"
+      "key": "2"
     }
   ],
   "editor:set-heading-3": [
@@ -80,7 +80,7 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "4"
+      "key": "3"
     }
   ],
   "editor:set-heading-4": [
@@ -88,7 +88,34 @@
       "modifiers": [
         "Mod"
       ],
+      "key": "4"
+    }
+  ],
+  "editor:set-heading-5": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
       "key": "5"
     }
-  ]
+  ],
+  "editor:set-heading-6": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "6"
+    }
+  ],
+  "obsidian-pangu:pangu-format": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "s"
+    }
+  ],
+  "easy-typing-obsidian:easy-typing-paste-without-format": [],
+  "easy-typing-obsidian:easy-typing-format-switch": []
 }

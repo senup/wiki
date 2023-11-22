@@ -1,22 +1,3 @@
-
-## vitePress
-
-没错，就是本站用来搭建 Wiki 的一个工具包。
-
-准备工具：
-- Obsidian: 编写 markdown 文档
-- Vs code: 用于修改样式
-- shell：Mac 自带的即可
-
-运行环境：macOS
-## 快速上手
-
-具体步骤查看： [VitePress中文网](https://vitejs.cn/vitepress/guide/getting-started.html)
-
-官方文档的几条指令写的很清楚，只要能在本地预览成功即可, 会看到一个非常简陋的网页。
-
-如果遇到 Node 版本太低，最快的解决方式就是 nodejs 官网直接下载一个最新的版本覆盖安装即可，不要花太多时间去折腾 shell 的一些指令，比如 sudo、homebrew 安装等。
-
 ## vitePress实战
 
 因为懒得折腾，所以直接抄别人作业显然是最快的方式。
@@ -101,57 +82,5 @@ Node_modules
 ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202311221226669.png)
 
 
-## 双链转超链
-
-背景：当前工作流本地使用的 obsidian，它的双链是由两个中括号括起来的，在编辑器内可以自由跳转和预览。但是线上部署的是 github page，解析后还是会产生中括号环绕的现象。而我希望本地和线上能出现同样的效果，为此我一开始是打算让 vitepress 渲染的时候自动将中括号解析成 HTML 的格式，但是失败了。
-
-我尝试了好久，根据官网的 markdown-it 语法例子写了诸多版本的 JS 插件，最终渲染不出来，这一直让我很苦恼。
-
-后面反过来想想，obsidian 除了双链，其实传统的相对链接也是能够引用的，于是我转头把目标改成了——将本地的中括号转化成相对链接。
-
-实现起来也不复杂，就是写个正则替换脚本即可。
-
-使用方式：
-
-根目录存放 `replace.js` 的脚本，然后执行：
-
-`node replace.js`
-
-脚本代码：
-
-```js
-const fs = require('fs');
-const path = require('path');
-const directoryPath = __dirname;
-
-function replaceMarkdownLink(filePath) {
-  if (path.extname(filePath).toLowerCase() !== '.md') {
-    return;
-  }
-
-  const content = fs.readFileSync(filePath, 'utf-8');
-  const replacedContent = content.replace(/\[\[([^\[\]]*?)\]\]/g, '[$1]($1.md)');
   
-  fs.writeFileSync(filePath, replacedContent, 'utf-8');
-}
-
-function processDirectory(directoryPath) {
-  const files = fs.readdirSync(directoryPath);
-
-  for (const file of files) {
-    const filePath = path.join(directoryPath, file);
-
-    if (fs.statSync(filePath).isDirectory()) {
-      processDirectory(filePath);
-    } else {
-      replaceMarkdownLink(filePath);
-    }
-  }
-}
-
-processDirectory(directoryPath);
-
-```
-
-
 

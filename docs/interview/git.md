@@ -145,6 +145,21 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 
 然后把公钥 id_rsa.pub 的内容复制到 Github "Account settings" 的 SSH Keys 中。
 
+
+
+## 远程仓库覆盖本地仓库
+注意分支是 main 分支。
+
+```shell
+git fetch origin && git reset --hard origin/main && git clean -df && git pull origin main
+```
+
+1. `git fetch origin`: 从远程仓库（通常是名为 "origin" 的远程仓库）获取最新的变更，但不合并到你当前的工作目录或分支。
+2. `git reset --hard origin/main`: 将你本地当前分支（通常是 "main" 分支）重置为与远程 "origin/main" 分支完全相同的状态。这会丢弃你本地所有未提交的修改和提交记录，确保你的本地分支与远程分支一致。
+3. `git clean -df`: 删除你的工作目录中未被 Git 追踪的文件和目录（`-d` 删除未被追踪的目录，`-f` 强制执行操作）。
+4. `git pull origin main`: 从远程 "origin" 仓库的 "main" 分支拉取最新的变更并合并到你的本地 "main" 分支。
+
+这个命令序列的作用是从远程仓库获取最新的代码并确保你的本地工作目录与远程分支状态一致。需要注意的是，这些操作会丢失你本地未提交的修改，因此在执行之前应谨慎备份或确认你不需要这些修改。
 ## .gitignore 文件
 
 忽略以下文件：
@@ -155,8 +170,15 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 
 不需要全部自己编写，可以到 [https://github.com/github/gitignore](https://github.com/github/gitignore) 中进行查询。
 
-## Git 命令一览
 
+
+
+
+
+
+
+
+## Git 命令一览
 
 
 比较详细的地址：http://www.cheat-sheets.org/saved-copy/git-cheat-sheet.pdf

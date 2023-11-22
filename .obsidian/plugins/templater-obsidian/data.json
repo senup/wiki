@@ -13,16 +13,7 @@
   "shell_path": "",
   "user_scripts_folder": "static/js",
   "enable_folder_templates": true,
-  "folder_templates": [
-    {
-      "folder": "content/posts/tech",
-      "template": "static/template/tp-tech.md"
-    },
-    {
-      "folder": "content/posts/movie",
-      "template": "static/template/tp-movie.md"
-    }
-  ],
+  "folder_templates": [],
   "syntax_highlighting": true,
   "enabled_templates_hotkeys": [],
   "startup_templates": [

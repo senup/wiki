@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "toc",
-      "path": "docs/interview/toc.md"
+      "basename": "vitePress",
+      "path": "docs/interview/vitePress.md"
     },
     {
-      "basename": "Github",
-      "path": "docs/advance/Github.md"
+      "basename": "toc",
+      "path": "docs/interview/toc.md"
     },
     {
       "basename": "git",
       "path": "docs/interview/git.md"
     },
     {
-      "basename": "vitePress",
-      "path": "docs/interview/vitePress.md"
+      "basename": "MacOS",
+      "path": "docs/advance/MacOS.md"
+    },
+    {
+      "basename": "Mac",
+      "path": "docs/blog/Mac.md"
+    },
+    {
+      "basename": "读写锁",
+      "path": "docs/interview/读写锁.md"
+    },
+    {
+      "basename": "缓存",
+      "path": "docs/interview/缓存.md"
+    },
+    {
+      "basename": "Github",
+      "path": "docs/advance/Github.md"
     },
     {
       "basename": "javase",
@@ -23,10 +39,6 @@
     {
       "basename": "topk",
       "path": "docs/interview/topk.md"
-    },
-    {
-      "basename": "Mac",
-      "path": "docs/blog/Mac.md"
     },
     {
       "basename": "QuantumultX配置",

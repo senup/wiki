@@ -13,7 +13,7 @@
             "state": {
               "type": "diff-view",
               "state": {
-                "file": "docs/advance/cron.md",
+                "file": "docs/advance/MacOS.md",
                 "staged": false
               }
             }
@@ -38,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "github.md",
+                "query": "toc.md",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -188,7 +188,6 @@
       "graph:查看关系图谱": false,
       "canvas:新建白板": true,
       "daily-notes:打开/创建今天的日记": true,
-      "templates:插入模板": true,
       "command-palette:打开命令面板": true,
       "obsidian42-brat:BRAT": true,
       "workspaces:管理工作区布局": false,
@@ -197,10 +196,16 @@
   },
   "active": "840e84d7ef34b4b8",
   "lastOpenFiles": [
+    "docs/interview/vitePress.md",
+    "docs/interview/toc.md",
+    "docs/interview/git.md",
+    "docs/advance/MacOS.md",
+    "docs/advance/Hello，MacOS.md",
+    "docs/blog/Mac.md",
+    "vitePress实战.md",
     "docs/interview/读写锁.md",
     "replace.js",
     "docs/interview/缓存.md",
-    "docs/interview/toc.md",
     "docs/markdown-link-resolver/index.js",
     "docs/markdown-link-resolver",
     "node_modules/entities/lib/maps/xml.json",
@@ -220,19 +225,13 @@
     "node_modules/argparse/CHANGELOG.md",
     "node_modules/markdown-it/README.md",
     "docs/advance/Github.md",
-    "docs/interview/git.md",
-    "docs/interview/vitePress.md",
     "docs/interview/javase.md",
     "docs/blog/vitePress.md",
     "docs/interview/topk.md",
-    "docs/blog/Mac.md",
     "docs/blog/QuantumultX配置.md",
     "docs/interview/计算机网络.md",
     "docs/interview/剑指offer.md",
     "docs/interview/操作系统-死锁.md",
-    "docs/wiki/计算机网络-概述.md",
-    "docs/interview/面试.md",
-    "docs/interview/面向对象思想.md",
     "docs 2/public/logo.png",
     "docs 2/public/developer.gif",
     "node_modules 2/gitalk/src/assets/icon/tip.svg",
