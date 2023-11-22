@@ -1,8 +1,6 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
 
-// import markdownLinkResolver from './components/markdown-link-resolver'
-const myMarkdownPlugin = require('./components/markdown-link-resolver');
-
+const markdownPlugin = require('./components/markdown-link-resolver'); 
 
 export default defineConfig({
   // 标题（浏览器后缀）
@@ -21,11 +19,10 @@ export default defineConfig({
   ignoreDeadLinks: true,
   // markdown显示行数
   markdown: {
+    config: (md) => {
+      md.use(markdownPlugin); 
+    },
     lineNumbers: true,
-    extend: markdownLinkResolver,
-    // config: (md) => {
-    //   md.use(markdownLinkResolver);
-    // },
   },
   // head设置
   head: [

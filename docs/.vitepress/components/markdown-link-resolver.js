@@ -1,46 +1,109 @@
-// markdown-link-resolver.js
+// module.exports = (md) => {
+//     console.log('Plugin initialized! Word: Hello');
 
-// 导出一个函数作为 VitePress 插件
-module.exports = (options = {}, app) => {
-    return {
-      // 在 Markdown 渲染中扩展功能
-      extendMarkdown: (md) => {
-        // 在 link 解析之前注册自定义解析规则
-        md.inline.ruler.before('link', 'double-link-resolver', (state) => {
-          // 获取当前解析状态中的 tokens
-          const { tokens } = state;
+//     md.core.ruler.push('double-links', (state) => {
+//       const regex = /\[\[([^\]]+)\]\]/g;
+//       state.src = state.src.replace(regex, (_, content) => {
+//         const linkText = content.trim();
+//         const linkPath = `${linkText}.md`;
+//         return `[${linkText}](${linkPath})`;
+//       });
+//     });
+//   };
   
-          // 遍历所有 token
-          for (let i = 0; i < tokens.length; i++) {
-            // 检查是否是行内元素
-            if (tokens[i].type === 'inline') {
-              // 遍历行内元素的子元素
-              tokens[i].children.forEach((token, index) => {
-                // 检查是否为文本类型的 token 并且内容匹配双链格式 [[...]]
-                if (token.type === 'text' && /\[\[([^\]]+)\]\]/.test(token.content)) {
-                  // 获取双链内容并构建链接目标
-                  const linkText = token.content;
-                  const linkTarget = linkText.slice(2, -2) + '.md';
+
+// module.exports = (md) => {
+//     md.core.ruler.push('double-links', (state) => {
+//       const regex = /\[\[([^\]]+)\]\]/g;
+//       state.src = state.src.replace(regex, (_, content) => {
+//         const linkText = content.trim();
+//         const linkPath = `${linkText}.md`;
+//         const changedContent = `[${linkText}](${linkPath})`;
   
-                  // 创建新的链接 token
-                  const newToken = new state.Token('link_open', 'a', 1);
-                  newToken.attrs = [['href', linkTarget]];
+//         // Log the changes
+//         console.log(`Changed "${_}" to "${changedContent}"`);
   
-                  // 创建文本内容 token
-                  const textToken = new state.Token('text', '', 0);
-                  textToken.content = linkText.slice(2, -2);
+//         return changedContent;
+//       });
+//     });
+//   };
   
-                  // 创建链接关闭 token
-                  const closeToken = new state.Token('link_close', 'a', -1);
+
+
+
+// module.exports = (md) => {
+//     let insideCodeBlock = false;
   
-                  // 将双链替换为新的链接 token、文本内容 token 和链接关闭 token
-                  tokens[i].children.splice(index, 1, newToken, textToken, closeToken);
-                }
-              });
-            }
+//     md.core.ruler.push('double-links', (state) => {
+//       const regex = /\[\[([^\]]+)\]\]/g;
+  
+//       state.src = state.src.replace(regex, (_, content) => {
+//         if (!insideCodeBlock) {
+//           const linkText = content.trim();
+//           const linkPath = `${linkText}.md`;
+//           const changedContent = `[${linkText}](${linkPath})`;
+  
+//           // Log the changes
+//           console.log(`Changed "${_}" to "${changedContent}"`);
+  
+//           return changedContent;
+//         } else {
+//           return _; // Return the original content if inside a code block
+//         }
+//       });
+//     });
+  
+//     // Update the insideCodeBlock state when encountering code block markers
+//     md.core.ruler.push('track-code-blocks', (state) => {
+//       const codeBlockRules = state.md.block.ruler.getRules('fence');
+  
+//       for (const rule of codeBlockRules) {
+//         state.tokens.forEach((token) => {
+//           if (token.type === 'fence' && token.info === rule) {
+//             insideCodeBlock = !insideCodeBlock;
+//           }
+//         });
+//       }
+//     });
+//   };
+  
+
+  module.exports = (md) => {
+    let insideCodeBlock = false;
+  
+    md.core.ruler.push('double-links', (state) => {
+      const regex = /\[\[([^\]]+)\]\]/g;
+  
+      state.tokens.forEach((token) => {
+        if (token.type === 'fence' && token.info) {
+          // Check if it's a code block that needs exclusion
+          const excludedLanguages = ['java', 'html']; // Add more languages as needed
+          const language = token.info.trim().toLowerCase();
+  
+          if (excludedLanguages.includes(language)) {
+            insideCodeBlock = true;
+          } else {
+            insideCodeBlock = false;
           }
-        });
-      },
-    };
+        }
+  
+        if (token.type !== 'inline') {
+          return;
+        }
+  
+        if (!insideCodeBlock) {
+          token.content = token.content.replace(regex, (_, content) => {
+            const linkText = content.trim();
+            const linkPath = `${linkText}.md`;
+            const changedContent = `[${linkText}](${linkPath})`;
+  
+            // Log the changes
+            console.log(`Changed "${_}" to "${changedContent}"`);
+  
+            return changedContent;
+          });
+        }
+      });
+    });
   };
   
