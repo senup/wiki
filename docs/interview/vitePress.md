@@ -156,7 +156,9 @@ processDirectory(directoryPath);
 
 
 ## 忽略文件夹
+config.mts 中加入这一行，进行忽略。
 
+`SrcExclude: ['**/README. Md', '**/TODO. Md']`
 
 
 ## 自动生成侧边栏

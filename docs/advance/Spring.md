@@ -302,3 +302,16 @@ ObtainFreshBeanFactory 如它的名字一样，就是包含了刷新和获取的
 ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202311201830761.png)
 
 
+## Bean
+
+从 getBean 方法来看，方法主要是从容器里面根据 Bean 的名称获取 Bean。
+
+
+在此之前会判断容器的一个状态：如果是激活状态则跳过；否则就会判断关闭状态。这种没有激活的状态更细化是关闭还是还没被激活，两种都会相对应的抛出异常。
+
+<span style="background:#fff88f">存疑？</span>
+> 获取 Bean 的时候会在 while 循环里面一直通过传入的名称去别名缓存里面找 Bean 的真正名称。比如一开始传入 hello，那么找到了 aHello，接下来又会根据 aHello 作为 key 找到 bHello... 直到找到 zHello 后再也找不到那么久把 zHello 当成真正的 beanName。
+> 从这个循环其实就解释了上面为什么 Bean 会有循环，所以注入 Bean 的过程是会有 BeanName 循环的判断和拦截的。保证取 Bean 的时候不会出现无限循环耗尽内存。
+
+
+

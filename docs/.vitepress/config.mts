@@ -8,20 +8,29 @@ const markdownLinkResolver = require('../markdown-link-resolver');
 export default defineConfig({
   // 标题（浏览器后缀）
   title: "Wiki | 高等游民",
+
   // 描述
   description: "高等游民の知识库",
+
   // 语言
   lang: 'zh-CN',
+
   // 根目录，如果需要部署成htpps://github.com/blog/的形式，则设置/blog/
   base: '/wiki',
+
   // 文档最后更新时间展示
   lastUpdated: true,
+
   // 去除浏览器链接中的.html后缀(部署服务器时会导致页面重复问题，等待官方更新解决)
   //cleanUrls: true,
+
   //构建忽略死亡链接检测，就不会构建失败
   ignoreDeadLinks: true,
-  // markdown显示行数
 
+  //exclude the mardwork file under the path;see : https://github.com/mrmlnc/fast-glob#pattern-syntax
+  srcExclude: ['doc/templates/**/*.md'],
+
+  // markdown显示行数
   markdown: {
     lineNumbers: true,
     config: (md) => {
