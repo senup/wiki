@@ -371,5 +371,18 @@ Bean 的构造主要有三个过程：
 > 
 > 最后来看下 Spring 是如何通过 FactoryBean 来实例化 bean 的
 
+getBean 方法有三部分：
+- 如果是&号开头的 Bean，那么会移除前置符号然后直接返回对应的实例引用
+- 不是&号开头，也不是 factoryBean 的 Bean，直接返回实例
+- 如果是 factoryBean 且不为&开头，那么就会通过 factoryBean. GetObject () 方法获取对应的 Bean。
+![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202311231216913.png)
 
+> 1. 先来看下 Spring 如果发现 prototype 类型 bean 正在创建会怎样
+> 2. 然后来看下 Spring 是如何从父类容器中获取 bean 的实例的
+> 3. 接着来看下 Spring 是如何从容器中获取，并封装 bean 对应的 BeanDefinition 的
+> 4. 最后来看下 Spring 对于自己依赖的那些 bean 是如何判定是否存在循环依赖，并提前实例化它们的
+
+
+
+<font color="#2DC26B">factoryBean 有什么优势</font>
 
