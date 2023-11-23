@@ -75,9 +75,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docs/advance/Spring.md"
-              }
+              "state": {}
             }
           },
           {
@@ -150,7 +148,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/advance/Spring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +164,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/advance/Spring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +228,7 @@
       }
     ]
   },
-  "active": "86dbc26e3b6e6802",
+  "active": "49cef9afc9bcf491",
   "lastOpenFiles": [
     "docs/advance/Spring.md",
     "docs/interview/vitePress.md",

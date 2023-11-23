@@ -314,4 +314,39 @@ ObtainFreshBeanFactory 如它的名字一样，就是包含了刷新和获取的
 > 从这个循环其实就解释了上面为什么 Bean 会有循环，所以注入 Bean 的过程是会有 BeanName 循环的判断和拦截的。保证取 Bean 的时候不会出现无限循环耗尽内存。
 
 
+### 多级缓存
+SingletonObjects 这个缓存主要是用来存放已经<font color="#2DC26B">完全</font>实例化好的单例 bean。
+
+EarlySingletonObjects 这个缓存用来存放早期单例，也就是还没实例化完成的 Bean，仅仅通过反射创建了但是属性还没有赋值的 Bean。
+
+对象工厂 singletonFactory，我们可以理解为是封装了早期单例 bean 实例化的方法，通过调用 singletonFactory 的 getObject 方法，我们可以获取到早期单例 bean，也就是初始化到一半的 bean。
+
+---
+
+为什么还没赋值好就暴露了？
+
+因为会有循环依赖的问题，死循环会耗尽栈内存导致栈内存溢出。
+
+![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202311231048743.png)
+
+
+
+### setter 类型的循环依赖
+
+两个 Bean 为了彼此的属性进行setter赋值而陷入死循环。
+
+
+### 构造器类型的循环依赖
+
+两个 Bean 为了彼此的属性进行构造器赋值而陷入死循环。
+
+---
+
+这一节，我们重点来看下 Spring 是如何来解决循环依赖的，主要分为以下几个部分：
+
+1. 首先来看下 Spring 中的三级缓存分别完成了什么样的功能
+2. 然后来看下 Spring 具体是如何通过三级缓存来解决循环依赖的
+3. 最后来看下 Spring 中的这三级缓存存在的意义分别是什么
+
+
 
