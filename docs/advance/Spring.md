@@ -386,10 +386,20 @@ getBean 方法有三部分：
 
 <font color="#2DC26B">factoryBean 有什么优势</font>
 
+这一节，我们了解了 Spring 是如何检查 prototype 类型的 bean 正在创建的，因为 prototype 类型的 bean 不像单例 bean 一样可以缓存，所以，一旦发现有 prototype 类型的 bean 正在创建，就会直接抛异常了。
+
+而且我们也看到了，如果为 Spring 容器设置父类容器，那 Spring 在找不到当前 bean 的 BeanDefinition 时，就会到父类容器中获取 bean 的实例了。
+
+接着，我们看到 Spring 最终会获取我们前面注册好的 BeanDefinition，将 GenericBeanDefnition 封装次 RootBeanDefinition，并且我们也看到了 bean 默认的类型就是单例的。
+
+而且，如果 bean 配置了依赖的 bean 的名称，首先会检查下配置的依赖，是否已经处于 bean 依赖的引用链上了，如果没有处于 bean 依赖引用链上，就会提前来实例化 bean 依赖的那些 bean。
 
 
+> prototype 的 Bean 如果被发现被获取的时候就会直接抛出异常。为什么呢？因为不需要获取，每次都得拿最新创建的 Bean。
 
-prototype 的 Bean 如果被发现被获取的时候就会直接抛出异常。为什么呢？因为不需要获取，每次都得拿最新创建的 Bean。
 
+1. 先来简单看下 Spring 在实例化 bean 前后都会做些什么事情，寻找下真正实例化 bean 的入口在哪 
+2. 然后来看下 Spring 在实例化之前，会做哪些准备工作
+3. 最后来看下 Spring 又是如何在 bean 实例化之前，提供一个机会让外界去介入 bean 的实例化过程的
 
 
