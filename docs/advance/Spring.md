@@ -349,4 +349,27 @@ EarlySingletonObjects 这个缓存用来存放早期单例，也就是还没实�
 3. 最后来看下 Spring 中的这三级缓存存在的意义分别是什么
 
 
+![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202311231127391.png)
+
+
+Bean 的构造主要有三个过程：
+- 通过反射创建一个 Bean
+- 为刚创建的 Bean 填充属性
+- 初始化 Bean
+
+其中 setter 类型的依赖注入发生在第二步，而构造方法的依赖注入发生在第一步，所以构造方法的依赖注入无法被解决。
+
+因为 spring 默认参数 allowEarlyReference 为 true，代表了默认是允许去第三级缓存的 singletonFactories 里面获取，所以 spring 默认是解决了 setter 的循环依赖的。
+
+至于为啥需要第三级缓存？主要是提供懒加载的思路，因为每次通过工厂方法的 getObject 方法会有一定的性能损耗，不如多加一个缓存，当需要获取早期的单例缓存的时候，从三级缓存里面获取 Bean 即可，没必要过早创建 Bean。
+
+一级缓存为了维护 Bean 的全局唯一；二级缓存提高了循环依赖问题解决的效率，避免重复调用三级缓存获取早期单例 Bean。
+
+> 首先来看下 Spring 是如何判定单例 bean 是否为工厂引用的
+> 
+> 然后通过一个案例，了解并体验下 FactoryBean 是怎么玩的
+> 
+> 最后来看下 Spring 是如何通过 FactoryBean 来实例化 bean 的
+
+
 
