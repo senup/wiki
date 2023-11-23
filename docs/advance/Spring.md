@@ -386,3 +386,10 @@ getBean 方法有三部分：
 
 <font color="#2DC26B">factoryBean 有什么优势</font>
 
+
+
+
+prototype 的 Bean 如果被发现被获取的时候就会直接抛出异常。为什么呢？因为不需要获取，每次都得拿最新创建的 Bean。
+
+
+
