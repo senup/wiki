@@ -191,43 +191,6 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "floating": {
-    "id": "dd8ef700449ac39d",
-    "type": "floating",
-    "children": [
-      {
-        "id": "45f258d2bf3e7be7",
-        "type": "window",
-        "children": [
-          {
-            "id": "478cfa58d6cd91e5",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "86dbc26e3b6e6802",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "docs/advance/Spring.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 274,
-        "y": 44,
-        "width": 964,
-        "height": 783,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "49cef9afc9bcf491",
   "lastOpenFiles": [
     "docs/advance/Spring.md",
