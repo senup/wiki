@@ -8,13 +8,18 @@
     ]
   ],
   "trigger_on_file_creation": true,
-  "auto_jump_to_cursor": false,
+  "auto_jump_to_cursor": true,
   "enable_system_commands": false,
   "shell_path": "",
-  "user_scripts_folder": "static/js",
+  "user_scripts_folder": "",
   "enable_folder_templates": true,
-  "folder_templates": [],
-  "syntax_highlighting": true,
+  "folder_templates": [
+    {
+      "folder": "docs/advance",
+      "template": "docs/templates/template-tech.md"
+    }
+  ],
+  "syntax_highlighting": false,
   "enabled_templates_hotkeys": [],
   "startup_templates": [
     ""

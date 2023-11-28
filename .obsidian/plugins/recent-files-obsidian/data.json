@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "面试准备",
+      "path": "docs/advance/面试准备.md"
+    },
+    {
+      "basename": "散装 JoeHuang",
+      "path": "散装 JoeHuang.md"
+    },
+    {
+      "basename": "template-tech",
+      "path": "docs/templates/template-tech.md"
+    },
+    {
+      "basename": "interview-template",
+      "path": "docs/templates/interview-template.md"
+    },
+    {
+      "basename": "Gradle",
+      "path": "docs/advance/Gradle.md"
+    },
+    {
+      "basename": "index",
+      "path": "docs/index.md"
+    },
+    {
       "basename": "shellclash",
       "path": "docs/advance/shellclash.md"
     },
