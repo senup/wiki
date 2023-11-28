@@ -2,7 +2,7 @@
   "attachmentFolderPath": "./",
   "promptDelete": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "ad",
+  "newFileFolderPath": "docs/advance",
   "readableLineLength": false,
   "propertiesInDocument": "visible",
   "showLineNumber": false,
