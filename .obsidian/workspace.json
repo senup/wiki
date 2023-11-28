@@ -11,8 +11,12 @@
             "id": "49cef9afc9bcf491",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "docs/advance/shellclash.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -75,7 +79,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/advance/shellclash.md"
+              }
             }
           },
           {
@@ -148,6 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/advance/shellclash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,6 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/advance/shellclash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +199,7 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "49cef9afc9bcf491",
+  "active": "0778701f3cebc650",
   "lastOpenFiles": [
     "docs/advance/Spring.md",
     "docs/interview/vitePress.md",

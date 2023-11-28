@@ -12,7 +12,7 @@ feature:
 isTop: false
 ---
 > shellclash刷入路由器后，可以实现节点代理、节点分流等功能，让家中所有联网设备共享代理后的节点，十分方便。
-# 环境配置
+## 环境配置
 路由器：红米ax6000
 
 固件：官方固件
@@ -26,7 +26,7 @@ isTop: false
 ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202311120124891.png)
 
 
-# 界面讲解
+## 界面讲解
 打开[yacd](http://192.168.31.1:9999/ui/#/)。
 代理界面有selector和URLTest的两种类型。
 selector代表节点组汇总，URLTest代表单个节点组下面的所有节点。
@@ -35,9 +35,15 @@ selector代表节点组汇总，URLTest代表单个节点组下面的所有节�
 ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202311120127617.png)
 
 
-# 使用场景
+## 使用场景
 比如spotify free 账号档案使用的是香港地区，那么家里的Apple tv设备就默认要使用代理里面的香港节点，我们从上图连接菜单下可以看到目前spotify使用的是国外媒体这个节点链，那么就在代理菜单下面的国外媒体选择香港节点组。
 
 同时，iPhone可以平时就挂着Quantumult X+蜂窝流量使用，这样IP地址归属于香港，spotify就能在离开了shellclash后独立使用，不会报14天离开归属地的弹窗从而登录不了。
 
 <!--more-->
+
+## 节点链为空
+下图是正常的情况。这次遇到的情况是节点链为空列，显示所有连接的分流规则都是 direct，自然是无法科学上网。
+解决办法：进 shellclash 里面把订阅链接和配置重置下。
+
+![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202311281744338.png)
