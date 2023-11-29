@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "简历",
-      "path": "docs/advance/简历.md"
+      "basename": "java",
+      "path": "docs/advance/java.md"
     },
     {
       "basename": "面试现场",
       "path": "docs/interview/面试现场.md"
     },
     {
+      "basename": "chatGPT",
+      "path": "docs/advance/chatGPT.md"
+    },
+    {
       "basename": "spring",
       "path": "docs/interview/spring.md"
+    },
+    {
+      "basename": "jvm",
+      "path": "docs/advance/jvm.md"
+    },
+    {
+      "basename": "场景题",
+      "path": "docs/advance/场景题.md"
+    },
+    {
+      "basename": "分布式",
+      "path": "docs/advance/分布式.md"
+    },
+    {
+      "basename": "MySQL",
+      "path": "docs/advance/MySQL.md"
+    },
+    {
+      "basename": "简历",
+      "path": "docs/advance/简历.md"
     },
     {
       "basename": "spring源码",

@@ -49,7 +49,79 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/advance/简历.md",
+                "file": "docs/interview/spring.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "230098d1b0e7b3f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/advance/chatGPT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a71bb84392cabdfa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/advance/java.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "46c9ecb825e64389",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/advance/场景题.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "101fcf43b5669163",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/advance/jvm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a3034223a2aa6c77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/advance/分布式.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2878543df6f667c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/advance/MySQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,14 +133,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/interview/面试现场.md",
+                "file": "docs/advance/java.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -88,7 +160,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "面试现场",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -129,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/advance/简历.md"
+                "file": "docs/advance/java.md"
               }
             }
           },
@@ -203,7 +275,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/advance/简历.md",
+                "file": "docs/advance/java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +292,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/advance/简历.md",
+                "file": "docs/advance/java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -249,11 +321,17 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "90cb8710576f7a9d",
+  "active": "0778701f3cebc650",
   "lastOpenFiles": [
     "docs/interview/面试现场.md",
-    "docs/advance/简历.md",
+    "docs/advance/chatGPT.md",
     "docs/interview/spring.md",
+    "docs/advance/jvm.md",
+    "docs/advance/场景题.md",
+    "docs/advance/java.md",
+    "docs/advance/分布式.md",
+    "docs/advance/MySQL.md",
+    "docs/advance/简历.md",
     "docs/interview/spring源码.md",
     "docs/advance/自我介绍.md",
     "docs/interview/socket.md",
@@ -272,12 +350,6 @@
     "docs/index.md",
     "docs/interview/vitePress.md",
     "docs/templates",
-    "docs/interview/toc.md",
-    "docs/interview/git.md",
-    "docs/advance/MacOS.md",
-    "docs/advance/Hello，MacOS.md",
-    "docs/blog/Mac.md",
-    "vitePress实战.md",
     "replace.js",
     "docs/markdown-link-resolver/index.js",
     "docs/markdown-link-resolver",
