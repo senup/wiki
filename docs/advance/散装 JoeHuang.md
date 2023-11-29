@@ -9,6 +9,14 @@ Feature:
 IsTop: false
 ---
 
+## Bean 的定义注册获取
+
+beanFactory
+AbstractBeanFactory
+AbstractAutowireCapableBeanFactory
+DefaultListableBeanFactory
+
+
 
 
 
