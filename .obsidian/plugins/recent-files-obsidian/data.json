@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "面试准备",
-      "path": "docs/advance/面试准备.md"
+      "basename": "spring",
+      "path": "docs/interview/spring.md"
     },
     {
       "basename": "散装 JoeHuang",
       "path": "docs/advance/散装 JoeHuang.md"
+    },
+    {
+      "basename": "面试准备",
+      "path": "docs/advance/面试准备.md"
+    },
+    {
+      "basename": "面试现场",
+      "path": "docs/interview/面试现场.md"
+    },
+    {
+      "basename": "shellclash",
+      "path": "docs/advance/shellclash.md"
+    },
+    {
+      "basename": "Spring",
+      "path": "docs/advance/Spring.md"
+    },
+    {
+      "basename": "VS code",
+      "path": "docs/advance/VS code.md"
     },
     {
       "basename": "template-tech",
@@ -23,14 +43,6 @@
     {
       "basename": "index",
       "path": "docs/index.md"
-    },
-    {
-      "basename": "shellclash",
-      "path": "docs/advance/shellclash.md"
-    },
-    {
-      "basename": "Spring",
-      "path": "docs/advance/Spring.md"
     },
     {
       "basename": "vitePress",
