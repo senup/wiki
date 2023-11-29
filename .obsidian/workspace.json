@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/advance/散装 JoeHuang.md",
+                "file": "docs/advance/面试准备.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/advance/散装 JoeHuang.md"
+                "file": "docs/advance/面试准备.md"
               }
             }
           },
@@ -137,7 +137,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298
+    "width": 298,
+    "collapsed": true
   },
   "right": {
     "id": "b9a65f27b182d6e5",
@@ -179,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/advance/散装 JoeHuang.md",
+                "file": "docs/advance/面试准备.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/advance/散装 JoeHuang.md",
+                "file": "docs/advance/面试准备.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,8 +228,8 @@
   },
   "active": "c00fb84a957a41b3",
   "lastOpenFiles": [
-    "docs/advance/面试准备.md",
     "docs/advance/散装 JoeHuang.md",
+    "docs/advance/面试准备.md",
     "散装 JoeHuang.md",
     "docs/templates/template-tech.md",
     "docs/templates/interview-template.md",
