@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "简历",
+      "path": "docs/advance/简历.md"
+    },
+    {
+      "basename": "面试现场",
+      "path": "docs/interview/面试现场.md"
+    },
+    {
       "basename": "spring",
       "path": "docs/interview/spring.md"
+    },
+    {
+      "basename": "spring源码",
+      "path": "docs/interview/spring源码.md"
+    },
+    {
+      "basename": "自我介绍",
+      "path": "docs/advance/自我介绍.md"
+    },
+    {
+      "basename": "socket",
+      "path": "docs/interview/socket.md"
+    },
+    {
+      "basename": "redis",
+      "path": "docs/interview/redis.md"
+    },
+    {
+      "basename": "spring-aop",
+      "path": "docs/interview/spring-aop.md"
+    },
+    {
+      "basename": "spring-ioc",
+      "path": "docs/interview/spring-ioc.md"
+    },
+    {
+      "basename": "springboot-data",
+      "path": "docs/interview/springboot-data.md"
     },
     {
       "basename": "散装 JoeHuang",
@@ -13,16 +49,8 @@
       "path": "docs/advance/面试准备.md"
     },
     {
-      "basename": "面试现场",
-      "path": "docs/interview/面试现场.md"
-    },
-    {
       "basename": "shellclash",
       "path": "docs/advance/shellclash.md"
-    },
-    {
-      "basename": "Spring",
-      "path": "docs/advance/Spring.md"
     },
     {
       "basename": "VS code",

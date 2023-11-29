@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "16c82e26c7e1e50a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/interview/面试现场.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "90cb8710576f7a9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/advance/简历.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c00fb84a957a41b3",
             "type": "leaf",
             "state": {
@@ -44,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -105,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/interview/spring.md"
+                "file": "docs/advance/简历.md"
               }
             }
           },
@@ -179,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/interview/spring.md",
+                "file": "docs/advance/简历.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/interview/spring.md",
+                "file": "docs/advance/简历.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,13 +249,21 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "0778701f3cebc650",
+  "active": "90cb8710576f7a9d",
   "lastOpenFiles": [
+    "docs/interview/面试现场.md",
+    "docs/advance/简历.md",
+    "docs/interview/spring.md",
+    "docs/interview/spring源码.md",
+    "docs/advance/自我介绍.md",
+    "docs/interview/socket.md",
+    "docs/interview/redis.md",
+    "docs/interview/spring-aop.md",
+    "docs/interview/spring-ioc.md",
+    "docs/interview/springboot-data.md",
     "docs/advance/散装 JoeHuang.md",
     "docs/advance/面试准备.md",
-    "docs/interview/面试现场.md",
     "docs/advance/shellclash.md",
-    "docs/advance/Spring.md",
     "docs/advance/VS code.md",
     "散装 JoeHuang.md",
     "docs/templates/template-tech.md",
@@ -246,9 +278,7 @@
     "docs/advance/Hello，MacOS.md",
     "docs/blog/Mac.md",
     "vitePress实战.md",
-    "docs/interview/读写锁.md",
     "replace.js",
-    "docs/interview/缓存.md",
     "docs/markdown-link-resolver/index.js",
     "docs/markdown-link-resolver",
     "node_modules/entities/lib/maps/xml.json",
@@ -257,12 +287,6 @@
     "node_modules/entities/lib/generated/decode-data-xml.d.ts.map",
     "node_modules/entities/lib/generated/decode-data-xml.js",
     "node_modules/entities/lib/generated/decode-data-html.js",
-    "node_modules/entities/readme.md",
-    "node_modules/uc.micro/README.md",
-    "node_modules/uc.micro/CHANGELOG.md",
-    "node_modules/linkify-it/README.md",
-    "node_modules/mdurl/README.md",
-    "node_modules/mdurl/CHANGELOG.md",
     "docs 2/public/logo.png",
     "docs 2/public/developer.gif",
     "node_modules 2/gitalk/src/assets/icon/tip.svg",
