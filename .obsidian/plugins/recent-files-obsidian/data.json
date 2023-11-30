@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "template-tech",
+      "path": "docs/templates/template-tech.md"
+    },
+    {
       "basename": "java",
       "path": "docs/advance/java.md"
     },
@@ -79,10 +83,6 @@
     {
       "basename": "VS code",
       "path": "docs/advance/VS code.md"
-    },
-    {
-      "basename": "template-tech",
-      "path": "docs/templates/template-tech.md"
     },
     {
       "basename": "interview-template",
