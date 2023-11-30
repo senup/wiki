@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/advance/java.md"
+                "file": "docs/templates/template-tech.md"
               }
             }
           },
@@ -233,7 +233,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298
+    "width": 298,
+    "collapsed": true
   },
   "right": {
     "id": "b9a65f27b182d6e5",
@@ -275,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/advance/java.md",
+                "file": "docs/templates/template-tech.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/advance/java.md",
+                "file": "docs/templates/template-tech.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
