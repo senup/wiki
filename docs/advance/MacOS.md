@@ -76,4 +76,10 @@ alias replace="cd '/Users/butcher/Library/Mobile Documents/com~apple~CloudDocs/w
 
 
 
+### 修改默认程序
+右键简介-全部更改
+![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202311301238958.png)
+
 <!--more-->
+
+1140
