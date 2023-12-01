@@ -1,5 +1,5 @@
 ---
-title: Hello，MacOS
+title: MacOS
 date: 2023-11-07 23:23:28
 tags:
   - tech
@@ -50,5 +50,9 @@ shell script: |
 
 > 参考：[https://www.popclip.app/dev/shell-script-actions](https://www.popclip.app/dev/shell-script-actions)
 
+### 访达窗口始终使用标签页开启
+![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202311301446302.png)
 
+
+设置好之后，1. Command+N 快捷键打开； 2.在文件夹上右键“在新标签页打开”； 3.点击访达菜单栏窗口-合并所有窗口。
 <!--more-->

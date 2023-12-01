@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "template-tech",
+      "path": "docs/templates/template-tech.md"
+    },
+    {
       "basename": "MacOS",
       "path": "docs/advance/MacOS.md"
     },
     {
-      "basename": "template-tech",
-      "path": "docs/templates/template-tech.md"
+      "basename": "Hello，MacOS",
+      "path": "docs/advance/Hello，MacOS.md"
     },
     {
       "basename": "java",
