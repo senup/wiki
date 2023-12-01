@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/advance/MacOS.md",
+                "file": "docs/advance/简历.md",
                 "mode": "source",
                 "source": false
               }
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/advance/MacOS.md"
+                "file": "docs/advance/简历.md"
               }
             }
           },
@@ -233,7 +233,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298
+    "width": 298,
+    "collapsed": true
   },
   "right": {
     "id": "b9a65f27b182d6e5",
@@ -275,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/advance/MacOS.md",
+                "file": "docs/advance/简历.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/advance/MacOS.md",
+                "file": "docs/advance/简历.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -321,11 +322,11 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "0778701f3cebc650",
+  "active": "c00fb84a957a41b3",
   "lastOpenFiles": [
+    "docs/templates/template-tech.md",
     "docs/advance/Hello，MacOS.md",
     "docs/advance/MacOS.md",
-    "docs/templates/template-tech.md",
     "docs/interview/面试现场.md",
     "docs/advance/chatGPT.md",
     "docs/interview/spring.md",

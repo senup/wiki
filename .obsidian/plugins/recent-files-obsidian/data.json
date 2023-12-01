@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "简历",
+      "path": "docs/advance/简历.md"
+    },
+    {
       "basename": "template-tech",
       "path": "docs/templates/template-tech.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "MySQL",
       "path": "docs/advance/MySQL.md"
-    },
-    {
-      "basename": "简历",
-      "path": "docs/advance/简历.md"
     },
     {
       "basename": "spring源码",
