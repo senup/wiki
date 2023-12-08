@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "jvm",
+      "path": "docs/advance/jvm.md"
+    },
+    {
       "basename": "java多线程",
       "path": "docs/interview/java多线程.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "spring",
       "path": "docs/interview/spring.md"
-    },
-    {
-      "basename": "jvm",
-      "path": "docs/advance/jvm.md"
     },
     {
       "basename": "场景题",

@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/interview/java多线程.md",
+                "file": "docs/advance/jvm.md",
                 "mode": "source",
                 "source": false
               }
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/interview/java多线程.md"
+                "file": "docs/advance/jvm.md"
               }
             }
           },
@@ -274,7 +274,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/interview/java多线程.md",
+                "file": "docs/advance/jvm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,7 +291,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/interview/java多线程.md",
+                "file": "docs/advance/jvm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -322,6 +322,7 @@
   },
   "active": "c00fb84a957a41b3",
   "lastOpenFiles": [
+    "docs/interview/java多线程.md",
     "docs/advance/简历.md",
     "docs/templates/template-tech.md",
     "docs/advance/Hello，MacOS.md",
@@ -347,7 +348,6 @@
     "docs/advance/VS code.md",
     "散装 JoeHuang.md",
     "docs/templates/interview-template.md",
-    "docs/advance/Gradle.md",
     "docs/templates",
     "replace.js",
     "docs/markdown-link-resolver/index.js",
