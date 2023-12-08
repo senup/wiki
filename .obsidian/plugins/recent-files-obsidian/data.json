@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "chatGPT",
+      "path": "docs/advance/chatGPT.md"
+    },
+    {
       "basename": "jvm",
       "path": "docs/advance/jvm.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "面试现场",
       "path": "docs/interview/面试现场.md"
-    },
-    {
-      "basename": "chatGPT",
-      "path": "docs/advance/chatGPT.md"
     },
     {
       "basename": "spring",

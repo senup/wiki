@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/advance/jvm.md",
+                "file": "docs/advance/chatGPT.md",
                 "mode": "source",
                 "source": false
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "threadlocal",
+                "query": "gpt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/advance/jvm.md"
+                "file": "docs/advance/chatGPT.md"
               }
             }
           },
@@ -274,7 +274,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/advance/jvm.md",
+                "file": "docs/advance/chatGPT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,7 +291,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/advance/jvm.md",
+                "file": "docs/advance/chatGPT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -322,6 +322,7 @@
   },
   "active": "c00fb84a957a41b3",
   "lastOpenFiles": [
+    "docs/advance/jvm.md",
     "docs/interview/java多线程.md",
     "docs/advance/简历.md",
     "docs/templates/template-tech.md",
@@ -330,7 +331,6 @@
     "docs/interview/面试现场.md",
     "docs/advance/chatGPT.md",
     "docs/interview/spring.md",
-    "docs/advance/jvm.md",
     "docs/advance/场景题.md",
     "docs/advance/java.md",
     "docs/advance/分布式.md",
