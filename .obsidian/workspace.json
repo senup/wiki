@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/advance/chatGPT.md",
+                "file": "docs/advance/简历.md",
                 "mode": "source",
                 "source": false
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gpt",
+                "query": "简历",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/advance/chatGPT.md"
+                "file": "docs/advance/简历.md"
               }
             }
           },
@@ -274,7 +274,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/advance/chatGPT.md",
+                "file": "docs/advance/简历.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,7 +291,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/advance/chatGPT.md",
+                "file": "docs/advance/简历.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -322,6 +322,7 @@
   },
   "active": "c00fb84a957a41b3",
   "lastOpenFiles": [
+    "docs/advance/chatGPT.md",
     "docs/advance/jvm.md",
     "docs/interview/java多线程.md",
     "docs/advance/简历.md",
@@ -329,7 +330,6 @@
     "docs/advance/Hello，MacOS.md",
     "docs/advance/MacOS.md",
     "docs/interview/面试现场.md",
-    "docs/advance/chatGPT.md",
     "docs/interview/spring.md",
     "docs/advance/场景题.md",
     "docs/advance/java.md",

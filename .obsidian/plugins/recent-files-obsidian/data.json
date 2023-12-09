@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "简历",
+      "path": "docs/advance/简历.md"
+    },
+    {
       "basename": "chatGPT",
       "path": "docs/advance/chatGPT.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "java多线程",
       "path": "docs/interview/java多线程.md"
-    },
-    {
-      "basename": "简历",
-      "path": "docs/advance/简历.md"
     },
     {
       "basename": "template-tech",
