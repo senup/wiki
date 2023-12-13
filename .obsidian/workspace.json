@@ -138,9 +138,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "89d9f38ddb83f2af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/advance/面试题.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -160,7 +172,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "简历",
+                "query": "面试题",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -201,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/advance/简历.md"
+                "file": "docs/advance/面试题.md"
               }
             }
           },
@@ -274,7 +286,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/advance/简历.md",
+                "file": "docs/advance/面试题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,7 +303,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/advance/简历.md",
+                "file": "docs/advance/面试题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -320,12 +332,13 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "c00fb84a957a41b3",
+  "active": "89d9f38ddb83f2af",
   "lastOpenFiles": [
+    "docs/advance/简历.md",
+    "docs/advance/面试题.md",
     "docs/advance/chatGPT.md",
     "docs/advance/jvm.md",
     "docs/interview/java多线程.md",
-    "docs/advance/简历.md",
     "docs/templates/template-tech.md",
     "docs/advance/Hello，MacOS.md",
     "docs/advance/MacOS.md",
@@ -347,7 +360,6 @@
     "docs/advance/shellclash.md",
     "docs/advance/VS code.md",
     "散装 JoeHuang.md",
-    "docs/templates/interview-template.md",
     "docs/templates",
     "replace.js",
     "docs/markdown-link-resolver/index.js",
