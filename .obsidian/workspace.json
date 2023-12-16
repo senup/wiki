@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/interview/面试现场.md",
+                "file": "docs/advance/redis 开发与运维.md",
                 "mode": "source",
                 "source": false
               }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "redis",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/interview/面试现场.md"
+                "file": "docs/advance/redis 开发与运维.md"
               }
             }
           },
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/interview/面试现场.md",
+                "file": "docs/advance/redis 开发与运维.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/interview/面试现场.md",
+                "file": "docs/advance/redis 开发与运维.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,8 +199,9 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "77d6edc82ddabe77",
+  "active": "adbcb4b0a352747b",
   "lastOpenFiles": [
+    "docs/interview/面试现场.md",
     "docs/interview/redis.md",
     "docs/advance/redis 开发与运维.md",
     "docs/advance/面试题.md",
@@ -211,7 +212,6 @@
     "docs/templates/template-tech.md",
     "docs/advance/Hello，MacOS.md",
     "docs/advance/MacOS.md",
-    "docs/interview/面试现场.md",
     "docs/interview/spring.md",
     "docs/advance/场景题.md",
     "docs/advance/java.md",
