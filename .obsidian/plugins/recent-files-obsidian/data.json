@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "面试现场",
+      "path": "docs/interview/面试现场.md"
+    },
+    {
+      "basename": "redis",
+      "path": "docs/interview/redis.md"
+    },
+    {
       "basename": "redis 开发与运维",
       "path": "docs/advance/redis 开发与运维.md"
     },
@@ -41,10 +49,6 @@
       "path": "docs/advance/java.md"
     },
     {
-      "basename": "面试现场",
-      "path": "docs/interview/面试现场.md"
-    },
-    {
       "basename": "spring",
       "path": "docs/interview/spring.md"
     },
@@ -71,10 +75,6 @@
     {
       "basename": "socket",
       "path": "docs/interview/socket.md"
-    },
-    {
-      "basename": "redis",
-      "path": "docs/interview/redis.md"
     },
     {
       "basename": "spring-aop",
