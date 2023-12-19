@@ -176,5 +176,64 @@ Anuppuccin 主题的 style setting
 
 
 ### 插件推荐
+官方教程：
+[PopClip Extensions Developer Reference](https://www.popclip.app/dev/)
 
-待补充。
+Obsidan 剪藏
+
+```
+# PopClip - Obsidian extension, markdown variant
+name: ClipToOB
+icon: symbol:text.badge.plus
+options:
+- identifier: vault
+  label: Vault Name
+  type: string
+capture html: true
+javascript: | 
+  const [time, vaultName, urlTitle, url] = [
+    new Date().toLocaleTimeString(),
+    encodeURIComponent(popclip.options.vault),
+    popclip.context.browserTitle,
+    popclip.context.browserUrl
+  ];
+  
+  let clipping = `${popclip.input.markdown}`;
+  
+  if (url.length > 0) clipping = `Time: ${time} \nFrom: [${urlTitle}](${url})\n\n${clipping}\n\n---`;
+  
+  clipping = encodeURIComponent(clipping);
+  
+  popclip.openUrl(`obsidian://advanced-uri?vault=${vaultName}&daily=true&data=%0A${clipping}&mode=append`);
+#end
+```
+
+
+obsidian 拷贝拓展
+```
+
+# popclip
+name: Markdown Helpers
+requirements: [text, paste]
+required apps: [md.obsidian, com.apple.mail]
+actions:
+- icon: </>
+  title: 代码块
+  javascript: popclip.pasteText('``` \n' + popclip.input.text + '\n```')
+- icon: symbol:highlighter
+  title: 下划线
+  javascript: popclip.pasteText('<u>' + popclip.input.text + '</u>')
+- icon: symbol:strikethrough
+  title: 删除线
+  javascript: popclip.pasteText('~~' + popclip.input.text + '~~')
+- icon: symbol:bold
+  title: 加粗
+  javascript: popclip.pasteText('**' + popclip.input.text + '**')
+- icon: symbol:italic
+  title: 斜体
+  javascript: popclip.pasteText('_' + popclip.input.text + '_')
+- icon: symbol:text.quote
+  title: 引用
+  javascript: popclip.pasteText('> ' + popclip.input.text)
+
+```
