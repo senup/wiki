@@ -1,5 +1,5 @@
 ---
-title: Hello，Obsidian
+title: Obsidian
 date: 2023-11-19T02:14:00
 tags:
   - odsidian
@@ -11,21 +11,19 @@ feature:
 isTop: false
 ---
 
-
 开始学习 Obsidian 这个知识管理工具。不过我发现 b 站的教程很多都讲不懂一件事情，反倒是油管的博主玩的很花，说明这个工具在国内还不是特别流行。所以我浅浅记录下学习的内容。
 
 ### 推荐博主
+
 - Nicole
 - Danny
 - 简悦课堂
-
 
 ### 主题设置
 
 整体效果：
 
 ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202311191438912.png)
-
 
 强烈推荐这个[霞鹜文楷](https://github.com/lxgw/LxgwWenKai/releases)，阅读起来非常舒服，字体下载完毕之后，在系统里面指定使用此字体即可。
 
@@ -172,16 +170,18 @@ Anuppuccin 主题的 style setting
 }
 ```
 
-
-
-
 ### 插件推荐
+
 官方教程：
 [PopClip Extensions Developer Reference](https://www.popclip.app/dev/)
 
 Obsidan 剪藏
 
-```
+- Obsidian 下载 advance url 插件
+- 全选下面这段代码安装插件
+- 菜单栏 popclip 配置 vault 的名称
+
+```shell
 # PopClip - Obsidian extension, markdown variant
 name: ClipToOB
 icon: symbol:text.badge.plus
@@ -190,27 +190,27 @@ options:
   label: Vault Name
   type: string
 capture html: true
-javascript: | 
+javascript: |
   const [time, vaultName, urlTitle, url] = [
     new Date().toLocaleTimeString(),
     encodeURIComponent(popclip.options.vault),
     popclip.context.browserTitle,
     popclip.context.browserUrl
   ];
-  
+
   let clipping = `${popclip.input.markdown}`;
-  
+
   if (url.length > 0) clipping = `Time: ${time} \nFrom: [${urlTitle}](${url})\n\n${clipping}\n\n---`;
-  
+
   clipping = encodeURIComponent(clipping);
-  
+
   popclip.openUrl(`obsidian://advanced-uri?vault=${vaultName}&daily=true&data=%0A${clipping}&mode=append`);
 #end
 ```
 
-
 obsidian 拷贝拓展
-```
+
+````shell
 
 # popclip
 name: Markdown Helpers
@@ -219,7 +219,7 @@ required apps: [md.obsidian, com.apple.mail]
 actions:
 - icon: </>
   title: 代码块
-  javascript: popclip.pasteText('``` \n' + popclip.input.text + '\n```')
+  javascript: popclip.pasteText('```shell \n' + popclip.input.text + '\n```')
 - icon: symbol:highlighter
   title: 下划线
   javascript: popclip.pasteText('<u>' + popclip.input.text + '</u>')
@@ -236,4 +236,19 @@ actions:
   title: 引用
   javascript: popclip.pasteText('> ' + popclip.input.text)
 
+````
+
+翻译功能
+```shell
+# popclip
+name: Easydict
+icon: iconify:ri:translate
+interpreter: zsh
+shell script: |
+  result=$(ps aux | grep Easydict.app | wc -l)
+  if [[ $result -lt 2 ]];then
+    open /Applications/Easydict.app
+    sleep 2
+  fi
+  open "easydict://query?text=$POPCLIP_TEXT"
 ```
