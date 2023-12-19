@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "300d173481a1526b",
+        "id": "d8b5867a00dbc8b1",
         "type": "tabs",
         "children": [
           {
-            "id": "067fbd98df7c1a50",
+            "id": "0211b203c2c72731",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
                 "file": "daily/2023/12-十二月/2023-12-19_周二.md",
-                "staged": false
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -78,7 +79,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "daily/2023/12-十二月/2023-12-19_周二.md"
+              }
             }
           },
           {
@@ -90,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "b406ae98ecade2d0",
@@ -151,6 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "daily/2023/12-十二月/2023-12-19_周二.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,6 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "daily/2023/12-十二月/2023-12-19_周二.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,9 +199,16 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "067fbd98df7c1a50",
+  "active": "0211b203c2c72731",
   "lastOpenFiles": [
     "daily/2023/12-十二月/2023-12-19_周二.md",
+    "docs/advance/分布式.md",
+    "黑曜石 URI - 黑曜石帮助.md",
+    "Obsidian Advanced URI | Obsidian Advanced URI.md",
+    "docs/advance/my note.md",
+    "docs/advance/未命名.md",
+    "2023-W51.md",
+    "docs/index.md",
     "docs/advance/Clippings.md",
     "daily/2023/12-十二月",
     "daily/2023",
@@ -215,16 +227,9 @@
     "docs/interview/spring.md",
     "docs/advance/场景题.md",
     "docs/advance/java.md",
-    "docs/advance/分布式.md",
     "docs/advance/MySQL.md",
     "docs/interview/spring源码.md",
     "docs/advance/自我介绍.md",
-    "docs/interview/socket.md",
-    "docs/interview/spring-aop.md",
-    "docs/interview/spring-ioc.md",
-    "docs/interview/springboot-data.md",
-    "docs/advance/散装 JoeHuang.md",
-    "docs/advance/面试准备.md",
     "docs/templates",
     "replace.js",
     "docs/markdown-link-resolver/index.js",

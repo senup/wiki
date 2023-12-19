@@ -5,6 +5,26 @@
       "path": "daily/2023/12-十二月/2023-12-19_周二.md"
     },
     {
+      "basename": "分布式",
+      "path": "docs/advance/分布式.md"
+    },
+    {
+      "basename": "黑曜石 URI - 黑曜石帮助",
+      "path": "黑曜石 URI - 黑曜石帮助.md"
+    },
+    {
+      "basename": "Obsidian Advanced URI | Obsidian Advanced URI",
+      "path": "Obsidian Advanced URI | Obsidian Advanced URI.md"
+    },
+    {
+      "basename": "my note",
+      "path": "docs/advance/my note.md"
+    },
+    {
+      "basename": "index",
+      "path": "docs/index.md"
+    },
+    {
       "basename": "Clippings",
       "path": "docs/advance/Clippings.md"
     },
@@ -65,10 +85,6 @@
       "path": "docs/advance/场景题.md"
     },
     {
-      "basename": "分布式",
-      "path": "docs/advance/分布式.md"
-    },
-    {
       "basename": "MySQL",
       "path": "docs/advance/MySQL.md"
     },
@@ -119,10 +135,6 @@
     {
       "basename": "Gradle",
       "path": "docs/advance/Gradle.md"
-    },
-    {
-      "basename": "index",
-      "path": "docs/index.md"
     },
     {
       "basename": "vitePress",
