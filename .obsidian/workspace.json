@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "05060feb9003524b",
+        "id": "e0cc046e5fa1bba4",
         "type": "tabs",
         "children": [
           {
-            "id": "adbcb4b0a352747b",
+            "id": "c2a2c48fb3503125",
             "type": "leaf",
             "state": {
               "type": "diff-view",
@@ -176,8 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,9 +194,13 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "adbcb4b0a352747b",
+  "active": "c2a2c48fb3503125",
   "lastOpenFiles": [
+    "daily/2023/12-十二月/2023-12-19_周二.md",
     "docs/advance/Clippings.md",
+    "daily/2023/12-十二月",
+    "daily/2023",
+    "daily",
     "docs/advance/redis 开发与运维.md",
     "docs/interview/面试现场.md",
     "docs/interview/redis.md",
@@ -222,7 +225,6 @@
     "docs/interview/springboot-data.md",
     "docs/advance/散装 JoeHuang.md",
     "docs/advance/面试准备.md",
-    "docs/advance/shellclash.md",
     "docs/templates",
     "replace.js",
     "docs/markdown-link-resolver/index.js",
@@ -230,9 +232,6 @@
     "node_modules/entities/lib/maps/xml.json",
     "node_modules/entities/lib/maps/legacy.json",
     "node_modules/entities/lib/maps/entities.json",
-    "node_modules/entities/lib/generated/decode-data-xml.d.ts.map",
-    "node_modules/entities/lib/generated/decode-data-xml.js",
-    "node_modules/entities/lib/generated/decode-data-html.js",
     "docs 2/public/logo.png",
     "docs 2/public/developer.gif",
     "node_modules 2/gitalk/src/assets/icon/tip.svg",
