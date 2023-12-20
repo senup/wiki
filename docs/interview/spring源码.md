@@ -274,47 +274,45 @@ ObtainFreshBeanFactory 如它的名字一样，就是包含了刷新和获取的
 ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202311201806645.png)
 ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202311201806721.png)
 
-
-
 也就是说广播器接收到一个事件之后，会将事件通知到所有 Spring 容器中的所有监听器，并且调用监听器中的 onApplicationEvent 方法来处理相应的事件。
 
-> Spring 这套基于事件驱动的机制，相信大家现在应该也比较清楚了，主要就是通过广播器ApplicationEventMulticaster 和监听器 ApplicationListener 来实现的，大家也可以理解为是发布一订阅模式， ApplicationEventMulticaster 用来广播发布事件，ApplicationListener 监听订阅事件，每种监听器负责处理一种或多种事件。
-> 
+> Spring 这套基于事件驱动的机制，相信大家现在应该也比较清楚了，主要就是通过广播器 ApplicationEventMulticaster 和监听器 ApplicationListener 来实现的，大家也可以理解为是发布一订阅模式， ApplicationEventMulticaster 用来广播发布事件，ApplicationListener 监听订阅事件，每种监听器负责处理一种或多种事件。
+>
 > 而且，如果大家冷静分析一下会发现，其实 Spring 这套发布订阅的模式，采用的就是设计模式中的观察者模式，ApplicationEventMulticaster 作为广播事件的 subject，属于被观察者，ApplicationListener 作为 Observer 观察者，最终是用来处理相应的事件的，属于观察者 Observer。
 
-
 ### OnRefresh
+
 空实现，用于留给字类去拓展实现实例化 Bean 之前，做一些其他初始化 Bean 的工作。
 
-### RegisterListeners 
+### RegisterListeners
+
 讲参数中和容器内的监听器收集起来注册到广播器中，这里就能从广播器中获取到监听器。
 
-### FinishBeanFactoryInitialization (beanFactory) 
+### FinishBeanFactoryInitialization (beanFactory)
 
 不是懒加载的 Bean 就需要预加载。实现思路是从 beanDefinitionNames 的数组里面挨个判断，满足预加载就先加载。如果是单例，name 就会将实例化好的 Bean 放一份到单例缓存中，下次获取直接从缓存里面拿。
 
+### FinishRefresh
 
-### FinishRefresh 
 开启 Spring 的生命周期。将有生命周期的 Bean 做一个生命周期的管理。
 
 根据我们前面的源码分析，事件 ContextRefreshedEvent 将会注册到广播器中，广播器会把该事件广播器相应的监听器去处理，这个事件相当于告诉 Spring 整个容器已经刷新了，也就说 Spring 容器 ApplicationContext 经初始化完毕了。
 
 ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202311201830761.png)
 
-
 ## Bean
 
 从 getBean 方法来看，方法主要是从容器里面根据 Bean 的名称获取 Bean。
 
-
 在此之前会判断容器的一个状态：如果是激活状态则跳过；否则就会判断关闭状态。这种没有激活的状态更细化是关闭还是还没被激活，两种都会相对应的抛出异常。
 
 <span style="background:#fff88f">存疑？</span>
+
 > 获取 Bean 的时候会在 while 循环里面一直通过传入的名称去别名缓存里面找 Bean 的真正名称。比如一开始传入 hello，那么找到了 aHello，接下来又会根据 aHello 作为 key 找到 bHello... 直到找到 zHello 后再也找不到那么久把 zHello 当成真正的 beanName。
 > 从这个循环其实就解释了上面为什么 Bean 会有循环，所以注入 Bean 的过程是会有 BeanName 循环的判断和拦截的。保证取 Bean 的时候不会出现无限循环耗尽内存。
 
-
 ### 多级缓存
+
 SingletonObjects 这个缓存主要是用来存放已经<font color="#2DC26B">完全</font>实例化好的单例 bean。
 
 EarlySingletonObjects 这个缓存用来存放早期单例，也就是还没实例化完成的 Bean，仅仅通过反射创建了但是属性还没有赋值的 Bean。
@@ -329,12 +327,9 @@ EarlySingletonObjects 这个缓存用来存放早期单例，也就是还没实�
 
 ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202311231048743.png)
 
-
-
 ### setter 类型的循环依赖
 
-两个 Bean 为了彼此的属性进行setter赋值而陷入死循环。
-
+两个 Bean 为了彼此的属性进行 setter 赋值而陷入死循环。
 
 ### 构造器类型的循环依赖
 
@@ -348,11 +343,10 @@ EarlySingletonObjects 这个缓存用来存放早期单例，也就是还没实�
 2. 然后来看下 Spring 具体是如何通过三级缓存来解决循环依赖的
 3. 最后来看下 Spring 中的这三级缓存存在的意义分别是什么
 
-
 ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202311231127391.png)
 
-
 Bean 的构造主要有三个过程：
+
 - 通过反射创建一个 Bean
 - 为刚创建的 Bean 填充属性
 - 初始化 Bean
@@ -366,23 +360,22 @@ Bean 的构造主要有三个过程：
 一级缓存为了维护 Bean 的全局唯一；二级缓存提高了循环依赖问题解决的效率，避免重复调用三级缓存获取早期单例 Bean。
 
 > 首先来看下 Spring 是如何判定单例 bean 是否为工厂引用的
-> 
+>
 > 然后通过一个案例，了解并体验下 FactoryBean 是怎么玩的
-> 
+>
 > 最后来看下 Spring 是如何通过 FactoryBean 来实例化 bean 的
 
 getBean 方法有三部分：
+
 - 如果是&号开头的 Bean，那么会移除前置符号然后直接返回对应的实例引用
 - 不是&号开头，也不是 factoryBean 的 Bean，直接返回实例
 - 如果是 factoryBean 且不为&开头，那么就会通过 factoryBean. GetObject () 方法获取对应的 Bean。
-![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202311231216913.png)
+  ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202311231216913.png)
 
 > 1. 先来看下 Spring 如果发现 prototype 类型 bean 正在创建会怎样
 > 2. 然后来看下 Spring 是如何从父类容器中获取 bean 的实例的
 > 3. 接着来看下 Spring 是如何从容器中获取，并封装 bean 对应的 BeanDefinition 的
 > 4. 最后来看下 Spring 对于自己依赖的那些 bean 是如何判定是否存在循环依赖，并提前实例化它们的
-
-
 
 <font color="#2DC26B">factoryBean 有什么优势</font>
 
@@ -394,12 +387,8 @@ getBean 方法有三部分：
 
 而且，如果 bean 配置了依赖的 bean 的名称，首先会检查下配置的依赖，是否已经处于 bean 依赖的引用链上了，如果没有处于 bean 依赖引用链上，就会提前来实例化 bean 依赖的那些 bean。
 
-
 > prototype 的 Bean 如果被发现被获取的时候就会直接抛出异常。为什么呢？因为不需要获取，每次都得拿最新创建的 Bean。
 
-
-1. 先来简单看下 Spring 在实例化 bean 前后都会做些什么事情，寻找下真正实例化 bean 的入口在哪 
+1. 先来简单看下 Spring 在实例化 bean 前后都会做些什么事情，寻找下真正实例化 bean 的入口在哪
 2. 然后来看下 Spring 在实例化之前，会做哪些准备工作
 3. 最后来看下 Spring 又是如何在 bean 实例化之前，提供一个机会让外界去介入 bean 的实例化过程的
-
-

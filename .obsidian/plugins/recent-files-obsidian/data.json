@@ -9,6 +9,30 @@
       "path": "daily/2023/12-十二月/2023-12-19_周二.md"
     },
     {
+      "basename": "spring源码",
+      "path": "docs/interview/spring源码.md"
+    },
+    {
+      "basename": "jvm",
+      "path": "docs/advance/jvm.md"
+    },
+    {
+      "basename": "chatGPT",
+      "path": "docs/advance/chatGPT.md"
+    },
+    {
+      "basename": "操作系统-死锁",
+      "path": "docs/interview/操作系统-死锁.md"
+    },
+    {
+      "basename": "简历",
+      "path": "docs/advance/简历.md"
+    },
+    {
+      "basename": "面试现场",
+      "path": "docs/interview/面试现场.md"
+    },
+    {
       "basename": "Obsidian",
       "path": "docs/advance/Obsidian.md"
     },
@@ -45,28 +69,12 @@
       "path": "docs/advance/redis 开发与运维.md"
     },
     {
-      "basename": "面试现场",
-      "path": "docs/interview/面试现场.md"
-    },
-    {
       "basename": "redis",
       "path": "docs/interview/redis.md"
     },
     {
       "basename": "面试题",
       "path": "docs/advance/面试题.md"
-    },
-    {
-      "basename": "简历",
-      "path": "docs/advance/简历.md"
-    },
-    {
-      "basename": "chatGPT",
-      "path": "docs/advance/chatGPT.md"
-    },
-    {
-      "basename": "jvm",
-      "path": "docs/advance/jvm.md"
     },
     {
       "basename": "java多线程",
@@ -95,10 +103,6 @@
     {
       "basename": "MySQL",
       "path": "docs/advance/MySQL.md"
-    },
-    {
-      "basename": "spring源码",
-      "path": "docs/interview/spring源码.md"
     },
     {
       "basename": "自我介绍",
@@ -191,10 +195,6 @@
     {
       "basename": "剑指offer",
       "path": "docs/interview/剑指offer.md"
-    },
-    {
-      "basename": "操作系统-死锁",
-      "path": "docs/interview/操作系统-死锁.md"
     }
   ],
   "omittedPaths": [],

@@ -105,7 +105,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "b406ae98ecade2d0",
@@ -214,8 +215,14 @@
   "active": "edd0f1b5fde2f296",
   "lastOpenFiles": [
     "daily/2023/12-十二月/2023-12-19_周二.md",
-    "docs/advance/Obsidian.md",
     "daily/2023/12-十二月/2023-12-20_周三.md",
+    "docs/interview/spring源码.md",
+    "docs/advance/jvm.md",
+    "docs/advance/chatGPT.md",
+    "docs/interview/操作系统-死锁.md",
+    "docs/advance/简历.md",
+    "docs/interview/面试现场.md",
+    "docs/advance/Obsidian.md",
     "docs/advance/Hello，MacOS.md",
     "docs/advance/分布式.md",
     "黑曜石 URI - 黑曜石帮助.md",
@@ -229,19 +236,13 @@
     "daily/2023",
     "daily",
     "docs/advance/redis 开发与运维.md",
-    "docs/interview/面试现场.md",
     "docs/interview/redis.md",
     "docs/advance/面试题.md",
-    "docs/advance/简历.md",
-    "docs/advance/chatGPT.md",
-    "docs/advance/jvm.md",
     "docs/interview/java多线程.md",
     "docs/templates/template-tech.md",
     "docs/advance/MacOS.md",
     "docs/interview/spring.md",
     "docs/advance/场景题.md",
-    "docs/advance/java.md",
-    "docs/advance/MySQL.md",
     "docs/templates",
     "replace.js",
     "docs/markdown-link-resolver/index.js",
