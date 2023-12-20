@@ -239,6 +239,7 @@ actions:
 ````
 
 翻译功能
+
 ```shell
 # popclip
 name: Easydict
