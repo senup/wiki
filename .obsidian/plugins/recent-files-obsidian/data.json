@@ -5,6 +5,38 @@
       "path": "docs/interview/toc.md"
     },
     {
+      "basename": "缓存",
+      "path": "docs/interview/缓存.md"
+    },
+    {
+      "basename": "分布式",
+      "path": "docs/interview/分布式.md"
+    },
+    {
+      "basename": "分布式系统",
+      "path": "docs/interview/分布式系统.md"
+    },
+    {
+      "basename": "场景题",
+      "path": "docs/interview/场景题.md"
+    },
+    {
+      "basename": "读写锁",
+      "path": "docs/interview/读写锁.md"
+    },
+    {
+      "basename": "MacOS",
+      "path": "docs/interview/MacOS.md"
+    },
+    {
+      "basename": "springCloud2023",
+      "path": "docs/interview/springCloud2023.md"
+    },
+    {
+      "basename": "设计模式2023",
+      "path": "docs/interview/设计模式2023.md"
+    },
+    {
       "basename": "VS code",
       "path": "docs/interview/VS code.md"
     },
@@ -51,10 +83,6 @@
     {
       "basename": "PDF expert",
       "path": "docs/interview/PDF expert.md"
-    },
-    {
-      "basename": "MacOS",
-      "path": "docs/interview/MacOS.md"
     },
     {
       "basename": "kafka2023",
@@ -107,14 +135,6 @@
     {
       "basename": "简历",
       "path": "docs/interview/简历.md"
-    },
-    {
-      "basename": "分布式",
-      "path": "docs/interview/分布式.md"
-    },
-    {
-      "basename": "场景题",
-      "path": "docs/interview/场景题.md"
     },
     {
       "basename": "Obsidian",
@@ -179,26 +199,6 @@
     {
       "basename": "template-tech",
       "path": "docs/templates/template-tech.md"
-    },
-    {
-      "basename": "spring",
-      "path": "docs/interview/spring.md"
-    },
-    {
-      "basename": "socket",
-      "path": "docs/interview/socket.md"
-    },
-    {
-      "basename": "spring-aop",
-      "path": "docs/interview/spring-aop.md"
-    },
-    {
-      "basename": "spring-ioc",
-      "path": "docs/interview/spring-ioc.md"
-    },
-    {
-      "basename": "springboot-data",
-      "path": "docs/interview/springboot-data.md"
     }
   ],
   "omittedPaths": [],
