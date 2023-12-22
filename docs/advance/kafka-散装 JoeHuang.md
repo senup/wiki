@@ -47,23 +47,9 @@ IsTop: false
 和 Zookeper
 
 
-## 发送数据
-
-生产消息发送到分区的流程
+![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221249807.png)
 
 
 
-生产者、leader、follower、zk
-流程
-高可用写入
-
-
-消息与分区与高性能
-
-画图
-写分区的策略
-生产消息关注的 api
-自定义拦截器 api
-自定义分区
 
 <!--more-->
