@@ -504,32 +504,75 @@ OK，言归正传，让我们来详细介绍一下 undo log：
 
 通过 checkpoint 和 write point，MySQL 有了一套有效的日志管理和恢复系统，就像跑酷游戏中设置了各种检查点和目标点，确保了你的精彩进程不会因为一个小错误而全无。
 
+## Binlog
 
+让我们一起开启一场探索 binlog 的旅程吧！
 
+首先，binlog 的角色如同一个历史记录员，在 MySQL 的王国中，它详细地记录下了每一笔修改数据的事情。这可不是儿戏，因为有了 binlog，我们才能做到数据的恢复、备份，以及实现主从复制。
 
-![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221324860.png)
+1. **作用与文件写入方式：**
 
-![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221325412.png)
+   - **作用**：它的作用就是记录数据库的所有操作，以便在系统崩溃后恢复数据，或者在主从同步中复制数据。
+   - **文件写入方式**：它采用追加写的方式，就如同你写日记一样，每发生一次操作就记下一页。而这个日记本是无底洞，可以写入无穷无尽的内容。
 
-![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221326108.png)
+2. **三种格式类型：**
 
-![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221325058.png)
+   - **Statement Format**：只记录 SQL 语句，相当于一名侦探，仅仅告诉我们犯罪现场的情况。
+   - **Row Format**：记录行的详细变化，就像一部现场记录片，虽然浪费一些空间，但是可以真实反映事情的经过。
+   - **Mixed Format**：是 Statement 和 Row 两种格式的混合，像一部带有旁白的纪录片，既有侦探的聪明，又有记录片的真实。
 
-![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221327522.png)
+3. **主从同步如何实现：**
 
-![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221328764.png)
+   - 主服务器的所有修改都被记入 binlog 中
+   - 从服务器有两个线程，一个是 I/O 线程，从主服务器复制 binlog 到本地，另一个是 SQL 线程，执行这些 binlog。
+   - 从服务器在执行完 binlog 后，确定数据已经和主服务器一致。
 
-![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221328148.png)
+所以说，MySQL 的 binlog 就好像是一个万能的议事记录员，他不仅仅记录下每一次会议的内容，而且还能把这些内容复制到各个会议室，使得所有人都了解情况
 
-![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221328855.png)
+## 主从同步
 
-![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221329560.png)
+让我们继续学习 MySQL 的主从节点同步类型，在此过程中，我会用一个舞台剧制作的例子来帮助你理解。
 
-![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221329908.png)
+1.  **同步类型：**
 
-![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221329520.png)
+    - **完全同步**：类似于一个严格的舞台剧导演，他需要等到所有的演员都准备好才能开幕。在 MySQL 里，它指的是主服务器在确认所有从服务器都写入了这条操作后，才算完成这次写入。
+    - **异步（默认）**：这就像一位随性的导演，他一下发出指令，就不用管其他人是否准备好。在 MySQL 中，它指的是主服务器在写入操作后，不用等待任何从服务器的响应，就算完成此次操作。
+    - **半同步**：这是个折中的导演，他可以接受部分演员准备好就开幕。在 MySQL 中，投入到半同步模式后，主服务器在获得一个或更多从服务器的响应后，就算完成此次写入。
+
+2.  **binlog 的刷盘时机：**
+
+    - 0 表示操作系统负责，当操作系统觉得合适的时候就刷盘。
+    - 1 表示每写入一条语句，就刷盘一次。这保证了数据的安全性，但是效率较低。
+    - N 表示每写入 N 条语句，就刷盘一次，这是个折中的策略。
+
+3.  **主从同步延迟：**  有如下一些常见的原因： - 网络问题：这就好像演员们都在不同的城市，交通阻碍了他们的到来。 - 从节点性能问题：如果一个演员表演得太慢，会拖慢整个剧的进度。 - 处理大量操作：这就像演员们要表演很多场戏，需要花费更多的时间。
+    ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221328764.png)
+
+## 两阶段提交
+
+两阶段提交（2PC）就像是一个小组决策的过程，我们需要所有人的参与才能做出最终决定。让我们一起依次理解这些问题：
+
+1.  **为什么要两阶段提交：**
+
+    - 如果采用一阶段提交，在多个操作同时发生时，可能会出现一些问题。比如你举的例子，只完成了一部分操作(posting the redolog but not binlog, or vice versa)，这就导致了数据的不一致性。
+    - 两阶段提交可以避免这种状况，确保所有操作都成功提交或者全部回滚，这就保证了数据的一致性。
+
+2.  **如何实现两阶段提交：**
+
+    - **Prepare 阶段**：假设我们小组要决定吃什么，首先每个人都要独立考虑自己的选择，并保证自己不会改变决定。在 MySQL 中，就是每个节点要将修改写入 redo log，并做好提交准备。
+    - **Commit 阶段**：然后我们一起投票，如果所有人都投了同样的票，那么就执行这个决定。在 MySQL 中，如果所有节点都准备好了，就提交所有的修改。
+
+3.  **异常如何回滚与提交：**
+
+    - 在 Prepare 阶段，如果有任何节点失败，那么所有节点都需要回滚。这就像如果任何一个组员无法接受打算吃的菜品，那么我们全部放弃这个选择。
+
+4.  **为什么需要组提交，组提交是什么？**
+        - 组提交就像是一次集体投票，所有的投票在一次公布结果。这样可以降低等待时间，提高效率。
+
+    ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221329520.png)
 
 ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221330780.png)
+
 
 ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221330562.png)
 
