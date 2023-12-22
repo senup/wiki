@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Java多线程关键字-joehuang",
+      "path": "docs/advance/Java多线程关键字-joehuang.md"
+    },
+    {
       "basename": "Java 线程池-joehuang",
       "path": "docs/advance/Java 线程池-joehuang.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "redis-joehuang",
       "path": "docs/advance/redis-joehuang.md"
-    },
-    {
-      "basename": "Java多线程关键字-joehuang",
-      "path": "docs/advance/Java多线程关键字-joehuang.md"
     },
     {
       "basename": "Java 集合-joehuang",
