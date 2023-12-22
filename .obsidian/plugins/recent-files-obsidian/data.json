@@ -5,6 +5,10 @@
       "path": "docs/interview/toc.md"
     },
     {
+      "basename": "VSCode",
+      "path": "docs/interview/VSCode.md"
+    },
+    {
       "basename": "QuantumultX",
       "path": "docs/interview/QuantumultX.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "vitePress",
       "path": "docs/interview/vitePress.md"
-    },
-    {
-      "basename": "VSCode",
-      "path": "docs/interview/VSCode.md"
     },
     {
       "basename": "Java集合2023",

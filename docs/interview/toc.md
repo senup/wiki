@@ -82,7 +82,7 @@
 
 ### 📒 软件
 - [Obsidian](Obsidian.md)
-- [VScode](VScode.md)
+- [VSCode](VSCode.md)
 - [Raycast](Raycast.md)
 - [QuantumultX](QuantumultX.md)
 - [shellclash](shellclash.md)
