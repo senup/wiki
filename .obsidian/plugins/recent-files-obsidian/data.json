@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "消息队列",
+      "path": "docs/interview/消息队列.md"
+    },
+    {
       "basename": "toc",
       "path": "docs/interview/toc.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "java多线程",
       "path": "docs/interview/java多线程.md"
-    },
-    {
-      "basename": "template-tech",
-      "path": "docs/templates/template-tech.md"
     }
   ],
   "omittedPaths": [],

@@ -80,13 +80,20 @@
 
 ### 📒 软件
 - [Obsidian](Obsidian.md)
-- 【】
+- [[VS code]]
+- [[Raycast]]
+- [[Quantumult X]]
+- [[shellclash]]
+- [[PDF expert]]
+- [[IDEA]]
+- [[chatGPT]]
 
 ### 🗯️ OS
 - [[MacOS]]
 - [[iOS]]
 
-
+### 🧸 硬件
+- [[Apple TV]]
 
 -----
 
