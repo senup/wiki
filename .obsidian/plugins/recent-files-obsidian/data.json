@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "2023-12-22_周五",
-      "path": "daily/2023/12-十二月/2023-12-22_周五.md"
-    },
-    {
       "basename": "jvm-joehuang",
       "path": "docs/advance/jvm-joehuang.md"
+    },
+    {
+      "basename": "jvm",
+      "path": "docs/advance/jvm.md"
+    },
+    {
+      "basename": "2023-12-22_周五",
+      "path": "daily/2023/12-十二月/2023-12-22_周五.md"
     },
     {
       "basename": "spring-joehuang",
@@ -55,10 +59,6 @@
     {
       "basename": "spring源码",
       "path": "docs/interview/spring源码.md"
-    },
-    {
-      "basename": "jvm",
-      "path": "docs/advance/jvm.md"
     },
     {
       "basename": "chatGPT",
