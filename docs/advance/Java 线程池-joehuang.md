@@ -119,43 +119,63 @@ IsTop: false
 ## 常见线程池
 
 1. `FixedThreadPool`： 创建一个固定数量的线程池，每个线程使用无界的队列，当所有线程均处于活动状态时，新任务会等待队列中的空余空间。
-    
-2. `CachedThreadPool`：创建一个根据需要（新任务到来时）会创建新线程的线程池，但在以前构建的线程可用时将重用它们。 对于执行很多短期异步任务的程序来说，这种线程池通常可以提供方便的服务。
-    
+2. `CachedThreadPool`：创建一个根据需要（新任务到来时）会创建新线程的线程池，但在以前构建的线程可用时将重用它们。对于执行很多短期异步任务的程序来说，这种线程池通常可以提供方便的服务。
 3. `ScheduledThreadPool`： 创建一个可在给定延迟后运行或定期执行任务的线程池。
-    
 4. `SingleThreadExecutor`：创建仅包含单个工作线程的线程池，所有任务都是保证按照任务到达的顺序执行。
 
-|#|类型|核心数量|最大数量|非核心线程超时时间|队列|应用场景|
-|---|---|---|---|---|---|---|
-|1|FixedThreadPool|固定|固定|不会被回收|LinkedBlockingQueue|适用于长期运行的任务|
-|2|CachedThreadPool|0|Integer.MAX_VALUE|60s|SynchronousQueue|适用于执行大量的、耗时少的任务|
-|3|ScheduledThreadPool|固定|Integer.MAX_VALUE|不会被回收|DelayedWorkQueue|适用于需要周期性或者延迟执行任务的场景|
-|4|SingleThreadExecutor|1|1|不会被回收|LinkedBlockingQueue|适用于需要保证任务按顺序执行的场景|
-
-  
-
-以上就是我对Java中常用线程池的总结，以markdown表格的形式呈现，希望能帮助到你。在编程的世界里，我们总是希望挑选最适合的工具来完成任务，所以，你在面对不同的问题时，可以根据线程池的特性来选择最适合的类型。
-
-```
-P1 线程池的核心参数
-
-P2 01任务提交流程
-
-> P3 02创建worker
-
-P4 03worker执行任务
-
-P5 04获取任务
-
-P6 05worker销毁
-
-P7 06线程池关闭流程
-
-P8 常见线程池
-
-```
+| #   | 类型                 | 核心数量 | 最大数量          | 非核心线程超时时间 | 队列                | 应用场景                               |
+| --- | -------------------- | -------- | ----------------- | ------------------ | ------------------- | -------------------------------------- |
+| 1   | FixedThreadPool      | 固定     | 固定              | 不会被回收         | LinkedBlockingQueue | 适用于长期运行的任务                   |
+| 2   | CachedThreadPool     | 0        | Integer.MAX_VALUE | 60s                | SynchronousQueue    | 适用于执行大量的、耗时少的任务         |
+| 3   | ScheduledThreadPool  | 固定     | Integer.MAX_VALUE | 不会被回收         | DelayedWorkQueue    | 适用于需要周期性或者延迟执行任务的场景 |
+| 4   | SingleThreadExecutor | 1        | 1                 | 不会被回收         | LinkedBlockingQueue | 适用于需要保证任务按顺序执行的场景     |
 
 ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221340765.png)
 
 <!--more-->
+
+## abc 三个线程要顺序执行，可以怎么实现呢
+
+Java 中的 join()方法正好可以满足这个要求。
+
+现在假设我们有三个线程，分别是线程 A、线程 B 和线程 C。我们希望它们顺序执行，那么我们可以让 B 线程在 A 线程的基础上启动，在 B 线程启动之后，再在 B 线程的基础上启动 C 线程。这样，就可以保证这三个线程的执行顺序。下面就是具体的实现代码：
+
+
+```
+Thread A = new Thread(new Runnable() {
+    public void run() {
+        System.out.println("A");
+    }
+});
+
+Thread B = new Thread(new Runnable() {
+    public void run() {
+        try {
+            A.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("B");
+    }
+});
+
+Thread C = new Thread(new Runnable() {
+    public void run() {
+        try {
+            B.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("C");
+    }
+});
+
+// 这里需要反着启动，为的是让A线程先执行
+C.start();
+B.start();
+A.start();
+```
+
+线程的 join 方法可以使得线程之间的并行执行变为串行执行。调用某线程的 join 方法会阻塞当前线程，等待该线程执行完毕，当前线程才会继续执行。
+
+那就是将 ABC 三个线程按顺序执行的方法了，你可以参考我的参谋，然后在你的代码中骑马舞剑，让那些看似难以驾驭的线程在你手中安静下来，私以为这就是写代码的神奇之处，你觉得呢？哈哈，希望这个解答能对你有所帮助！
