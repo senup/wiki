@@ -213,8 +213,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "b406ae98ecade2d0",
@@ -322,7 +321,7 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "edd0f1b5fde2f296",
+  "active": "77d6edc82ddabe77",
   "lastOpenFiles": [
     "docs/advance/Java 线程池-joehuang.md",
     "docs/advance/rabbitmq-joehuang.md",
