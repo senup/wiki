@@ -18,7 +18,7 @@
 - [Java容器](java容器)
 - [Java I/O](javaio)
 - [JavaWeb](javaweb)
-- [Java多线程](java多线程)
+- [Java多线程](java多线程2023.md)
 - [Java虚拟机](java虚拟机)
 
 ### 🏷️ JDK 源码分析
@@ -62,13 +62,15 @@
 
 
 ### 🤡 2023 面试专题
-- [Java 集合2023](Java 集合2023.md) 
+- [Java集合2023](Java集合2023.md) 
 - [mysql2023](mysql2023.md)
 - [redis2023](redis2023.md)
 - [kafka2023](kafka2023.md)
 - [rabbitmq2023](rabbitmq2023.md)
 - [spring2023](spring2023.md)
 - [jvm2023](jvm2023.md)
+- [[java多线程2023]]
+- [[Java多线程关键字2023]]
 - [设计模式2023](设计模式2023.md)
 - [springCloud2023](springCloud2023.md)
 - [分布式](分布式.md)
@@ -80,11 +82,11 @@
 
 ### 📒 软件
 - [Obsidian](Obsidian.md)
-- [VS code](VS code.md)
+- [VScode](VScode.md)
 - [Raycast](Raycast.md)
-- [Quantumult X](Quantumult X.md)
+- [QuantumultX](QuantumultX.md)
 - [shellclash](shellclash.md)
-- [PDF expert](PDF expert.md)
+- [PDF_expert](PDF_expert.md)
 - [IDEA](IDEA.md)
 - [chatGPT](chatGPT.md)
 
@@ -93,7 +95,7 @@
 - [iOS](iOS.md)
 
 ### 🧸 硬件
-- [Apple TV](Apple TV.md)
+- [AppleTV](AppleTV.md)
 
 -----
 

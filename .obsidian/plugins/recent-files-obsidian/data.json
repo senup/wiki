@@ -5,6 +5,86 @@
       "path": "docs/interview/toc.md"
     },
     {
+      "basename": "QuantumultX",
+      "path": "docs/interview/QuantumultX.md"
+    },
+    {
+      "basename": "AppleTV",
+      "path": "docs/interview/AppleTV.md"
+    },
+    {
+      "basename": "java",
+      "path": "docs/interview/java.md"
+    },
+    {
+      "basename": "springCloud2023",
+      "path": "docs/interview/springCloud2023.md"
+    },
+    {
+      "basename": "java多线程2023",
+      "path": "docs/interview/java多线程2023.md"
+    },
+    {
+      "basename": "Java多线程关键字2023",
+      "path": "docs/interview/Java多线程关键字2023.md"
+    },
+    {
+      "basename": "netty",
+      "path": "docs/interview/netty.md"
+    },
+    {
+      "basename": "Obsidian",
+      "path": "docs/interview/Obsidian.md"
+    },
+    {
+      "basename": "PDF_expert",
+      "path": "docs/interview/PDF_expert.md"
+    },
+    {
+      "basename": "vitePress",
+      "path": "docs/interview/vitePress.md"
+    },
+    {
+      "basename": "VSCode",
+      "path": "docs/interview/VSCode.md"
+    },
+    {
+      "basename": "Java集合2023",
+      "path": "docs/interview/Java集合2023.md"
+    },
+    {
+      "basename": "Java线程池2023",
+      "path": "docs/interview/Java线程池2023.md"
+    },
+    {
+      "basename": "spring-ioc",
+      "path": "docs/interview/spring-ioc.md"
+    },
+    {
+      "basename": "springboot-data",
+      "path": "docs/interview/springboot-data.md"
+    },
+    {
+      "basename": "springboot-exercise",
+      "path": "docs/interview/springboot-exercise.md"
+    },
+    {
+      "basename": "springboot-helloworld",
+      "path": "docs/interview/springboot-helloworld.md"
+    },
+    {
+      "basename": "springboot-mq",
+      "path": "docs/interview/springboot-mq.md"
+    },
+    {
+      "basename": "MySQL",
+      "path": "docs/advance/MySQL.md"
+    },
+    {
+      "basename": "Apple",
+      "path": "docs/advance/Apple.md"
+    },
+    {
       "basename": "消息队列",
       "path": "docs/interview/消息队列.md"
     },
@@ -33,20 +113,8 @@
       "path": "docs/interview/MacOS.md"
     },
     {
-      "basename": "springCloud2023",
-      "path": "docs/interview/springCloud2023.md"
-    },
-    {
       "basename": "设计模式2023",
       "path": "docs/interview/设计模式2023.md"
-    },
-    {
-      "basename": "VS code",
-      "path": "docs/interview/VS code.md"
-    },
-    {
-      "basename": "MySQL",
-      "path": "docs/advance/MySQL.md"
     },
     {
       "basename": "redis",
@@ -81,14 +149,6 @@
       "path": "docs/interview/rabbitmq2023.md"
     },
     {
-      "basename": "Quantumult X",
-      "path": "docs/interview/Quantumult X.md"
-    },
-    {
-      "basename": "PDF expert",
-      "path": "docs/interview/PDF expert.md"
-    },
-    {
       "basename": "kafka2023",
       "path": "docs/interview/kafka2023.md"
     },
@@ -99,18 +159,6 @@
     {
       "basename": "jvm",
       "path": "docs/interview/jvm.md"
-    },
-    {
-      "basename": "Java 线程池2023",
-      "path": "docs/interview/Java 线程池2023.md"
-    },
-    {
-      "basename": "Java 集合2023",
-      "path": "docs/interview/Java 集合2023.md"
-    },
-    {
-      "basename": "java",
-      "path": "docs/interview/java.md"
     },
     {
       "basename": "iOS",
@@ -141,14 +189,6 @@
       "path": "docs/interview/简历.md"
     },
     {
-      "basename": "Obsidian",
-      "path": "docs/interview/Obsidian.md"
-    },
-    {
-      "basename": "vitePress",
-      "path": "docs/interview/vitePress.md"
-    },
-    {
       "basename": "topk",
       "path": "docs/interview/topk.md"
     },
@@ -157,48 +197,8 @@
       "path": "docs/index.md"
     },
     {
-      "basename": "Java多线程关键字-joehuang",
-      "path": "docs/interview/Java多线程关键字-joehuang.md"
-    },
-    {
       "basename": "2023-12-22_周五",
       "path": "daily/2023/12-十二月/2023-12-22_周五.md"
-    },
-    {
-      "basename": "2023-12-21_周四",
-      "path": "daily/2023/12-十二月/2023-12-21_周四.md"
-    },
-    {
-      "basename": "2023-12-20_周三",
-      "path": "daily/2023/12-十二月/2023-12-20_周三.md"
-    },
-    {
-      "basename": "2023-12-19_周二",
-      "path": "daily/2023/12-十二月/2023-12-19_周二.md"
-    },
-    {
-      "basename": "spring源码",
-      "path": "docs/interview/spring源码.md"
-    },
-    {
-      "basename": "操作系统-死锁",
-      "path": "docs/interview/操作系统-死锁.md"
-    },
-    {
-      "basename": "面试现场",
-      "path": "docs/interview/面试现场.md"
-    },
-    {
-      "basename": "黑曜石 URI - 黑曜石帮助",
-      "path": "黑曜石 URI - 黑曜石帮助.md"
-    },
-    {
-      "basename": "Obsidian Advanced URI | Obsidian Advanced URI",
-      "path": "Obsidian Advanced URI | Obsidian Advanced URI.md"
-    },
-    {
-      "basename": "java多线程",
-      "path": "docs/interview/java多线程.md"
     }
   ],
   "omittedPaths": [],
