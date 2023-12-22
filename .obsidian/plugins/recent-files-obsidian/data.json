@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "rabbitmq-joehuang",
+      "path": "docs/advance/rabbitmq-joehuang.md"
+    },
+    {
       "basename": "jvm-joehuang",
       "path": "docs/advance/jvm-joehuang.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "mysql-joehuang",
       "path": "docs/advance/mysql-joehuang.md"
-    },
-    {
-      "basename": "rabbitmq-joehuang",
-      "path": "docs/advance/rabbitmq-joehuang.md"
     },
     {
       "basename": "kafka-散装 JoeHuang",
