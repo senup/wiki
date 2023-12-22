@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-12-22_周五",
+      "path": "daily/2023/12-十二月/2023-12-22_周五.md"
+    },
+    {
       "basename": "2023-12-21_周四",
       "path": "daily/2023/12-十二月/2023-12-21_周四.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "计算机网络",
       "path": "docs/interview/计算机网络.md"
-    },
-    {
-      "basename": "剑指offer",
-      "path": "docs/interview/剑指offer.md"
     }
   ],
   "omittedPaths": [],

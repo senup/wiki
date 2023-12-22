@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2023/12-十二月/2023-12-21_周四.md",
+                "file": "daily/2023/12-十二月/2023-12-22_周五.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2023/12-十二月/2023-12-21_周四.md"
+                "file": "daily/2023/12-十二月/2023-12-22_周五.md"
               }
             }
           },
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2023/12-十二月/2023-12-21_周四.md",
+                "file": "daily/2023/12-十二月/2023-12-22_周五.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2023/12-十二月/2023-12-21_周四.md",
+                "file": "daily/2023/12-十二月/2023-12-22_周五.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,8 +214,9 @@
   },
   "active": "edd0f1b5fde2f296",
   "lastOpenFiles": [
-    "daily/2023/12-十二月/2023-12-20_周三.md",
     "daily/2023/12-十二月/2023-12-21_周四.md",
+    "daily/2023/12-十二月/2023-12-22_周五.md",
+    "daily/2023/12-十二月/2023-12-20_周三.md",
     "daily/2023/12-十二月/2023-12-19_周二.md",
     "docs/interview/spring源码.md",
     "docs/advance/jvm.md",
@@ -242,7 +243,6 @@
     "docs/interview/java多线程.md",
     "docs/templates/template-tech.md",
     "docs/advance/MacOS.md",
-    "docs/interview/spring.md",
     "docs/templates",
     "replace.js",
     "docs/markdown-link-resolver/index.js",
