@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/advance/rabbitmq-joehuang.md",
+                "file": "docs/advance/Java 线程池-joehuang.md",
                 "mode": "source",
                 "source": false
               }
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/advance/rabbitmq-joehuang.md"
+                "file": "docs/advance/Java 线程池-joehuang.md"
               }
             }
           },
@@ -276,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/advance/rabbitmq-joehuang.md",
+                "file": "docs/advance/Java 线程池-joehuang.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/advance/rabbitmq-joehuang.md",
+                "file": "docs/advance/Java 线程池-joehuang.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -322,8 +322,9 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "edd0f1b5fde2f296",
+  "active": "0778701f3cebc650",
   "lastOpenFiles": [
+    "docs/advance/rabbitmq-joehuang.md",
     "docs/advance/jvm-joehuang.md",
     "docs/advance/jvm.md",
     "daily/2023/12-十二月/2023-12-22_周五.md",
@@ -333,7 +334,6 @@
     "docs/advance/Java 线程池-joehuang.md",
     "docs/advance/Java 集合-joehuang.md",
     "docs/advance/mysql-joehuang.md",
-    "docs/advance/rabbitmq-joehuang.md",
     "docs/advance/kafka-散装 JoeHuang.md",
     "daily/2023/12-十二月/2023-12-21_周四.md",
     "daily/2023/12-十二月/2023-12-20_周三.md",
