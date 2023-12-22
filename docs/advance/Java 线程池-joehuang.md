@@ -51,6 +51,7 @@ P8 常见线程池
 ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221340839.png)
 
 
+![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221340765.png)
 
 
 <!--more-->

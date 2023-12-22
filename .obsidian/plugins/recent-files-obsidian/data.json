@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Java多线程关键字-joehuang",
+      "path": "docs/advance/Java多线程关键字-joehuang.md"
+    },
+    {
       "basename": "Java 线程池-joehuang",
       "path": "docs/advance/Java 线程池-joehuang.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "读写锁",
       "path": "docs/interview/读写锁.md"
-    },
-    {
-      "basename": "缓存",
-      "path": "docs/interview/缓存.md"
     }
   ],
   "omittedPaths": [],
