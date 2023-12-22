@@ -69,8 +69,8 @@
 - [rabbitmq2023](rabbitmq2023.md)
 - [spring2023](spring2023.md)
 - [jvm2023](jvm2023.md)
-- [[java多线程2023]]
-- [[Java多线程关键字2023]]
+- [java多线程2023](java多线程2023.md)
+- [Java多线程关键字2023](Java多线程关键字2023.md)
 - [设计模式2023](设计模式2023.md)
 - [springCloud2023](springCloud2023.md)
 - [分布式](分布式.md)
