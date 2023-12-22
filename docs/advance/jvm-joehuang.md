@@ -33,8 +33,10 @@ IsTop: false
 
 ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221440185.png)
 
-最后一节实战k
+最后一节实战可以用
 
 ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221440926.png)
 
 <!--more-->
+
+![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221441263.png)
