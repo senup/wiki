@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "消息队列",
-      "path": "docs/interview/消息队列.md"
-    },
-    {
       "basename": "toc",
       "path": "docs/interview/toc.md"
+    },
+    {
+      "basename": "消息队列",
+      "path": "docs/interview/消息队列.md"
     },
     {
       "basename": "缓存",

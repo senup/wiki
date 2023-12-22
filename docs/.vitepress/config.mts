@@ -60,13 +60,14 @@ export default defineConfig({
         items: [
           { text: '目录', link: '/interview/toc' }
         ]
-      },{
-        text: '系统学习',
-        items: [
-          { text: 'MySQL', link: '/advance/MySQL.md' },
-          { text: 'Spring', link: '/advance/Spring.md' }
-        ]
       }
+      // ,{
+      //   text: '系统学习',
+      //   items: [
+      //     { text: 'MySQL', link: '/advance/MySQL.md' },
+      //     { text: 'Spring', link: '/advance/Spring.md' }
+      //   ]
+      // }
     ],
     // 文章底部导航栏的自定义配置，默认是英语
     docFooter: {

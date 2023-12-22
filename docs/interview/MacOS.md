@@ -41,7 +41,7 @@ icon: iconify:ri:translate
 interpreter: zsh
 shell script: |
   result=$(ps aux | grep Easydict.app | wc -l)
-  if [[ $result -lt 2 ]];then
+  if [ $result -lt 2 ]( $result -lt 2 .md);then
     open /Applications/Easydict.app
     sleep 2
   fi
@@ -111,7 +111,7 @@ icon: iconify:ri:translate
 interpreter: zsh
 shell script: |
   result=$(ps aux | grep Easydict.app | wc -l)
-  if [[ $result -lt 2 ]];then
+  if [ $result -lt 2 ]( $result -lt 2 .md);then
     open /Applications/Easydict.app
     sleep 2
   fi

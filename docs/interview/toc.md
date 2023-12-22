@@ -62,16 +62,16 @@
 
 
 ### 🤡 2023 面试专题
-- [[Java 集合2023]] 
-- [[mysql2023]]
-- [[redis2023]]
-- [[kafka2023]]
-- [[rabbitmq2023]]
-- [[spring2023]]
-- [[jvm2023]]
-- [[设计模式2023]]
-- [[springCloud2023]]
-- [[分布式]]
+- [Java 集合2023](Java 集合2023.md) 
+- [mysql2023](mysql2023.md)
+- [redis2023](redis2023.md)
+- [kafka2023](kafka2023.md)
+- [rabbitmq2023](rabbitmq2023.md)
+- [spring2023](spring2023.md)
+- [jvm2023](jvm2023.md)
+- [设计模式2023](设计模式2023.md)
+- [springCloud2023](springCloud2023.md)
+- [分布式](分布式.md)
 
 
 ---
@@ -80,20 +80,20 @@
 
 ### 📒 软件
 - [Obsidian](Obsidian.md)
-- [[VS code]]
-- [[Raycast]]
-- [[Quantumult X]]
-- [[shellclash]]
-- [[PDF expert]]
-- [[IDEA]]
-- [[chatGPT]]
+- [VS code](VS code.md)
+- [Raycast](Raycast.md)
+- [Quantumult X](Quantumult X.md)
+- [shellclash](shellclash.md)
+- [PDF expert](PDF expert.md)
+- [IDEA](IDEA.md)
+- [chatGPT](chatGPT.md)
 
 ### 🗯️ OS
-- [[MacOS]]
-- [[iOS]]
+- [MacOS](MacOS.md)
+- [iOS](iOS.md)
 
 ### 🧸 硬件
-- [[Apple TV]]
+- [Apple TV](Apple TV.md)
 
 -----
 
