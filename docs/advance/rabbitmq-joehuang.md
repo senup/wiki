@@ -135,9 +135,23 @@ IsTop: false
 
 ## 消费者缓冲区的设置
 
-Rabbitmq 推送，队列不断给消费者推送，push
-Kafka 就是 pull
-默认情况，不断推送，消费者积压未处理消息，占用大量内存设置缓冲区，100~300，测试验证最大未确认消息数量阈值设置
+> Rabbitmq 推送，队列不断给消费者推送，push
+> Kafka 就是 pull
+> 默认情况，不断推送，消费者积压未处理消息，占用大量内存设置缓冲区，100~300，测试验证最大未确认消息数量阈值设置
+
+消费者的缓冲区设置，这就像你在自助餐厅里为自己挑选食物的那个托盘。
+
+RabbitMQ 默认是采用推送模式（push），意味着它会持续不断地推送消息到消费者，而不关注消费者的处理速度和能力。这就好比自助餐的厨师不断地将食物放进你的托盘，而不管你有没有空间装下。如果消费者处理消息的速度跟不上消息到来的速度，那么未处理的消息就会积累起来，占用大量内存。
+
+为了避免这种情况，RabbitMQ 引入了流量控制机制，也就是我们可以设置消费者的缓冲区大小，或者说是“预取数”（prefetch count）。预取数可以限制 RabbitMQ 给消费者推送的未确认消息的数量。
+
+例如，如果我们设置预取数为 100，那就意味着 RabbitMQ 在接收到消费者对一个消息的确认信号之前，最多只会向它推送 100 条消息。这就好像你的托盘只能装 100 个食物，不论厨师是否还有更多的食物，都必须在你的托盘有空间的时候再给你端上新的食物。
+
+通过这种方式，RabbitMQ 可以确保消费者的缓冲区中消息的数量不会无限增长，避免了消费者因内存溢出而崩溃。
+
+如何设置预取数呢？只需在 Consumer 对象上调用 basicQos 方法，传入你想设置的预取数即可，比如你的例子中是 100~300。但具体的预取数值应该根据实际的应用场景和消费者的处理能力进行测试和调整。
+
+就这样，不论是在自助餐还是使用 RabbitMQ，我们都需要找到合适自己的那个“托盘大小”，以确保最佳的体验。
 
 ## 消息应答
 
@@ -153,12 +167,11 @@ Kafka 就是 pull
 Spring，实现消费者 destroy 方法，故障对将要 ack 的消息，完成
 
 
-![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221258585.png)
-![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221258094.png)
+
 
 ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221259765.png)
 
-![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221259150.png)
+
 
 ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221300040.png)
 
