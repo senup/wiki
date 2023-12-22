@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "mysql-joehuang",
-      "path": "docs/advance/mysql-joehuang.md"
-    },
-    {
       "basename": "redis-joehuang",
       "path": "docs/advance/redis-joehuang.md"
+    },
+    {
+      "basename": "mysql-joehuang",
+      "path": "docs/advance/mysql-joehuang.md"
     },
     {
       "basename": "jvm-joehuang",

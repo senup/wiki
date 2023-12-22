@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/advance/mysql-joehuang.md",
+                "file": "docs/advance/redis-joehuang.md",
                 "mode": "source",
                 "source": false
               }
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/advance/mysql-joehuang.md"
+                "file": "docs/advance/redis-joehuang.md"
               }
             }
           },
@@ -275,7 +275,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/advance/mysql-joehuang.md",
+                "file": "docs/advance/redis-joehuang.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +292,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/advance/mysql-joehuang.md",
+                "file": "docs/advance/redis-joehuang.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -323,6 +323,7 @@
   },
   "active": "edd0f1b5fde2f296",
   "lastOpenFiles": [
+    "docs/advance/mysql-joehuang.md",
     "docs/advance/redis-joehuang.md",
     "docs/advance/jvm-joehuang.md",
     "docs/advance/Java多线程关键字-joehuang.md",
@@ -332,7 +333,6 @@
     "daily/2023/12-十二月/2023-12-22_周五.md",
     "docs/advance/spring-joehuang.md",
     "docs/advance/Java 集合-joehuang.md",
-    "docs/advance/mysql-joehuang.md",
     "docs/advance/kafka-散装 JoeHuang.md",
     "daily/2023/12-十二月/2023-12-21_周四.md",
     "daily/2023/12-十二月/2023-12-20_周三.md",
