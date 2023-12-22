@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "mysql-joehuang",
+      "path": "docs/advance/mysql-joehuang.md"
+    },
+    {
+      "basename": "redis-joehuang",
+      "path": "docs/advance/redis-joehuang.md"
+    },
+    {
+      "basename": "jvm-joehuang",
+      "path": "docs/advance/jvm-joehuang.md"
+    },
+    {
       "basename": "Java多线程关键字-joehuang",
       "path": "docs/advance/Java多线程关键字-joehuang.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "rabbitmq-joehuang",
       "path": "docs/advance/rabbitmq-joehuang.md"
-    },
-    {
-      "basename": "jvm-joehuang",
-      "path": "docs/advance/jvm-joehuang.md"
     },
     {
       "basename": "jvm",
@@ -29,16 +37,8 @@
       "path": "docs/advance/spring-joehuang.md"
     },
     {
-      "basename": "redis-joehuang",
-      "path": "docs/advance/redis-joehuang.md"
-    },
-    {
       "basename": "Java 集合-joehuang",
       "path": "docs/advance/Java 集合-joehuang.md"
-    },
-    {
-      "basename": "mysql-joehuang",
-      "path": "docs/advance/mysql-joehuang.md"
     },
     {
       "basename": "kafka-散装 JoeHuang",
