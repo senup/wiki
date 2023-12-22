@@ -102,9 +102,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "76149999cf6e4352",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/advance/redis-joehuang.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -165,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/advance/Java多线程关键字-joehuang.md"
+                "file": "docs/advance/redis-joehuang.md"
               }
             }
           },
@@ -240,7 +252,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/advance/Java多线程关键字-joehuang.md",
+                "file": "docs/advance/redis-joehuang.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +269,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/advance/Java多线程关键字-joehuang.md",
+                "file": "docs/advance/redis-joehuang.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -286,10 +298,11 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "54eb39436c0b8570",
+  "active": "76149999cf6e4352",
   "lastOpenFiles": [
-    "docs/advance/Java 线程池-joehuang.md",
     "docs/advance/Java多线程关键字-joehuang.md",
+    "docs/advance/redis-joehuang.md",
+    "docs/advance/Java 线程池-joehuang.md",
     "docs/advance/Java 集合-joehuang.md",
     "docs/advance/mysql-joehuang.md",
     "docs/advance/rabbitmq-joehuang.md",
@@ -313,7 +326,6 @@
     "docs/advance/未命名.md",
     "2023-W51.md",
     "docs/index.md",
-    "docs/advance/Clippings.md",
     "daily/2023/12-十二月",
     "daily/2023",
     "daily",

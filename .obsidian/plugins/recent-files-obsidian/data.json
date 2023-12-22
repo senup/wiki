@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "redis-joehuang",
+      "path": "docs/advance/redis-joehuang.md"
+    },
+    {
       "basename": "Java多线程关键字-joehuang",
       "path": "docs/advance/Java多线程关键字-joehuang.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Mac",
       "path": "docs/blog/Mac.md"
-    },
-    {
-      "basename": "读写锁",
-      "path": "docs/interview/读写锁.md"
     }
   ],
   "omittedPaths": [],
