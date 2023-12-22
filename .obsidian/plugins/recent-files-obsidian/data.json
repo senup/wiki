@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Java 线程池-joehuang",
+      "path": "docs/advance/Java 线程池-joehuang.md"
+    },
+    {
+      "basename": "Java 集合-joehuang",
+      "path": "docs/advance/Java 集合-joehuang.md"
+    },
+    {
       "basename": "mysql-joehuang",
       "path": "docs/advance/mysql-joehuang.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "缓存",
       "path": "docs/interview/缓存.md"
-    },
-    {
-      "basename": "Github",
-      "path": "docs/advance/Github.md"
-    },
-    {
-      "basename": "javase",
-      "path": "docs/interview/javase.md"
     }
   ],
   "omittedPaths": [],
