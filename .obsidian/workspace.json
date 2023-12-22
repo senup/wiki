@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "73e0ce777c8f77f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/advance/kafka-散装 JoeHuang.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2023/12-十二月/2023-12-22_周五.md"
+                "file": "docs/advance/kafka-散装 JoeHuang.md"
               }
             }
           },
@@ -125,7 +137,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298
+    "width": 298,
+    "collapsed": true
   },
   "right": {
     "id": "b9a65f27b182d6e5",
@@ -167,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2023/12-十二月/2023-12-22_周五.md",
+                "file": "docs/advance/kafka-散装 JoeHuang.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2023/12-十二月/2023-12-22_周五.md",
+                "file": "docs/advance/kafka-散装 JoeHuang.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +207,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,10 +226,11 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "edd0f1b5fde2f296",
+  "active": "73e0ce777c8f77f5",
   "lastOpenFiles": [
-    "daily/2023/12-十二月/2023-12-21_周四.md",
     "daily/2023/12-十二月/2023-12-22_周五.md",
+    "docs/advance/kafka-散装 JoeHuang.md",
+    "daily/2023/12-十二月/2023-12-21_周四.md",
     "daily/2023/12-十二月/2023-12-20_周三.md",
     "daily/2023/12-十二月/2023-12-19_周二.md",
     "docs/interview/spring源码.md",
@@ -242,7 +257,6 @@
     "docs/advance/面试题.md",
     "docs/interview/java多线程.md",
     "docs/templates/template-tech.md",
-    "docs/advance/MacOS.md",
     "docs/templates",
     "replace.js",
     "docs/markdown-link-resolver/index.js",

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "kafka-散装 JoeHuang",
+      "path": "docs/advance/kafka-散装 JoeHuang.md"
+    },
+    {
       "basename": "2023-12-22_周五",
       "path": "daily/2023/12-十二月/2023-12-22_周五.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "QuantumultX配置",
       "path": "docs/blog/QuantumultX配置.md"
-    },
-    {
-      "basename": "计算机网络",
-      "path": "docs/interview/计算机网络.md"
     }
   ],
   "omittedPaths": [],
