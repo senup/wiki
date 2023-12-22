@@ -4,143 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d8b5867a00dbc8b1",
+        "id": "d0e46d8362e8d277",
         "type": "tabs",
         "children": [
           {
-            "id": "0211b203c2c72731",
+            "id": "34dd276d8731fb64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/advance/Obsidian.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "edd0f1b5fde2f296",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/advance/redis-joehuang.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "73e0ce777c8f77f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/advance/kafka-散装 JoeHuang.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b8544be623655b0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/advance/rabbitmq-joehuang.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b61c174c882ad929",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/advance/mysql-joehuang.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "573060f73f2a524b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/advance/Java 集合-joehuang.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "06371396c201632a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/advance/Java 线程池-joehuang.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54eb39436c0b8570",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/advance/Java多线程关键字-joehuang.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "76149999cf6e4352",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/advance/redis-joehuang.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8503ec19ac20e6de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/advance/spring-joehuang.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "814f558a3fb1ec9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/advance/jvm-joehuang.md",
+                "file": "docs/interview/toc.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/advance/redis-joehuang.md"
+                "file": "docs/interview/toc.md"
               }
             }
           },
@@ -213,7 +92,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "b406ae98ecade2d0",
@@ -232,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298,
-    "collapsed": true
+    "width": 298
   },
   "right": {
     "id": "b9a65f27b182d6e5",
@@ -275,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/advance/redis-joehuang.md",
+                "file": "docs/interview/toc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/advance/redis-joehuang.md",
+                "file": "docs/interview/toc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -321,34 +200,34 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "edd0f1b5fde2f296",
+  "active": "34dd276d8731fb64",
   "lastOpenFiles": [
-    "docs/advance/mysql-joehuang.md",
-    "docs/advance/redis-joehuang.md",
-    "docs/advance/jvm-joehuang.md",
-    "docs/advance/Java多线程关键字-joehuang.md",
-    "docs/advance/Java 线程池-joehuang.md",
-    "docs/advance/rabbitmq-joehuang.md",
-    "docs/advance/jvm.md",
-    "daily/2023/12-十二月/2023-12-22_周五.md",
-    "docs/advance/spring-joehuang.md",
-    "docs/advance/Java 集合-joehuang.md",
-    "docs/advance/kafka-散装 JoeHuang.md",
-    "daily/2023/12-十二月/2023-12-21_周四.md",
-    "daily/2023/12-十二月/2023-12-20_周三.md",
-    "daily/2023/12-十二月/2023-12-19_周二.md",
-    "docs/interview/spring源码.md",
-    "docs/advance/chatGPT.md",
-    "docs/interview/操作系统-死锁.md",
-    "docs/advance/简历.md",
-    "docs/interview/面试现场.md",
-    "docs/advance/Obsidian.md",
-    "docs/advance/Hello，MacOS.md",
-    "docs/advance/分布式.md",
-    "黑曜石 URI - 黑曜石帮助.md",
-    "Obsidian Advanced URI | Obsidian Advanced URI.md",
+    "docs/interview/VS code.md",
+    "docs/advance/MySQL.md",
+    "docs/interview/redis.md",
+    "docs/interview/redis2023.md",
+    "docs/interview/shellclash.md",
+    "docs/interview/mysql2023.md",
+    "docs/interview/spring2023.md",
+    "docs/interview/redis 开发与运维.md",
+    "docs/interview/Raycast.md",
+    "docs/interview/rabbitmq2023.md",
+    "docs/interview/Quantumult X.md",
+    "docs/interview/PDF expert.md",
+    "docs/interview/MacOS.md",
     "docs/advance/my note.md",
-    "docs/advance/未命名.md",
+    "docs/interview/kafka2023.md",
+    "docs/interview/jvm2023.md",
+    "docs/interview/jvm.md",
+    "docs/interview/Java 线程池2023.md",
+    "docs/interview/Java 集合2023.md",
+    "docs/interview/java.md",
+    "docs/interview/iOS.md",
+    "docs/interview/IDEA.md",
+    "docs/interview/Gradle.md",
+    "docs/interview/cron.md",
+    "docs/interview/chatGPT.md",
+    "docs/advance/Clippings.md",
     "daily/2023/12-十二月",
     "daily/2023",
     "daily",

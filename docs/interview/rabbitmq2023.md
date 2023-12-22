@@ -1,7 +1,7 @@
 ---
-title: rabbitmq-joehuang
+title: rabbitmq
 date: 2023-12-22 12:57:14
-Tags:
+tags:
   - tech
 Draft: true
 HideInList: false

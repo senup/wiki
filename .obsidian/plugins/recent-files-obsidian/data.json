@@ -1,48 +1,144 @@
 {
   "recentFiles": [
     {
-      "basename": "redis-joehuang",
-      "path": "docs/advance/redis-joehuang.md"
+      "basename": "toc",
+      "path": "docs/interview/toc.md"
     },
     {
-      "basename": "mysql-joehuang",
-      "path": "docs/advance/mysql-joehuang.md"
+      "basename": "VS code",
+      "path": "docs/interview/VS code.md"
     },
     {
-      "basename": "jvm-joehuang",
-      "path": "docs/advance/jvm-joehuang.md"
+      "basename": "MySQL",
+      "path": "docs/advance/MySQL.md"
     },
     {
-      "basename": "Java多线程关键字-joehuang",
-      "path": "docs/advance/Java多线程关键字-joehuang.md"
+      "basename": "redis",
+      "path": "docs/interview/redis.md"
     },
     {
-      "basename": "Java 线程池-joehuang",
-      "path": "docs/advance/Java 线程池-joehuang.md"
+      "basename": "redis2023",
+      "path": "docs/interview/redis2023.md"
     },
     {
-      "basename": "rabbitmq-joehuang",
-      "path": "docs/advance/rabbitmq-joehuang.md"
+      "basename": "shellclash",
+      "path": "docs/interview/shellclash.md"
+    },
+    {
+      "basename": "mysql2023",
+      "path": "docs/interview/mysql2023.md"
+    },
+    {
+      "basename": "spring2023",
+      "path": "docs/interview/spring2023.md"
+    },
+    {
+      "basename": "redis 开发与运维",
+      "path": "docs/interview/redis 开发与运维.md"
+    },
+    {
+      "basename": "Raycast",
+      "path": "docs/interview/Raycast.md"
+    },
+    {
+      "basename": "rabbitmq2023",
+      "path": "docs/interview/rabbitmq2023.md"
+    },
+    {
+      "basename": "Quantumult X",
+      "path": "docs/interview/Quantumult X.md"
+    },
+    {
+      "basename": "PDF expert",
+      "path": "docs/interview/PDF expert.md"
+    },
+    {
+      "basename": "MacOS",
+      "path": "docs/interview/MacOS.md"
+    },
+    {
+      "basename": "kafka2023",
+      "path": "docs/interview/kafka2023.md"
+    },
+    {
+      "basename": "jvm2023",
+      "path": "docs/interview/jvm2023.md"
     },
     {
       "basename": "jvm",
-      "path": "docs/advance/jvm.md"
+      "path": "docs/interview/jvm.md"
+    },
+    {
+      "basename": "Java 线程池2023",
+      "path": "docs/interview/Java 线程池2023.md"
+    },
+    {
+      "basename": "Java 集合2023",
+      "path": "docs/interview/Java 集合2023.md"
+    },
+    {
+      "basename": "java",
+      "path": "docs/interview/java.md"
+    },
+    {
+      "basename": "iOS",
+      "path": "docs/interview/iOS.md"
+    },
+    {
+      "basename": "IDEA",
+      "path": "docs/interview/IDEA.md"
+    },
+    {
+      "basename": "Gradle",
+      "path": "docs/interview/Gradle.md"
+    },
+    {
+      "basename": "cron",
+      "path": "docs/interview/cron.md"
+    },
+    {
+      "basename": "chatGPT",
+      "path": "docs/interview/chatGPT.md"
+    },
+    {
+      "basename": "自我介绍",
+      "path": "docs/interview/自我介绍.md"
+    },
+    {
+      "basename": "简历",
+      "path": "docs/interview/简历.md"
+    },
+    {
+      "basename": "分布式",
+      "path": "docs/interview/分布式.md"
+    },
+    {
+      "basename": "场景题",
+      "path": "docs/interview/场景题.md"
+    },
+    {
+      "basename": "Obsidian",
+      "path": "docs/interview/Obsidian.md"
+    },
+    {
+      "basename": "vitePress",
+      "path": "docs/interview/vitePress.md"
+    },
+    {
+      "basename": "topk",
+      "path": "docs/interview/topk.md"
+    },
+    {
+      "basename": "index",
+      "path": "docs/index.md"
+    },
+    {
+      "basename": "Java多线程关键字-joehuang",
+      "path": "docs/interview/Java多线程关键字-joehuang.md"
     },
     {
       "basename": "2023-12-22_周五",
       "path": "daily/2023/12-十二月/2023-12-22_周五.md"
-    },
-    {
-      "basename": "spring-joehuang",
-      "path": "docs/advance/spring-joehuang.md"
-    },
-    {
-      "basename": "Java 集合-joehuang",
-      "path": "docs/advance/Java 集合-joehuang.md"
-    },
-    {
-      "basename": "kafka-散装 JoeHuang",
-      "path": "docs/advance/kafka-散装 JoeHuang.md"
     },
     {
       "basename": "2023-12-21_周四",
@@ -61,32 +157,12 @@
       "path": "docs/interview/spring源码.md"
     },
     {
-      "basename": "chatGPT",
-      "path": "docs/advance/chatGPT.md"
-    },
-    {
       "basename": "操作系统-死锁",
       "path": "docs/interview/操作系统-死锁.md"
     },
     {
-      "basename": "简历",
-      "path": "docs/advance/简历.md"
-    },
-    {
       "basename": "面试现场",
       "path": "docs/interview/面试现场.md"
-    },
-    {
-      "basename": "Obsidian",
-      "path": "docs/advance/Obsidian.md"
-    },
-    {
-      "basename": "Hello，MacOS",
-      "path": "docs/advance/Hello，MacOS.md"
-    },
-    {
-      "basename": "分布式",
-      "path": "docs/advance/分布式.md"
     },
     {
       "basename": "黑曜石 URI - 黑曜石帮助",
@@ -97,30 +173,6 @@
       "path": "Obsidian Advanced URI | Obsidian Advanced URI.md"
     },
     {
-      "basename": "my note",
-      "path": "docs/advance/my note.md"
-    },
-    {
-      "basename": "index",
-      "path": "docs/index.md"
-    },
-    {
-      "basename": "Clippings",
-      "path": "docs/advance/Clippings.md"
-    },
-    {
-      "basename": "redis 开发与运维",
-      "path": "docs/advance/redis 开发与运维.md"
-    },
-    {
-      "basename": "redis",
-      "path": "docs/interview/redis.md"
-    },
-    {
-      "basename": "面试题",
-      "path": "docs/advance/面试题.md"
-    },
-    {
       "basename": "java多线程",
       "path": "docs/interview/java多线程.md"
     },
@@ -129,28 +181,8 @@
       "path": "docs/templates/template-tech.md"
     },
     {
-      "basename": "MacOS",
-      "path": "docs/advance/MacOS.md"
-    },
-    {
-      "basename": "java",
-      "path": "docs/advance/java.md"
-    },
-    {
       "basename": "spring",
       "path": "docs/interview/spring.md"
-    },
-    {
-      "basename": "场景题",
-      "path": "docs/advance/场景题.md"
-    },
-    {
-      "basename": "MySQL",
-      "path": "docs/advance/MySQL.md"
-    },
-    {
-      "basename": "自我介绍",
-      "path": "docs/advance/自我介绍.md"
     },
     {
       "basename": "socket",
@@ -167,38 +199,6 @@
     {
       "basename": "springboot-data",
       "path": "docs/interview/springboot-data.md"
-    },
-    {
-      "basename": "散装 JoeHuang",
-      "path": "docs/advance/散装 JoeHuang.md"
-    },
-    {
-      "basename": "面试准备",
-      "path": "docs/advance/面试准备.md"
-    },
-    {
-      "basename": "shellclash",
-      "path": "docs/advance/shellclash.md"
-    },
-    {
-      "basename": "VS code",
-      "path": "docs/advance/VS code.md"
-    },
-    {
-      "basename": "interview-template",
-      "path": "docs/templates/interview-template.md"
-    },
-    {
-      "basename": "Gradle",
-      "path": "docs/advance/Gradle.md"
-    },
-    {
-      "basename": "vitePress",
-      "path": "docs/interview/vitePress.md"
-    },
-    {
-      "basename": "toc",
-      "path": "docs/interview/toc.md"
     }
   ],
   "omittedPaths": [],

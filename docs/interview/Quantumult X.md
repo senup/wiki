@@ -1,5 +1,5 @@
 ---
-title: Hello，Quantumult X
+title: Quantumult X
 date: 2023-11-11 23:13:43
 tags:
   - tech

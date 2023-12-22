@@ -1,7 +1,7 @@
 ---
-title: mysql-joehuang
+title: mysql
 date: 2023-12-22 13:04:26
-Tags:
+tags:
   - tech
 Draft: true
 HideInList: false

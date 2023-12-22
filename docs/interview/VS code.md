@@ -1,5 +1,5 @@
 ---
-title: Hello，VS code
+title: VS code
 date: 2023-11-13 16:00:07
 tags:
   - tech
