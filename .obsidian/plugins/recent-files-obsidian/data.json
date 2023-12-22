@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "jvm-joehuang",
+      "path": "docs/advance/jvm-joehuang.md"
+    },
+    {
+      "basename": "spring-joehuang",
+      "path": "docs/advance/spring-joehuang.md"
+    },
+    {
       "basename": "redis-joehuang",
       "path": "docs/advance/redis-joehuang.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "toc",
       "path": "docs/interview/toc.md"
-    },
-    {
-      "basename": "git",
-      "path": "docs/interview/git.md"
-    },
-    {
-      "basename": "Mac",
-      "path": "docs/blog/Mac.md"
     }
   ],
   "omittedPaths": [],
