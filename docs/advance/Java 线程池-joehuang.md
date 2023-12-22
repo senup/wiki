@@ -59,18 +59,83 @@ IsTop: false
 
 ## worker 执行任务
 
+现在让我们深入探讨一下线程池中的 Worker 是如何执行任务的。
+
+我们知道，在 ThreadPoolExecutor 中，真正执行任务的地方是 Worker 类的 run 方法，具体来说，这个过程包括以下几步：
+
+1. 首先，Worker 的 run 方法会调用 runWorker 方法，参数就是 worker 自己。
+2. runWorker 方法中，线程将会按照一定的顺序来选择任务进行执行。首先，线程会执行自己当前的首个任务（A task）。然后再从阻塞队列中取出任务执行。当阻塞队列为空或者无法取到任务时，runWorker 方法将会停止执行。
+3. 在 runWorker 方法里，还会调用 getTask 方法从阻塞队列中获取任务。这是一个阻塞方法，如果获取不到任务，线程将会被挂起等待，直到队列中有新的任务添加进来。注意 getTask 的挂起条件是线程池处于 RUNNING 状态或者队列非空。
+4. 在 getTask 方法中，如果线程池已经停止，或者线程池允许回收核心线程的情况下，当前线程空闲时间超过 keepAliveTime，那么获取任务失败，getTask 返回 null，随后 runWorker 方法会返回，线程任务运行结束。
+5. 任务的运行是在 Worker 的 run 方法中先调用了 beforeExecute 方法，然后在 try 代码块中执行 Runnable.run 方法，执行完毕后，无论是否遇到异常，都会执行 afterExecute 方法，这个方法用于收尾工作，比如资源释放等。
+6. 当 Runnable.run()执行完成或者遇到异常导致出现问题时，Worker 会调用 processWorkerExit 方法进行退出处理。这个方法会从线程池中移除当前线程，并检查是否需要终止线程池。
+
+这一系列步骤就是一个 Worker 执行任务的整个过程。看起来可能有些复杂，但只要你懂得他的执行逻辑，就能写出执行效率更高，更健壮的并发程序。
 
 ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221339992.png)
 
-P 5 04 获取任务
+## 获取任务
 
-P 6 05 worker 销毁
+获取任务的主流程是在 getTask()方法中，我会尽量简明得说明它：
 
-P 7 06 线程池关闭流程
+1. 首先要弄清楚一个逻辑，只有队列非空才可以获取到任务，所以要先检查一下队列是否是空的，如果是空的，就会进入一个无限循环，一直到队列中有任务。
+2. 在这个无限循环中，线程会先判断是否可以上班（也就是线程池是否是 RUNNING 状态）。如果不可以，就会返回 null，此时 Worker 就会退出。
+3. 如果线程池状态是 RUNNING，那么就再一次检查当前队列是否为空，如果为空则继续等待。
+4. 当前线程如果空闲时间超过了 keepAliveTime，或线程池允许回收核心线程，那么 getTask 方法返回 null，进而 Worker 会停止工作。
+5. 如果线程池状态，队列状态，以及线程运行状态都符合预期，就会调用 poll 方法获取任务。阻塞队列的 poll 方法是一个阻塞方法，如果在指定时间内没有获取到任务，那么这个方法将会挂起线程。
+6. 如果最终获取到了任务，就返回这个任务，并且跳出挂起的循环。
 
-P 8 常见线程池
+综上，getTask()方法的主要工作就是在执行过程中检查线程池状态，根据状态决定是否需要继续获取任务，或者超时返回 null 以结束 Worker 的运行。
 
-提交任务流程
+![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221339771.png)
+
+## worker 销毁
+
+我们一起了解一下 Worker 的销毁过程，或者可以说是“让 Worker 退休”的过程，这个过程封装在了 processWorkerExit 方法中。
+
+1. 这个方法首先会设置线程池的最大线程数，因为 worker 退出了，线程池的线程数量需要减 1。
+2. 接下来，会进行一次状态检查，如果线程池是 STOP 或者 TIDYING 状态（需要清理资源）且队列为空，那么就会将线程池状态设置为 TIDYING，并执行 terminated 方法进行线程池的最后清理。
+3. 然后会判断是否需要创建新的线程。这通常发生在队列非空但没有线程来处理队列的任务，这时候就需要创建一个新的 worker 来处理这些任务。
+4. 最后，从 workers set 中移除退出的 Worker，并进行条件检查。如果线程池已经完成终止过程，就调用 tryTerminate 方法尝试终止线程池。
+
+我们的线程池就像是个工厂，而 Worker 就是这个工厂中的工人。当一个工人完成他的工作，或者“退休”时，工厂需要重新调整工作人力，可能会有新的工人入职，也可能是整个工厂都已经没有工作需要完成，那么这个工厂也就可以关闭了。
+
+![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221339932.png)
+
+## 线程池关闭流程
+
+让我们一起看看 Java 线程池关闭的流程，这基本上建立在两个方法上：shutdown 和 shutdownNow。
+
+1. `shutdown()` ：这个是优雅关闭，它会遍历所有的 workers，中断空闲线程，然后将线程池的状态设置为 SHUTDOWN，代表线程池不再接收新的任务，但是会继续处理阻塞队列中存在的任务。
+2. `shutdownNow()` ：
+
+   - 首先，这个方法会将线程池的状态设置为 STOP，代表线程池不再接收新的任务，同时也强制中断当前正在执行的任务。
+   - 接着，它会复制一份工作队列副本返回，这样如果有需要你可以知道线程池关闭时还有什么任务未被执行。
+   - 然后，这个方法会尝试停止所有的活跃（isAlive）的 workers。
+
+以上，shutdown()和 shutdownNow()就是关闭线程池最主要的两个方法。两者的区别主要在于，shutdown()比较温和些，会等待所有的任务执行完毕，而 shutdownNow()就像倒数第二秒的炸弹一样，选择在这个时候终止所有的任务。
+![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221340839.png)
+
+## 常见线程池
+
+1. `FixedThreadPool`： 创建一个固定数量的线程池，每个线程使用无界的队列，当所有线程均处于活动状态时，新任务会等待队列中的空余空间。
+    
+2. `CachedThreadPool`：创建一个根据需要（新任务到来时）会创建新线程的线程池，但在以前构建的线程可用时将重用它们。 对于执行很多短期异步任务的程序来说，这种线程池通常可以提供方便的服务。
+    
+3. `ScheduledThreadPool`： 创建一个可在给定延迟后运行或定期执行任务的线程池。
+    
+4. `SingleThreadExecutor`：创建仅包含单个工作线程的线程池，所有任务都是保证按照任务到达的顺序执行。
+
+|#|类型|核心数量|最大数量|非核心线程超时时间|队列|应用场景|
+|---|---|---|---|---|---|---|
+|1|FixedThreadPool|固定|固定|不会被回收|LinkedBlockingQueue|适用于长期运行的任务|
+|2|CachedThreadPool|0|Integer.MAX_VALUE|60s|SynchronousQueue|适用于执行大量的、耗时少的任务|
+|3|ScheduledThreadPool|固定|Integer.MAX_VALUE|不会被回收|DelayedWorkQueue|适用于需要周期性或者延迟执行任务的场景|
+|4|SingleThreadExecutor|1|1|不会被回收|LinkedBlockingQueue|适用于需要保证任务按顺序执行的场景|
+
+  
+
+以上就是我对Java中常用线程池的总结，以markdown表格的形式呈现，希望能帮助到你。在编程的世界里，我们总是希望挑选最适合的工具来完成任务，所以，你在面对不同的问题时，可以根据线程池的特性来选择最适合的类型。
 
 ```
 P1 线程池的核心参数
@@ -90,16 +155,6 @@ P7 06线程池关闭流程
 P8 常见线程池
 
 ```
-
-
-
-
-
-![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221339771.png)
-
-![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221339932.png)
-
-![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221340839.png)
 
 ![image.png](https://bestkxt.oss-cn-guangzhou.aliyuncs.com/img/202312221340765.png)
 
