@@ -1,5 +1,0 @@
-{
-  "format": "YYYY/MM-MMMM/YYYY-MM-DD_ddd",
-  "folder": "daily",
-  "template": "static/template/tp-daily"
-}
