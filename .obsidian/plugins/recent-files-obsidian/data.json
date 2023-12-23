@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "git",
+      "path": "docs/interview/git.md"
+    },
+    {
+      "basename": "Leetcode题解-搜索",
+      "path": "docs/interview/Leetcode题解-搜索.md"
+    },
+    {
+      "basename": "MacOS",
+      "path": "docs/interview/MacOS.md"
+    },
+    {
+      "basename": "Github",
+      "path": "docs/interview/Github.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -113,10 +129,6 @@
       "path": "docs/interview/读写锁.md"
     },
     {
-      "basename": "MacOS",
-      "path": "docs/interview/MacOS.md"
-    },
-    {
       "basename": "设计模式2023",
       "path": "docs/interview/设计模式2023.md"
     },
@@ -187,14 +199,6 @@
     {
       "basename": "自我介绍",
       "path": "docs/interview/自我介绍.md"
-    },
-    {
-      "basename": "简历",
-      "path": "docs/interview/简历.md"
-    },
-    {
-      "basename": "topk",
-      "path": "docs/interview/topk.md"
     }
   ],
   "omittedPaths": [],

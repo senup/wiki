@@ -135,7 +135,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "docs/interview/git.md",
                 "mode": "source",
                 "source": false
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "quan",
+                "query": "ignore",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -203,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "docs/interview/git.md"
               }
             }
           },
@@ -215,8 +215,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "b406ae98ecade2d0",
@@ -277,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "docs/interview/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "docs/interview/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -325,8 +324,12 @@
   },
   "active": "cae40dc609abde1d",
   "lastOpenFiles": [
-    "Obsidian Advanced URI | Obsidian Advanced URI.md",
+    "docs/interview/Leetcode题解-搜索.md",
+    "docs/interview/MacOS.md",
+    "docs/interview/Github.md",
+    "docs/interview/git.md",
     "README.md",
+    "Obsidian Advanced URI | Obsidian Advanced URI.md",
     "docs/interview/toc.md",
     "docs/interview/VSCode.md",
     "docs/interview/QuantumultX.md",
@@ -347,10 +350,6 @@
     "docs/interview/springboot-helloworld.md",
     "docs/interview/springboot-mq.md",
     "docs/advance/MySQL.md",
-    "docs/advance/Apple.md",
-    "docs/interview/消息队列.md",
-    "docs/interview/缓存.md",
-    "docs/interview/分布式.md",
     "daily/2023/12-十二月",
     "daily/2023",
     "daily",
