@@ -2,3 +2,7 @@
 node_modules
 /docs/.vitepress/dist
 .DS_Store
+/daily
+/docs/advance
+/.trash
+/.obsidian
