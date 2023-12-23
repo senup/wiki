@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "toc",
       "path": "docs/interview/toc.md"
     },
@@ -191,14 +195,6 @@
     {
       "basename": "topk",
       "path": "docs/interview/topk.md"
-    },
-    {
-      "basename": "index",
-      "path": "docs/index.md"
-    },
-    {
-      "basename": "2023-12-22_周五",
-      "path": "daily/2023/12-十二月/2023-12-22_周五.md"
     }
   ],
   "omittedPaths": [],

@@ -128,8 +128,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cae40dc609abde1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -190,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/interview/toc.md"
+                "file": "README.md"
               }
             }
           },
@@ -203,7 +216,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "b406ae98ecade2d0",
@@ -264,7 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/interview/toc.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/interview/toc.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -310,10 +323,12 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "34dd276d8731fb64",
+  "active": "cae40dc609abde1d",
   "lastOpenFiles": [
-    "docs/interview/VSCode.md",
+    "Obsidian Advanced URI | Obsidian Advanced URI.md",
+    "README.md",
     "docs/interview/toc.md",
+    "docs/interview/VSCode.md",
     "docs/interview/QuantumultX.md",
     "docs/interview/AppleTV.md",
     "docs/interview/java.md",
@@ -336,8 +351,6 @@
     "docs/interview/消息队列.md",
     "docs/interview/缓存.md",
     "docs/interview/分布式.md",
-    "docs/interview/分布式系统.md",
-    "docs/interview/场景题.md",
     "daily/2023/12-十二月",
     "daily/2023",
     "daily",
