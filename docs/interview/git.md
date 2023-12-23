@@ -110,12 +110,12 @@ master 分支应该是非常稳定的，只用来发布新版本；
 
 
 
-## Ignore 文件删除已提交的
+## ignore 文件删除已提交的
 
 配置 gitignore，把不想提交的内容写进去，然后执行下面这句。
-
+效果是删除根目录下所有已被追踪且已 commit 的文件，并覆盖远程仓库，本地文件不受影响。
 ```
-git rm --cached -r && git add . && git commit -am "注释" && git push
+git rm --cached -r ./ && git add . && git commit -am "注释" && git push
 ```
 
 
