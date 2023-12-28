@@ -209,18 +209,21 @@ javascript: |
 ```
 
 obsidian 拷贝拓展
-
+查询 mac [[app包名]]
 ````shell
 
 # popclip
 name: Markdown Helpers
 requirements: [text, paste]
-required apps: [md.obsidian, com.apple.mail]
+required apps: [md.obsidian, com.apple.mail,abnerworks.Typora]
 actions:
 - icon: </>
   title: 代码块
   javascript: popclip.pasteText('```shell \n' + popclip.input.text + '\n```')
-- icon: []
+- icon: <code>
+  title: 行内代码
+  javascript: popclip.pasteText('`' + popclip.input.text + '`')
+- icon: link
   title: 双链
   javascript: popclip.pasteText('[[' + popclip.input.text + ']]')
 - icon: symbol:highlighter
@@ -229,15 +232,15 @@ actions:
 - icon: symbol:strikethrough
   title: 删除线
   javascript: popclip.pasteText('~~' + popclip.input.text + '~~')
+- icon: symbol:text.quote
+  title: 引用
+  javascript: popclip.pasteText('> ' + popclip.input.text)
 - icon: symbol:bold
   title: 加粗
   javascript: popclip.pasteText('**' + popclip.input.text + '**')
 - icon: symbol:italic
   title: 斜体
   javascript: popclip.pasteText('_' + popclip.input.text + '_')
-- icon: symbol:text.quote
-  title: 引用
-  javascript: popclip.pasteText('> ' + popclip.input.text)
 
 ````
 
