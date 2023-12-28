@@ -220,6 +220,9 @@ actions:
 - icon: </>
   title: 代码块
   javascript: popclip.pasteText('```shell \n' + popclip.input.text + '\n```')
+- icon: []
+  title: 双链
+  javascript: popclip.pasteText('[[' + popclip.input.text + ']]')
 - icon: symbol:highlighter
   title: 下划线
   javascript: popclip.pasteText('<u>' + popclip.input.text + '</u>')
