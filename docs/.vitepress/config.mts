@@ -32,7 +32,7 @@ export default defineConfig({
 
   // markdown显示行数
   markdown: {
-    lineNumbers: true,
+    lineNumbers: false,
     config: (md) => {
       // 添加自定义的 Markdown 插件
       md.use(markdownLinkResolver);
