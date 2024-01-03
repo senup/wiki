@@ -18,6 +18,30 @@ Spring AOP 的原理很简单，就是**动态代理**，它和 AspectJ 不一�
 
 > getBean(…) 方法用于查找或实例化容器中的 bean，这也是为什么 Spring AOP 只能作用于 Spring 容器中的 bean 的原因，对于不是使用 IOC 容器管理的对象，Spring AOP 是无能为力的。
 
+## 概述
+
+让我们看看从最外层的用户使用 Spring AOP 编程到最内层一步步执行的源码中究竟发生了什么吧。
+
+以 Spring Boot 为例，当你在一个方法上添加 `@Transactional` 注解，表示该方法需要进行事务控制。
+
+#### 1. 加载配置
+
+首先，Spring Boot 在启动的时候会读取配置文件和注解，然后进行 IOC 和 AOP 的初始化等相关操作。在这个过程中，Spring 会扫描到我们的注解@Transactional。
+
+#### 2. 创建 Bean
+
+在创建 Bean 的过程中，如果检测到 Bean 需要 AOP 增强（例如加了@Transactional 的方法），就会为这个 Bean 生成一个代理对象。这个过程在 `org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(Object bean, String beanName)` 中进行。
+
+#### 3. 获取拦截器
+
+当调用一个被增强的方法时，Spring 会获取这个方法的所有拦截器，创建一个拦截器链。这个过程会调用到  `org.springframework.aop.framework.AdvisedSupport.getInterceptorsAndDynamicInterceptionAdvice(Method method, Class<?> targetClass)`。
+
+#### 4. 执行拦截器
+
+最后，在调用时，Spring AOP 会依次执行这个拦截器链中的所有拦截器。这一步是 AOP 生效的关键，代码在 `org.springframework.aop.framework.CglibAopProxy.DynamicAdvisedInterceptor.intercept(Object proxy, Method method, Object[] args, MethodProxy methodProxy)` 中。
+
+这就是一个简单的 Spring AOP 运行流程。从使用到源码实现，每一步都是关键，少了任何一步都会影响到 AOP 的正常工作。
+
 ## 本文使用的调试代码
 
 阅读源码很好用的一个方法就是跑代码来调试，因为自己一行一行地看的话，比较枯燥，而且难免会漏掉一些东西。
@@ -483,7 +507,7 @@ public Object invoke(Object proxy, Method method, Object[] args) throws Throwabl
       }
       else if (method.getDeclaringClass() == DecoratingProxy.class) {
          // There is only getDecoratedClass() declared -> dispatch to proxy config.
-         // 
+         //
          return AopProxyUtils.ultimateTargetClass(this.advised);
       }
       else if (!this.advised.opaque && method.getDeclaringClass().isInterface() &&
@@ -571,7 +595,7 @@ ObjenesisCglibAopProxy 继承了 CglibAopProxy，而 CglibAopProxy 继承了 Aop
 
 通过 CGLIB 生成代理的代码量有点大，我们就不进行深入分析了，我们看下大体的骨架。它的 getProxy(classLoader) 方法在父类 CglibAopProxy 类中：
 
-// CglibAopProxy#getProxy(classLoader) 
+// CglibAopProxy#getProxy(classLoader)
 
 ```java
 @Override
@@ -713,7 +737,7 @@ protected Object createBean(String beanName, RootBeanDefinition mbd, Object[] ar
       // 让 InstantiationAwareBeanPostProcessor 在这一步有机会返回代理
       Object bean = resolveBeforeInstantiation(beanName, mbdToUse);
       if (bean != null) {
-         return bean; 
+         return bean;
       }
    }
    // BeanPostProcessor 是在这里面实例化后才能得到执行
@@ -747,3 +771,5 @@ public Object postProcessBeforeInstantiation(Class<?> beanClass, String beanName
 我们可以看到，这里也有创建代理的逻辑，以至于很多人会搞错。确实，这里是有可能创建代理的，但前提是对于相应的 bean 我们有自定义的 TargetSource 实现，进到 getCustomTargetSource(...) 方法就清楚了，我们需要配置一个 customTargetSourceCreators，它是一个 TargetSourceCreator 数组。
 
 这里就不再展开说 TargetSource 了，请参考 Spring Reference 中的 [Using TargetSources](https://docs.spring.io/spring/docs/4.3.11.RELEASE/spring-framework-reference/htmlsingle/#aop-targetsource)。
+
+---
