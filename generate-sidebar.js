@@ -44,6 +44,7 @@ function generateSidebarConfig(filesByDirectory) {
         let text = dir || 'Home';
         sidebar.push({
             text: text,
+            collapsed: false, // 添加了collapsed属性
             items: items
         });
     }
