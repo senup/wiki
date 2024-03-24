@@ -13,15 +13,6 @@
     ]
   },
   {
-    "text": "JVM",
-    "items": [
-      {
-        "text": "RecordAccumulator",
-        "link": "/JVM/RecordAccumulator.md"
-      }
-    ]
-  },
-  {
     "text": "JVM虚拟机",
     "items": [
       {
@@ -33,8 +24,24 @@
         "link": "/JVM虚拟机/OOM.md"
       },
       {
+        "text": "RecordAccumulator",
+        "link": "/JVM虚拟机/RecordAccumulator.md"
+      },
+      {
         "text": "ZGC",
         "link": "/JVM虚拟机/ZGC.md"
+      },
+      {
+        "text": "java虚拟机",
+        "link": "/JVM虚拟机/java虚拟机.md"
+      },
+      {
+        "text": "jvm",
+        "link": "/JVM虚拟机/jvm.md"
+      },
+      {
+        "text": "jvm2023",
+        "link": "/JVM虚拟机/jvm2023.md"
       },
       {
         "text": "从零开始带你成为JVM高手",
@@ -91,26 +98,6 @@
         "link": "/Java相关/javaweb.md"
       },
       {
-        "text": "java多线程2023",
-        "link": "/Java相关/java多线程2023.md"
-      },
-      {
-        "text": "java容器",
-        "link": "/Java相关/java容器.md"
-      },
-      {
-        "text": "java虚拟机",
-        "link": "/Java相关/java虚拟机.md"
-      },
-      {
-        "text": "jvm",
-        "link": "/Java相关/jvm.md"
-      },
-      {
-        "text": "jvm2023",
-        "link": "/Java相关/jvm2023.md"
-      },
-      {
         "text": "volatile",
         "link": "/Java相关/volatile.md"
       },
@@ -146,6 +133,10 @@
       {
         "text": "LinkedHashMap",
         "link": "/Java集合/LinkedHashMap.md"
+      },
+      {
+        "text": "java容器",
+        "link": "/Java集合/java容器.md"
       },
       {
         "text": "集合元素删除",
@@ -432,6 +423,10 @@
       {
         "text": "java内存模型",
         "link": "/多线程/java内存模型.md"
+      },
+      {
+        "text": "java多线程2023",
+        "link": "/多线程/java多线程2023.md"
       },
       {
         "text": "死锁",
