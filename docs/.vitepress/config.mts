@@ -52,7 +52,7 @@ export default defineConfig({
     // 首页右上角导航栏
     nav: [
       { text: '主页', link: '/' },
-      { text: '面试', link: '/interview/toc' },
+      { text: '面试', link: '/toc' },
       { text: '生活', link: 'https://senup.github.io/' },
     ],
     // 文章左侧导航栏

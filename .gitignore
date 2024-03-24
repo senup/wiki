@@ -6,3 +6,7 @@ node_modules
 /docs/advance
 /.trash
 /.obsidian
+# 忽略指定文件夹
+/docs/公司面试/
+/docs/其他/
+/docs/面试指南/

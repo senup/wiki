@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 随便看看
-      link: /interview/toc
+      link: /toc
 
 features:
   - title: Telegram
