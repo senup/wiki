@@ -3,6 +3,8 @@ import { defineConfig } from 'vitepress';
 
 // import markdownLinkResolver from '../markdown-link-resolver';
 const markdownLinkResolver = require('../markdown-link-resolver');
+// .vitepress/config.mts
+import sidebar from './sidebar-config.json';
 
 
 export default defineConfig({
@@ -54,13 +56,8 @@ export default defineConfig({
       { text: '生活', link: 'https://senup.github.io/' },
     ],
     // 文章左侧导航栏
-    sidebar: [
-      {
-        text: '面试',
-        items: [
-          { text: '目录', link: '/interview/toc' }
-        ]
-      }
+    sidebar: sidebar,
+
       // ,{
       //   text: '系统学习',
       //   items: [
@@ -68,7 +65,7 @@ export default defineConfig({
       //     { text: 'Spring', link: '/advance/Spring.md' }
       //   ]
       // }
-    ],
+    
     // 文章底部导航栏的自定义配置，默认是英语
     docFooter: {
 			prev: '上一篇',
