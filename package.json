@@ -12,6 +12,7 @@
     "md5": "^2.3.0"
   },
   "scripts": {
+    "gen:sidebar": "node generate-sidebar.js",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"
