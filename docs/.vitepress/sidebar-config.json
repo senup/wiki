@@ -1,6 +1,7 @@
 [
   {
     "text": "AI",
+    "collapsed": false,
     "items": [
       {
         "text": "prompt",
@@ -14,6 +15,7 @@
   },
   {
     "text": "JVM虚拟机",
+    "collapsed": false,
     "items": [
       {
         "text": "JVM参数",
@@ -51,6 +53,7 @@
   },
   {
     "text": "Java基础",
+    "collapsed": false,
     "items": [
       {
         "text": "@SneakyThrows",
@@ -80,6 +83,7 @@
   },
   {
     "text": "Java相关",
+    "collapsed": false,
     "items": [
       {
         "text": "java",
@@ -117,6 +121,7 @@
   },
   {
     "text": "Java集合",
+    "collapsed": false,
     "items": [
       {
         "text": "ArrayList",
@@ -146,6 +151,7 @@
   },
   {
     "text": "LeetCode",
+    "collapsed": false,
     "items": [
       {
         "text": "Leetcode 题解",
@@ -227,6 +233,7 @@
   },
   {
     "text": "Redis",
+    "collapsed": false,
     "items": [
       {
         "text": "RedisObject",
@@ -268,6 +275,7 @@
   },
   {
     "text": "Spring",
+    "collapsed": false,
     "items": [
       {
         "text": "ignoreDependencylnterface",
@@ -285,6 +293,7 @@
   },
   {
     "text": "Home",
+    "collapsed": false,
     "items": [
       {
         "text": "index",
@@ -298,6 +307,7 @@
   },
   {
     "text": "templates",
+    "collapsed": false,
     "items": [
       {
         "text": "interview-template",
@@ -311,6 +321,7 @@
   },
   {
     "text": "中间件",
+    "collapsed": false,
     "items": [
       {
         "text": "netty",
@@ -324,6 +335,7 @@
   },
   {
     "text": "公司面试",
+    "collapsed": false,
     "items": [
       {
         "text": "SHEIN",
@@ -369,6 +381,7 @@
   },
   {
     "text": "分布式系统",
+    "collapsed": false,
     "items": [
       {
         "text": "三阶段提交",
@@ -386,6 +399,7 @@
   },
   {
     "text": "场景设计",
+    "collapsed": false,
     "items": [
       {
         "text": "topk",
@@ -395,6 +409,7 @@
   },
   {
     "text": "多线程",
+    "collapsed": false,
     "items": [
       {
         "text": "AQS-1",
@@ -460,6 +475,7 @@
   },
   {
     "text": "安全",
+    "collapsed": false,
     "items": [
       {
         "text": "OAuth",
@@ -473,6 +489,7 @@
   },
   {
     "text": "常用工具",
+    "collapsed": false,
     "items": [
       {
         "text": "Arthas",
@@ -542,6 +559,7 @@
   },
   {
     "text": "折腾",
+    "collapsed": false,
     "items": [
       {
         "text": "shellclash",
@@ -559,6 +577,7 @@
   },
   {
     "text": "操作系统",
+    "collapsed": false,
     "items": [
       {
         "text": "MacOS",
@@ -580,6 +599,7 @@
   },
   {
     "text": "数据库",
+    "collapsed": false,
     "items": [
       {
         "text": "Extra",
@@ -613,6 +633,7 @@
   },
   {
     "text": "消息队列",
+    "collapsed": false,
     "items": [
       {
         "text": "Kafka拓展",
@@ -626,6 +647,7 @@
   },
   {
     "text": "硬件",
+    "collapsed": false,
     "items": [
       {
         "text": "AppleTV",
@@ -635,6 +657,7 @@
   },
   {
     "text": "算法与数据结构",
+    "collapsed": false,
     "items": [
       {
         "text": "Leetcode题解",
@@ -696,6 +719,7 @@
   },
   {
     "text": "系统设计",
+    "collapsed": false,
     "items": [
       {
         "text": "中英文转换",
@@ -753,6 +777,7 @@
   },
   {
     "text": "网络",
+    "collapsed": false,
     "items": [
       {
         "text": "ES同步",
@@ -762,6 +787,7 @@
   },
   {
     "text": "规范",
+    "collapsed": false,
     "items": [
       {
         "text": "codereview",
@@ -775,6 +801,7 @@
   },
   {
     "text": "计算机基础",
+    "collapsed": false,
     "items": [
       {
         "text": "http",
@@ -844,6 +871,7 @@
   },
   {
     "text": "设计模式",
+    "collapsed": false,
     "items": [
       {
         "text": "动态代理",
@@ -857,6 +885,7 @@
   },
   {
     "text": "面试指南",
+    "collapsed": false,
     "items": [
       {
         "text": "Hollis的面经",
