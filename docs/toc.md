@@ -10,113 +10,67 @@ IsTop: false
 sidebar: "false"
 ---
 
+# 欢迎来到程序猿乐园 🐒
 
-> 这里记录了Java各种学习笔记😄，目前还在继续补充中，希望能够一起交流学习💯
+## 你知道吗？代码也可以是一首诗！
 
-### ✏️ 数据结构与算法
-- [剑指offer题解笔记](剑指offer)
-- [LeetCode题解笔记](Leetcode题解)
-- [排序](排序)
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        // 代码如诗，逻辑如画
+        System.out.println("Hello, World!");
+    }
+}
+```
 
-
-### 💻 计算机基础
-- [计算机网络](计算机网络)
-- [HTTP](http)
-- [Socket](socket)
-- [操作系统](操作系统)
-- [linux](linux)
-
-### ☕️ Java
-- [JavaSE](javase)
-- [Java容器](java容器)
-- [Java I/O](javaio)
-- [JavaWeb](javaweb)
-- [Java多线程](java多线程2023.md)
-- [Java虚拟机](java虚拟机)
-
-### 🏷️ JDK 源码分析
-- [HashMap和ConcurrentHashMap](HashMap和ConcurrentHashMap)
-- [AbstractQueuedSynchronizer](AQS)
-- [线程池](线程池)
-- [读写锁ReentrantReadWriteLock](读写锁)
-- [并发队列BlockingQueue](BlockingQueue)
-
-### 💾 数据库
-- [数据库系统原理](数据库系统原理)
-- [SQL](sql)
-- [MySQL](mysql.md)
-- [Redis](redis)
-
-### 🔍 主流框架
-- [Spring IoC](spring-ioc)
-- [Spring AOP](spring-aop) 
-
-
-### 🎨 面向对象
-- [设计模式](设计模式)
-- [面向对象思想](面向对象思想.md)
-
-### 🔧 常用工具
-- [Docker](docker)
-- [Git](git)
-- [正则表达式](正则表达式)
-
-### 📺  系统架构
-
-- [系统设计基础](系统设计基础)
-- [分布式系统](分布式系统)
-- [缓存](缓存)
-- [消息队列](消息队列)
-
-### 📚 扩展知识
-
-- [TopK](topk)
-- [短链接服务系统](短链接服务系统)
-
-
-### 🤡 2023 面试专题
-- [Java集合2023](Java集合2023.md) 
-- [mysql2023](mysql2023.md)
-- [redis2023](redis2023.md)
-- [kafka面试总结](kafka面试总结.md)
-- [rabbitmq面试总结](rabbitmq面试总结.md)
-- [spring2023](spring2023.md)
-- [jvm2023](jvm2023.md)
-- [java多线程2023](java多线程2023.md)
-- [Java多线程关键字2023](Java多线程关键字2023.md)
-- [设计模式2023](设计模式2023.md)
-- [springCloud2023](springCloud2023.md)
-- [分布式](分布式.md)
-
+生活不只眼前的 bug，还有诗和远方的田野。我们不生产代码，我们只是代码的搬运工。😉
 
 ---
-### 🏠 博客相关
-- [vitePress](vitePress)
 
-### 📒 软件
-- [Obsidian](Obsidian.md)
-- [VSCode](VSCode.md)
-- [Raycast](Raycast.md)
-- [QuantumultX](QuantumultX.md)
-- [shellclash](shellclash.md)
-- [PDF_expert](PDF_expert.md)
-- [IDEA](IDEA.md)
-- [chatGPT](chatGPT.md)
+## 最新博文 📝
 
-### 🗯️ OS
-- [MacOS](MacOS.md)
-- [iOS](iOS.md)
+- [如何使用 copilot](#)
+- [prompt](#)
 
-### 🧸 硬件
-- [AppleTV](AppleTV.md)
+---
 
------
+## 编程小贴士 💡
 
+> "在调试代码之前，先调试好你的心态。" —— 程序员谚语
 
+1. **保持乐观**：记住，每一个 bug 都是成长的机会。
+2. **学习新技术**：不要害怕探索未知的领域，万一成为大牛呢？
+3. **代码复盘**：不要只是修 bug，理解为什么会有 bug，如何避免。
+4. **保持好奇**：问问题是进步的阶梯，不问则止步。
 
-**参考笔记**
-- [CS-Notes](https://github.com/CyC2018/CS-Notes)
-- [JavaGuide](https://github.com/Snailclimb/JavaGuide)
-- [Javadoop](https://www.javadoop.com/)
+---
+
+## 程序员的一天 🌞
+
+- 8:00 AM 起床，代码是第一思想
+- 9:00 AM Daily Stand-up，状态分享快如闪电
+- 10:00 AM 沉浸式编程，键盘音乐响起
+- 12:00 PM 午餐，不忘补充能量
+- 1:00 PM 解决问题，像 Sherlock Holmes 一样
+- 3:00 PM Code Review，每一行代码都值得尊敬
+- 5:00 PM 与 bug 挥手告别
+- 6:00 PM 下班，不忘运动放松
+- 9:00 PM 学习新技术，保持进步
+- 11:00 PM 睡前阅读，享受安静时光
+- 11:30 PM 睡觉，为明天充电
+
+---
+
+## 联系我 📬
+
+如果你有任何问题或者想要讨论技术问题，随时欢迎联系我！
+
+- Email: [code_monkey@example.com](mailto:code_monkey@example.com)
+- GitHub: [https://github.com/code-monkey](https://github.com/code-monkey)
+- Twitter: [@code_monkey](https://twitter.com/code_monkey)
+
+记住，不要害怕犯错，因为最好的学习经常来自于失败。保持学习，持续进步，我们代码的世界里总有新东西等你来探索！🚀
+
+---
 
 <gitalk/>
